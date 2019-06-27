@@ -1,0 +1,59 @@
+// Qlik SenseRepository Explorer Script
+// Version date: 27/06/2019
+// This script loads each table from the repository to give you the ability to find field values and identify issues without downloading PgAdmin
+// Even in big deployments this app shouldn't be too large, as we're avoiding the logs database
+
+// Config steps:
+// 1) Create a data connection to the repository and note the name. For a simple single node install:
+//	Connection Type: PostgreSQL
+//	Host name: localhost
+//	Port: 4432
+//	User name: postgres
+//	Password: defined during Qlik Sense install (superuser password)
+// 2) Update the connection name in the script below, then paste it into an app and reload
+
+// -- Script start
+// Create a connection to localhost:4432 with postgres user and the superuser password
+LIB CONNECT TO 'PostgreSQL_QSR';
+
+// Load the table listing from the default Postgres directory
+TableList:
+LOAD 
+	table_catalog, 
+	table_schema, 
+	table_name, 
+	table_type;
+SELECT 
+	"table_catalog", 
+	"table_schema", 
+	"table_name", 
+	"table_type"
+FROM "information_schema"."tables"
+WHERE "table_catalog" = 'QSR'		// Only load from repository tables
+	AND "table_schema" = 'public'	// Only load public tables
+;
+
+// Set a variable with the table count and print this to the console
+LET vCount_Tables = NoOfRows('TableList');
+TRACE >> Found $(vCount_Tables) tables in QSR.Public.;
+
+// Set qualify statement for all Qlik tables
+QUALIFY *;
+
+// Now loop over these tables and load their contents!
+FOR i=0 to vCount_Tables - 1
+
+	LET vLoop_TableSchema 	= Peek('table_schema',i,'TableList');
+    LET vLoop_TableName 	= Peek('table_name',i,'TableList');
+    TRACE >>> Loading from $(vLoop_TableSchema).$(vLoop_TableName).;
+    
+    [$(vLoop_TableName)]:
+    LOAD 
+        *;
+    SELECT 
+        *
+    FROM "$(vLoop_TableSchema)"."$(vLoop_TableName)";
+
+Next i;
+
+// -- Script end
