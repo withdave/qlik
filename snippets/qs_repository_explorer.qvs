@@ -8,6 +8,7 @@
 //	Connection Type: PostgreSQL
 //	Host name: localhost
 //	Port: 4432
+//	Database: QSR
 //	User name: postgres
 //	Password: defined during Qlik Sense install (superuser password)
 // 2) Update the connection name in the script below, then paste it into an app and reload
