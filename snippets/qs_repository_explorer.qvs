@@ -20,10 +20,11 @@ LIB CONNECT TO 'PostgreSQL_QSR';
 // Load the table listing from the default Postgres directory
 TableList:
 LOAD 
-	table_catalog, 
-	table_schema, 
-	table_name, 
-	table_type;
+	RowNo()			AS %KeyTableList,
+    	table_catalog		AS [Table Catalog], 
+	table_schema		AS [Table Schema], 
+	table_name		AS [Table Name], 
+	table_type		AS [Table Type];
 SELECT 
 	"table_catalog", 
 	"table_schema", 
@@ -31,30 +32,50 @@ SELECT
 	"table_type"
 FROM "information_schema"."tables"
 WHERE "table_catalog" = 'QSR'		// Only load from repository tables
-	AND "table_schema" = 'public'	// Only load public tables
+   	AND "table_schema" = 'public'	// Only load public tables
 ;
 
 // Set a variable with the table count and print this to the console
 LET vCount_Tables = NoOfRows('TableList');
 TRACE >> Found $(vCount_Tables) tables in QSR.Public.;
 
-// Set qualify statement for all Qlik tables
-QUALIFY *;
+// Create an empty table to concatenate table rows to
+TableRows:
+LOAD
+	null()		AS %KeyTableList
+AutoGenerate 0;
 
 // Now loop over these tables and load their contents!
 FOR i=0 to vCount_Tables - 1
 
-	LET vLoop_TableSchema 	= Peek('table_schema',i,'TableList');
-    LET vLoop_TableName 	= Peek('table_name',i,'TableList');
-    TRACE >>> Loading from $(vLoop_TableSchema).$(vLoop_TableName).;
+	LET vLoop_TableKey 	= Peek('%KeyTableList',i,'TableList');
+	LET vLoop_TableSchema 	= Peek('Table Schema',i,'TableList');
+	LET vLoop_TableName 	= Peek('Table Name',i,'TableList');
+	TRACE >>> Loading from $(vLoop_TableSchema).$(vLoop_TableName).;
     
-    [$(vLoop_TableName)]:
-    LOAD 
-        *;
-    SELECT 
-        *
-    FROM "$(vLoop_TableSchema)"."$(vLoop_TableName)";
+	// Set qualify statement for all Qlik data tables
+	QUALIFY *;
 
+	// Get the data from the table
+	[$(vLoop_TableName)]:
+	LOAD 
+		*;
+	SELECT 
+		*
+	FROM "$(vLoop_TableSchema)"."$(vLoop_TableName)";
+    
+	// Set unqualify statement now that we've done the data load
+	UNQUALIFY *;
+    
+	// Get a row count from the table and join back to the table listing
+	Concatenate(TableRows)
+	LOAD 
+		'$(vLoop_TableKey)'		AS %KeyTableList,
+		num(tablerows,'#,##0')		AS [Table Row Count];
+	SELECT 
+		COUNT(*) as tablerows
+	FROM "$(vLoop_TableSchema)"."$(vLoop_TableName)";
+    
 Next i;
 
 // -- Script end
