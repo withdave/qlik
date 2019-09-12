@@ -1,0 +1,121 @@
+// Qlik Sense Task Status
+// Version date: 12/09/2019
+// Tested compatibility: Qlik Sense February 2018 - June 2019
+// Description: This script loads a specific set of tasks (based on the app stream)
+
+// Mapping load for task status
+Map_TaskStatus:
+MAPPING LOAD
+	*
+INLINE [
+Status Code, Status Description
+0, 0 - Never started
+1, 1 - Triggered
+2, 2 - Started
+3, 3 - Queued
+4, 4 - Abort initiated
+5, 5 - Aborting
+6, 6 - Aborted
+7, 7 - Successful
+8, 8 - Failed
+9, 9 - Skipped
+10, 10 - Retrying
+11, 11 - Error
+12, 12 - Reset
+];
+
+
+// Connect to default monitoring connection
+LIB CONNECT TO 'monitor_apps_REST_task';
+
+// Load temporary table with our data (all data)
+RestConnectorMasterTable:
+SQL SELECT 
+	"isManuallyTriggered",
+	"name" AS "name_u2",
+	"enabled",
+	"__KEY_root",
+	(SELECT 
+		"__KEY_app",
+		"__FK_app",
+		(SELECT 
+			"name",
+			"__FK_stream"
+		FROM "stream" FK "__FK_stream")
+	FROM "app" PK "__KEY_app" FK "__FK_app"),
+	(SELECT 
+		"nextExecution",
+		"__KEY_operational",
+		"__FK_operational",
+		(SELECT 
+			"status",
+			"startTime",
+			"stopTime",
+			"duration",
+			"__FK_lastExecutionResult",
+			"__KEY_lastExecutionResult"
+		FROM "lastExecutionResult" PK "__KEY_lastExecutionResult" FK "__FK_lastExecutionResult")
+	FROM "operational" PK "__KEY_operational" FK "__FK_operational")
+FROM JSON (wrap on) "root" PK "__KEY_root";
+
+// Create a Tasks table starting at our streams, as we're using this to reduce the data loaded
+Fact_Tasks:
+LOAD	
+	[name]			AS [Stream Name],
+	[__FK_stream] 	AS [__KEY_app]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__FK_stream])
+	AND WildMatch([name],'*','*RF_UK');	// Where the name of the stream matches our request
+
+// Join in app information (we only want tasks with apps)
+LEFT JOIN (Fact_Tasks)
+LOAD	
+	[__KEY_app],
+	[__FK_app] 		AS [__KEY_root]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__FK_app]);
+
+// Join in tasks for those apps using an inner join
+// Using an inner join avoids the manual reload tasks
+INNER JOIN (Fact_Tasks)
+LOAD	
+	[name_u2] 		AS [Task Name],
+	[__KEY_root]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__KEY_root])
+	AND [isManuallyTriggered]='False'	// Where is automatically triggered
+    AND [enabled]='True';				// Where it's enabled
+
+// Join in operational history
+LEFT JOIN (Fact_Tasks)
+LOAD	
+	Timestamp(Floor(Timestamp#([nextExecution],'YYYY-MM-DDThh:mm:ss[.fff]Z'),1/24/60/60),'YYYY-MM-DD hh:mm:ss')		AS [Next Execution],
+	[__KEY_operational],
+	[__FK_operational] 								AS [__KEY_root]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__FK_operational]);
+
+// Join in the execution history
+// Correct timestamp formats and round to nearest second (don't need milliseconds!)
+LEFT JOIN (Fact_Tasks)
+LOAD	
+	[status]										AS [Task Status Code],
+    ApplyMap('Map_TaskStatus',[status],[status])	AS [Task Status],
+	Timestamp(Floor(Timestamp#([startTime],'YYYY-MM-DDThh:mm:ss[.fff]Z'),1/24/60/60),'YYYY-MM-DD hh:mm:ss')		AS [Task Start Time],
+	Timestamp(Floor(Timestamp#([stopTime],'YYYY-MM-DDThh:mm:ss[.fff]Z'),1/24/60/60),'YYYY-MM-DD hh:mm:ss')		AS [Task Stop Time],
+	CEIL([duration]/1000)							AS [Task Duration (s)],
+    CEIL([duration]/1000/60)						AS [Task Duration (m)],
+	[__FK_lastExecutionResult] 						AS [__KEY_operational]
+RESIDENT RestConnectorMasterTable
+WHERE NOT IsNull([__FK_lastExecutionResult]);
+
+// Now tidy up all those pesky key fields
+DROP FIELDS
+	[__KEY_root],
+    [__KEY_app],
+    [__KEY_operational],
+    [__FK_lastExecutionResult]
+    ;
+
+// Drop our REST table
+DROP TABLE RestConnectorMasterTable;
