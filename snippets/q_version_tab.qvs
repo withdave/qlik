@@ -1,0 +1,16 @@
+/* 
+********************* INTRODUCTION *********************
+
+CREATED BY:     Dave Channon
+CREATED DATE:   02/04/2018
+PURPOSE:        RAW Extractor for Teradata T3 datamarts
+
+********************* CHANGE LOG *********************
+
+Version   Date          Author          Change Summary
+1         02/04/2019	  withdave		    Initial version 
+2         07/05/2019    withoutdave     Migrated all tables to incremental load
+
+*/
+
+SET vVersion = 2;
