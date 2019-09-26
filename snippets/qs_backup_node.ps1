@@ -1,16 +1,12 @@
-# Backup QS
-# This excludes blobs - why is this? Need to test with and without or check db schema
+# Backup QS - simple branch of qlik_migrate/blob/master/site_backup.ps1 (internal only)
 # Will copy connectors but nothing like web connectors, or on-system services
-# Do we need to seperately backup system config such as service dispatcher config?
 
-# First drop all the restrictions on script execution
-
-# Verify on which systems this is a problem
+# First drop all the restrictions on script execution (depends on policy)
 #Set-ExecutionPolicy Unrestricted
 
 # Need to set the PGP Pass file
 # PGPASS must have: localhost:4432:QSR:Postgres:[superuserpassword]
-SET PGPASSFILE=C:\securefolder\pgpass.conf
+SET PGPASSFILE=C:\Backups\Qlik\pgpass.conf
 
 # Set start date and time
 $Today = Get-Date -UFormat “%Y%m%d_%H%M”
@@ -57,11 +53,8 @@ write-host “File Backup Completed”
 # Script can get lost here - waits for user to hit enter on prompt for password if we don't use the pgpass
 write-host “Backing up PostgreSQL Repository Database”
 
-// Changes to postgres folder and execute dump
+# Change to postgres folder and execute dump (use pg_pass)
 cd $PostGreSQLLocation
-#.\pg_dump.exe -h localhost -p 4432 -U postgres -w -F t -f “$PostGresBackupTarget\$StartTime\QSR_backup_$Today.tar” QSR
-# Include blobs on this one
-# Add in the pg_pass functionality so that there's no need to prompt for password or store on the system
 .\pg_dump.exe -h localhost -p 4432 -U postgres -b -F t -f “$PostGresBackupTarget\$StartTime\QSR_backup_$Today.tar” QSR
 
 # Write out to console
