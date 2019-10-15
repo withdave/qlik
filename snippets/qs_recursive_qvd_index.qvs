@@ -4,8 +4,10 @@ SUB sLoadQVDMetadata(vSub_Path)
 	TRACE >> Loading files in path [$(vSub_Path)].;
     
     // Iterate over each QVD file in the directory and load metadata
-    FOR EACH vSub_File in FileList('$(vSub_Path)/*.qvd')
+    // Use backslash for compatibility with QlikView 12
+    FOR EACH vSub_File in FileList('$(vSub_Path)\*.qvd')
         
+        // For use with QlikView 12, comment out the two lineage rows
         Metadata_QVD:
         LOAD
             QvBuildNo,
@@ -22,7 +24,7 @@ SUB sLoadQVDMetadata(vSub_Path)
             %Key_QvdTableHeader_B94FCCAC68ED3E20,
             FileName()				AS [File Name]
         FROM [$(vSub_File)]
-        (XmlSimple, table is QvdTableHeader);
+        (XmlSimple, table is [QvdTableHeader]);
         
         // Set a count and print to console
         LET vLoad_Rows = NoOfRows('Metadata_QVD');
@@ -31,7 +33,8 @@ SUB sLoadQVDMetadata(vSub_Path)
     NEXT vSub_File;
 
 	// Now recursively call the function for each directory found in this path
-    FOR EACH vSub_Directory in DirList('$(vSub_Path)/*')
+    // Use backslash for compatibility with QlikView 12
+    FOR EACH vSub_Directory in DirList('$(vSub_Path)\*')
 
 		// Resursively call sub
         CALL sLoadQVDMetadata('$(vSub_Directory)');
@@ -42,3 +45,5 @@ END SUB;
 
 // Qlik Sense - i.e. lib, do not include trailing slash
 Call sLoadQVDMetadata('lib://Dir_QlikFiles');
+// QlikView - i.e. path (do not include trailing slash)
+// Call sLoadQVDMetadata('D:\QlikFiles');
