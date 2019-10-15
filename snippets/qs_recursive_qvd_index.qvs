@@ -3,43 +3,43 @@ SUB sLoadQVDMetadata(vSub_Path)
 
 	TRACE >> Loading files in path [$(vSub_Path)].;
     
-    // Iterate over each QVD file in the directory and load metadata
-    // Use backslash for compatibility with QlikView 12
-    FOR EACH vSub_File in FileList('$(vSub_Path)\*.qvd')
+	// Iterate over each QVD file in the directory and load metadata
+	// Use backslash for compatibility with QlikView 12
+	FOR EACH vSub_File in FileList('$(vSub_Path)\*.qvd')
         
-        // For use with QlikView 12, comment out the two lineage rows
-        Metadata_QVD:
-        LOAD
-            QvBuildNo,
-            CreatorDoc,
-            CreateUtcTime,
-            SourceFileSize,
-            "TableName",
-            RecordByteSize,
-            NoOfRecords,
-            Offset,
-            "Length",
-            "Lineage/LineageInfo/Discriminator",
-            "Lineage/LineageInfo/Statement",
-            %Key_QvdTableHeader_B94FCCAC68ED3E20,
-            FileName()				AS [File Name]
-        FROM [$(vSub_File)]
-        (XmlSimple, table is [QvdTableHeader]);
+        	// For use with QlikView 12, comment out the two lineage rows
+        	Metadata_QVD:
+        	LOAD
+			QvBuildNo,
+			CreatorDoc,
+			CreateUtcTime,
+			SourceFileSize,
+			"TableName",
+			RecordByteSize,
+			NoOfRecords,
+			Offset,
+			"Length",
+			"Lineage/LineageInfo/Discriminator",
+			"Lineage/LineageInfo/Statement",
+			%Key_QvdTableHeader_B94FCCAC68ED3E20,
+			FileName()				AS [File Name]
+        	FROM [$(vSub_File)]
+        	(XmlSimple, table is [QvdTableHeader]);
         
-        // Set a count and print to console
-        LET vLoad_Rows = NoOfRows('Metadata_QVD');
-        TRACE >>> Loaded $(vLoad_Rows) rows, last file found: [$(vSub_File)].;
+        	// Set a count and print to console
+        	LET vLoad_Rows = NoOfRows('Metadata_QVD');
+        	TRACE >>> Loaded $(vLoad_Rows) rows, last file found: [$(vSub_File)].;
         
-    NEXT vSub_File;
+    	NEXT vSub_File;
 
 	// Now recursively call the function for each directory found in this path
-    // Use backslash for compatibility with QlikView 12
-    FOR EACH vSub_Directory in DirList('$(vSub_Path)\*')
+    	// Use backslash for compatibility with QlikView 12
+    	FOR EACH vSub_Directory in DirList('$(vSub_Path)\*')
 
 		// Resursively call sub
-        CALL sLoadQVDMetadata('$(vSub_Directory)');
+        	CALL sLoadQVDMetadata('$(vSub_Directory)');
 
-    NEXT vSub_Directory;
+    	NEXT vSub_Directory;
 
 END SUB;
 
