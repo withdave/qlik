@@ -1,0 +1,12 @@
+// Configure shared variables
+
+SET vConn_QVD 			= 'lib://file_stackoverflow';
+SET vConn_QVD_Data 		= '$(vConn_QVD)/datascience.stackexchange.com';
+SET vConn_QVD_Math 		= '$(vConn_QVD)/math.stackexchange.com';
+SET vConn_QVD_Server 	= '$(vConn_QVD)/serverfault.com';
+
+// Set number of iterations to test for
+SET vTest_Iterations = 10;
+
+// Set context for test
+SET vTest_Mode = 'Encrypted QVD + QVF'; 

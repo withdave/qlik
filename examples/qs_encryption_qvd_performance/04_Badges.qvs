@@ -1,0 +1,112 @@
+// Pick which data set
+LET vConn_Test_Data = '$(vConn_QVD_Server)';
+LET vConn_Test_File = 'Badges';
+
+// Create table
+LET vConn_Test_Table = lower('$(vConn_Test_File)');
+
+// Loop over test
+FOR iter_Test = 0 to vTest_Iterations-1
+
+	/////////// Raw load
+    [$(vConn_Test_File)]:
+    LOAD
+        Id,
+        "UserId",
+        Name,
+        "Date",
+        "Class",
+        TagBased
+    FROM [$(vConn_Test_Data)/$(vConn_Test_File).xml]
+    (XmlSimple, table is [$(vConn_Test_Table)/row]);
+   
+    Call sTimerEnd('$(vConn_Test_File) raw load [$(vConn_Test_Data)])');
+    
+    /////////// Badge raw store & drop
+    STORE [$(vConn_Test_File)] INTO [$(vConn_Test_Data)/$(vConn_Test_File).qvd] (qvd);
+    DROP TABLE [$(vConn_Test_File)];
+    
+    Call sTimerEnd('$(vConn_Test_File) raw store & drop [$(vConn_Test_Data)])');
+    
+    
+    /////////// QVD optimised load
+	[$(vConn_Test_File)]:
+    LOAD
+        *
+    FROM [$(vConn_Test_Data)/$(vConn_Test_File).qvd] (qvd);
+    
+	Call sTimerEnd('$(vConn_Test_File) QVD optimised load [$(vConn_Test_Data)])');
+    
+    /////////// Badge second store & drop
+    STORE [$(vConn_Test_File)] INTO [$(vConn_Test_Data)/$(vConn_Test_File)_copy.qvd] (qvd);
+    DROP TABLE [$(vConn_Test_File)];
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD store and drop [$(vConn_Test_Data)])');
+
+	/////////// Unoptimised load and store
+    [$(vConn_Test_File)]:
+    LOAD
+        Id							AS [Badge ID],
+        "UserId"					AS [Badge User ID],
+        Name						AS [Badge Name],
+        Name & ' (' & [Class] & ')'	AS [Badge Name & Class],
+        Timestamp("Date")			AS [Badge Timestamp],
+        Date(Floor("Date"))			AS [Badge Date],
+        "Class"						AS [Badge Class],
+        IF(TagBased,'Yes','No')		AS [Badge Tag Based]
+    FROM [$(vConn_Test_Data)/$(vConn_Test_File).qvd]
+    (qvd);
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD unoptimised load & transform 1 (load) [$(vConn_Test_Data)])');
+
+    STORE [$(vConn_Test_File)] INTO [$(vConn_Test_Data)/$(vConn_Test_File)_ult1.qvd] (qvd);
+    DROP TABLE [$(vConn_Test_File)];
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD unoptimised load & transform 1 (store) [$(vConn_Test_Data)])');
+    
+    /////////// Unoptimised load and store #2
+    [$(vConn_Test_File)]:
+    LOAD
+        *,
+        Hash128(Id)	AS IdHash
+    FROM [$(vConn_Test_Data)/$(vConn_Test_File).qvd]
+    (qvd)
+    WHERE WildMatch(Name,'*a*') OR WildMatch(Id,'*1*');
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD unoptimised load & transform 2 (load) [$(vConn_Test_Data)])');
+
+    STORE [$(vConn_Test_File)] INTO [$(vConn_Test_Data)/$(vConn_Test_File)_ult2.qvd] (qvd);
+    DROP TABLE [$(vConn_Test_File)];
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD unoptimised load & transform 2 (store) [$(vConn_Test_Data)])');
+    
+    /////////// Optimised load and resident then store
+    [$(vConn_Test_File)_Temp]:
+    LOAD
+        *
+    FROM [$(vConn_Test_Data)/$(vConn_Test_File).qvd]
+    (qvd);
+    
+    [$(vConn_Test_File)]:
+    NoConcatenate
+    LOAD
+        Id							AS [Badge ID],
+        "UserId"					AS [Badge User ID],
+        Name						AS [Badge Name],
+        Name & ' (' & [Class] & ')'	AS [Badge Name & Class],
+        Timestamp("Date")			AS [Badge Timestamp],
+        Date(Floor("Date"))			AS [Badge Date],
+        "Class"						AS [Badge Class],
+        IF(TagBased,'Yes','No')		AS [Badge Tag Based]
+    RESIDENT [$(vConn_Test_File)_Temp];
+    
+    DROP TABLE [$(vConn_Test_File)_Temp];
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD optimised load & transform 1 (load) [$(vConn_Test_Data)])');
+    
+    STORE [$(vConn_Test_File)] INTO [$(vConn_Test_Data)/$(vConn_Test_File)_olt1.qvd] (qvd);
+    DROP TABLE [$(vConn_Test_File)];
+    
+    Call sTimerEnd('$(vConn_Test_File) QVD optimised load & transform 1 (store) [$(vConn_Test_Data)])');
+
+Next iter_Test;

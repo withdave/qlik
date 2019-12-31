@@ -1,0 +1,4 @@
+// Store the logging to disk
+LET vLog_Timestamp = timestamp(now(),'YYYYMMDD_hhmmss');
+STORE Logging INTO [$(vConn_QVD)/Logging_$(vLog_Timestamp).qvd] (qvd);
+LET vLog_Timestamp = ;

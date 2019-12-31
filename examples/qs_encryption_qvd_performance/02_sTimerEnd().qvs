@@ -1,0 +1,25 @@
+// Create a function to collect the log timestamp and append it to the timer log table
+
+SUB sTimerEnd(vSub_TestName)
+
+	// Set the time now
+    LET vSub_Now = now();
+    
+    TRACE >> Event [$(vSub_TestName)] recorded with start [$(vLog_Time)] and end [$(vSub_Now)].;
+
+	// Concatenate onto the logging table
+	Concatenate(Logging)
+    LOAD
+    	rowno()				AS [Log ID],
+        '$(vSub_Now)'		AS [Log Timestamp],
+        '$(vSub_TestName)'	AS [Log Event],
+        '$(vLog_Time)'		AS [Log Event Start],
+        '$(vSub_Now)'		AS [Log Event End],
+        ROUND(('$(vSub_Now)'-'$(vLog_Time)')*24*60*60,0.001)	AS [Log Event Duration (s)],
+        '$(vTest_Mode)'		AS [Log Mode]
+    AutoGenerate 1;
+    
+    // Now reset the log time variable
+    LET vLog_Time = now();
+
+END SUB;
