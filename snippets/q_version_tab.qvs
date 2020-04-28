@@ -2,15 +2,34 @@
 ********************* INFORMATION *********************
 
 CREATED BY:     withdave
-CREATED DATE:   02/04/2018
+CREATED DATE:   19/03/2020
 PURPOSE:        RAW Extractor for Teradata T3 datamarts
 
 ********************* CHANGE LOG *********************
-
-Version   Date          Author          Change Summary
-1         02/04/2019    withdave        Initial version 
-2         07/05/2019    withoutdave     Migrated all tables to incremental load
-
 */
 
-SET vVersion = 2;
+// Update this version control table after each edit. Avoid using the ; delimiter in your change log
+Island_VersionControl:
+LOAD
+	*
+INLINE [
+%Ver_Version; %Ver_Date; %Ver_Author; %Ver_Change
+1; 19/03/2020; withdave; Initial version
+2; 21/04/2020; withdave; Changed store file names and added mapping for region from contact
+3; 28/04/2020; withdave; Added transformed contact file
+] (delimiter is ';');
+
+
+// Do not edit the section below as this loads and sets the version variable in the app using the table above
+// Identify the maximum version
+Temp_Version:
+LOAD
+	Max(%Ver_Version) AS Temp_Max_Version
+RESIDENT Island_VersionControl;
+
+// Set the version variable
+LET vVersion = Peek('Temp_Max_Version',0,'Temp_Version');
+
+// Drop the temporary table
+DROP TABLE Temp_Version;
+
