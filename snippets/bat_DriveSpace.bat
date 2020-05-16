@@ -11,8 +11,8 @@ set LOG_TIMESTAMP=%date:~-4,4%%date:~-7,2%%date:~0,2%_%time:~0,2%%time:~3,2%%tim
 set LOG_DATE=%date:~-4,4%%date:~-7,2%%date:~0,2%
 set LOG_TIME=%time:~0,2%%time:~3,2%%time:~6,2%
 
-:: Specify output prefix
-set LOG_LOCATION=DriveReport_%LOG_TIMESTAMP%.log
+:: Specify output prefix - this uses an absolute path, if you prefer to use relative then ensure the scheduler includes a "start in" path
+set LOG_LOCATION=C:\DriveReport\DriveReport_%LOG_TIMESTAMP%.log
 
 :: Create empty output file
 >nul copy nul %LOG_LOCATION%
