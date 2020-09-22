@@ -22,6 +22,8 @@ SUB sLoadQVDMetadata(vSub_Path)
 			"Lineage/LineageInfo/Discriminator",
 			"Lineage/LineageInfo/Statement",
 			FileName()				AS [File Name],
+			'$(vSub_Path)'				AS [File Data Connection],
+           		FilePath()				AS [File Data Path],
 			FileSize()				AS [File Size]
         	FROM [$(vSub_File)]
         	(XmlSimple, table is [QvdTableHeader]);
