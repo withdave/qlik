@@ -21,7 +21,6 @@ SUB sLoadQVDMetadata(vSub_Path)
 			"Length",
 			"Lineage/LineageInfo/Discriminator",
 			"Lineage/LineageInfo/Statement",
-			%Key_QvdTableHeader_B94FCCAC68ED3E20,
 			FileName()				AS [File Name],
 			FileSize()				AS [File Size]
         	FROM [$(vSub_File)]
