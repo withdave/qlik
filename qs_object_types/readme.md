@@ -1,4 +1,4 @@
-# Qlik Sense Objects
+# Qlik Sense Chart Objects
 
 Useful for mapping against Qlik Sense log files. CSV in same path.
 
