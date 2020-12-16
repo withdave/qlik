@@ -50,7 +50,9 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
         [userId] 		AS [Reload User ID],
         [type] 			AS [Reload Type],
         [status] 		AS [Reload Status],
-        [creationTime] 	AS [Reload Creation Time]
+        [creationTime] 		AS [Reload Creation Time],
+        DocumentName()		AS [Reload Trigger App ID],
+        DocumentTitle()		AS [Reload Trigger App Name]
     RESIDENT RestConnectorMasterTable
     WHERE NOT IsNull([__KEY_root]);
     
