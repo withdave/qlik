@@ -7,7 +7,7 @@ This snippet is intended for use at the end of your load scripts. You can refere
 ```
 Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
 
-    /* 
+	/* 
     
     This subroutine triggers the reload of a QCS application (directly, not using scheduled tasks)
     
@@ -57,12 +57,19 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     // Set variables to produce log filenames
     LET sub_ReloadTime 	= Timestamp(Peek('Reload Creation Time',0),'YYYYMMDDhhmmss');
     LET sub_ReloadID 	= Peek('Reload ID',0);
+    
+    // Check to see if the reload request returned rows, and the variables carry data. If not, fail this reload
+    If (NoOfRows('ReloadLog') <> 1) OR ('$(sub_ReloadTime)' = '') OR ('$(sub_ReloadID)' = '') THEN
+    	// Fail with an error for the log
+        Call Error('An unexpected number of rows was returned by the reloads API');
+    END IF;
+    
     TRACE >>> Returned reload $(sub_ReloadID) at $(sub_ReloadTime);
     
     // Store logs and clear model
-    STORE ReloadLog INTO [lib://$(sub_connLog)/ReloadLog_$(sub_appID)_$(sub_ReloadID).qvd] (qvd);
+    STORE ReloadLog INTO [lib://$(sub_connLog)/ReloadLog_$(sub_appID)_$(sub_ReloadID)_$(sub_ReloadTime).qvd] (qvd);
     DROP TABLE ReloadLog;
-    DROP TABLE RestConnectorMasterTable;
+	DROP TABLE RestConnectorMasterTable;
     
 End Sub;
 
