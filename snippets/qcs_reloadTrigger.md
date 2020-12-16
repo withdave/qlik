@@ -7,7 +7,7 @@ This snippet is intended for use at the end of your load scripts. You can refere
 ```
 Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
 
-	/* 
+    /* 
     
     This subroutine triggers the reload of a QCS application (directly, not using scheduled tasks)
     
@@ -23,11 +23,11 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     */
     
     // Connect to the REST connection
-	LIB CONNECT TO '$(sub_connAPI)';
+    LIB CONNECT TO '$(sub_connAPI)';
     
     LET sub_QueryBody = '{""appId"":""$(sub_appID)""}';
 
-	// Collect data from the response for logging
+    // Collect data from the response for logging
     // Configure app ID for reload
     RestConnectorMasterTable:
     SQL SELECT 
@@ -61,11 +61,11 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     
     // Store logs and clear model
     STORE ReloadLog INTO [lib://$(sub_connLog)/ReloadLog_$(sub_appID)_$(sub_ReloadID).qvd] (qvd);
-//     DROP TABLE ReloadLog;
-	DROP TABLE RestConnectorMasterTable;
+    DROP TABLE ReloadLog;
+    DROP TABLE RestConnectorMasterTable;
     
 End Sub;
 
 // Call - pass in the app ID, the REST connection name, the folder connection name
-Call sTriggerReload('ab77b40d-4a30-46d9-9d2b-2943c6b82902','REST_httpsname.eu.qlikcloud.comapiv1reloads','DataFiles');
+Call sTriggerReload('ab77b40d-4a30-46d9-9d2b-2943c6b82902','<rest connection name>','DataFiles');
 ```
