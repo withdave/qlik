@@ -20,6 +20,12 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     * Send a POST message the task API to trigger the relevant app reload
     * Store a log file to record the reload trigger to assist with finding this event in audit logs if needed
     
+    REST CONNECTION CONFIG
+    * URL: https://<tenantname>.<region>.qlikcloud.com/api/v1/reloads
+    * Type: POST
+    * Body: {"appId":"<valid app GUID>"}
+    * Header: Authorization: Bearer <API key>
+    
     */
     
     // Connect to the REST connection
@@ -63,7 +69,7 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     // Check to see if the reload request returned rows, and the variables carry data. If not, fail this reload
     If (NoOfRows('ReloadLog') <> 1) OR ('$(sub_ReloadTime)' = '') OR ('$(sub_ReloadID)' = '') THEN
     	// Fail with an error for the log
-        Call Error('An unexpected number of rows was returned by the reloads API');
+        Call Error('An unexpected number of rows was returned by the reloads API, or invalid data was found.');
     END IF;
     
     TRACE >>> Returned reload $(sub_ReloadID) at $(sub_ReloadTime);
@@ -71,7 +77,7 @@ Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
     // Store logs and clear model
     STORE ReloadLog INTO [lib://$(sub_connLog)/ReloadLog_$(sub_appID)_$(sub_ReloadID)_$(sub_ReloadTime).qvd] (qvd);
     DROP TABLE ReloadLog;
-	DROP TABLE RestConnectorMasterTable;
+    DROP TABLE RestConnectorMasterTable;
     
 End Sub;
 
