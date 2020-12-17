@@ -4,6 +4,8 @@ In QCS, task chaining doesn't currently exist. Instead, you need to utilise the 
 
 This snippet is intended for use at the end of your load scripts. You can reference the subroutine in an include file, then call it at the end of the script. It'll trigger the listed app, then write a log file to record the action. If the input parameters aren't correct then the reload of the containing app will fail.
 
+One of the known limitations here is around the API key permissions - these are currently all or nothing, and tied to your user account. If you share an API key that you've generated with others, then they can use the APIs to impersonate you.
+
 ```
 Sub sTriggerReload(sub_appID,sub_connAPI,sub_connLog)
 
