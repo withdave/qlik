@@ -19,7 +19,7 @@ Load
 	Hash128(Rand())                       as Dimension4,
 	round(1000000*Rand(),0.01)            as Expression1,
 	Round(1000*Rand()*Rand())             as Expression2,
-	Round(Rand()*Rand()*Rand(),0.00001).  as Expression3
+	Round(Rand()*Rand()*Rand(),0.00001)   as Expression3
 Autogenerate $(vRecordCount);
 
 // Add comments to describe each field
