@@ -7,7 +7,7 @@ SET vRecordCount = 50000;
 
 Transactions:
 Load
-	IterNo().                             as TransLineID,
+	IterNo()                              as TransLineID,
 	RecNo()                               as TransID,
 	mod(RecNo(),26)+1                     as Number,
 	chr(Floor(26*Rand())+65)              as Dimension1,
