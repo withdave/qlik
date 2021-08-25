@@ -51,6 +51,8 @@ Some additional examples of using these commands can be found here: https://qlik
 
 ### Data (private/ shared/ managed spaces)
 
+Coming soon...
+
 ### Extensions
 
 Extensions can't be downloaded from the management console, but they can be returned via APIs.
