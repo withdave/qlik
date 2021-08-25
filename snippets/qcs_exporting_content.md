@@ -1,6 +1,8 @@
 # Exporting content from QCS
 
-Qlik Sense Enterprise SaaS allows export of applications from personal and shared spaces, but other content is more difficult to extract from the platform.
+Qlik Sense Enterprise SaaS allows export of applications from personal and shared spaces, but other content is more difficult to extract from the platform. This page summarises available options for exporting content from QCS.
+
+Note that QCS has a constant release cycle, meaning the information below become out of date at any time.
 
 ## Content Types
 
