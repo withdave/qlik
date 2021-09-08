@@ -11,10 +11,34 @@ Process:
 
 ## Script 
 
-In progress
+The script grabs all data connections, creates a new object containing the type we're after, then blindly deletes the connections from the object.
+
+It also stores a list of the connections it's about to delete as a CSV into the same directory prior to deleting them.
 
 ```
-In progress
+# This script doesn't do error handling or tracking, it simply 'does'
+# Set the connection type to delete
+$connectionToDeleteType = 'File_AmazonS3Connector';
+
+# Grab all non-datafiles connections
+$dataConnections = qlik raw get v1/data-connections --query noDatafiles=true | ConvertFrom-Json
+
+# Create a new object containing only those with the connection type we're after
+$connectionsToDelete = Foreach ($dataConnection in $dataConnections) {
+    If ($dataConnection.datasourceID = $connectionToDeleteType) {
+        New-Object PSObject $dataConnection;
+    }
+}
+
+# Store this object down into a CSV before we try to run deletes
+$connectionsToDelete | Export-Csv -Path ".\ConnectionsToDelete_$($connectionToDeleteType)_$(get-date -f yyyyMMdd_hhmmss).csv" -NoTypeInformation
+
+# Create a new object containing only those with the connection type we're after
+Foreach ($connectionToDelete in $connectionsToDelete) {
+    If ($connectionToDelete.datasourceID = $connectionToDeleteType) {
+        qlik raw delete v1/data-connections/$($connectionToDelete.id)
+    }
+}
 
 ```
 
