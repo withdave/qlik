@@ -25,7 +25,7 @@ $dataConnections = qlik raw get v1/data-connections --query noDatafiles=true | C
 
 # Create a new object containing only those with the connection type we're after
 $connectionsToDelete = Foreach ($dataConnection in $dataConnections) {
-    If ($dataConnection.datasourceID = $connectionToDeleteType) {
+    If ($dataConnection.datasourceID -eq $connectionToDeleteType) {
         New-Object PSObject $dataConnection;
     }
 }
@@ -35,7 +35,7 @@ $connectionsToDelete | Export-Csv -Path ".\ConnectionsToDelete_$($connectionToDe
 
 # Create a new object containing only those with the connection type we're after
 Foreach ($connectionToDelete in $connectionsToDelete) {
-    If ($connectionToDelete.datasourceID = $connectionToDeleteType) {
+    If ($connectionToDelete.datasourceID -eq $connectionToDeleteType) {
         qlik raw delete v1/data-connections/$($connectionToDelete.id)
     }
 }
