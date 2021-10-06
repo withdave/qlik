@@ -11,12 +11,12 @@ Notes:
 # Assign result of groups to a groups variable
 $groups=$(qlik raw get v1/qlik-groups --query limit=100) | ConvertFrom-Json
 
+# Replay contents of group variable
+Write-Host $groups.count "groups returned."
+
+
 # If there are groups
-if ($groups.count > 0) {
-    
-    # Print out the number of groups returned by the query
-    Write-Host $groups.count "groups returned."
-    
+if ($groups.count -ne 0) {
     # Now iterate over all groups with a delete command
     $groups | ForEach {
 
@@ -24,8 +24,8 @@ if ($groups.count > 0) {
         Write-Host "Deleting group" $_.displayName "("$group")"
         $deleteResponse=$(qlik raw delete v1/qlik-groups/$group)
     }
-    
 } else {
-    Write-Host "No groups returned."
+    Write-Host "No groups found."
 }
+
 ```
