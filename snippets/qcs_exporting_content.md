@@ -12,9 +12,13 @@ When the user has the correct permissions for the space, go to the hub, click th
 
 Tenant or analytics admins will be able to export apps from any private/ shared space.
 
+It is not possible to export objects from within an app in a shared space that aren't owned by the exporting user (i.e. those which aren't approved/ public).
+
 ### Applications (managed spaces)
 
-It is not possible to export applications in managed spaces via the hub or management console.
+It is not possible to export applications in managed spaces via the hub or management console. 
+
+It is not possible to export objects from within an app in a managed space that aren't owned by the exporting user.
 
 The alternatives are:
 * Export a copy of the app from a shared space (if it exists), or from the QSEoW platform that's distributing the app to that managed space (if distributed)
