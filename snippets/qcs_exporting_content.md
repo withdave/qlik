@@ -59,6 +59,8 @@ Some additional examples of using these commands can be found here: https://qlik
 
 Data from any space can be loaded into apps and stored (via load script) into a cloud accessible data store such as AWS S3, where it can then be exported. It is not generally possible to export data via the GUI or APIs from Qlik SaaS.
 
+Related support article: https://community.qlik.com/t5/Knowledge/Qlik-Sense-SaaS-Enable-download-or-export-of-data-files-from/ta-p/1858718
+
 ### Extensions
 
 Extensions can't be downloaded from the management console, but they can be returned via APIs.
