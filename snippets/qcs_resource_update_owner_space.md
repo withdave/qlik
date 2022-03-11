@@ -12,7 +12,7 @@ GUI and API availability varies per resource type in SaaS.
 | --- | --- | --- | --- | --- |
 | Apps | Yes | Yes | Yes | Yes |
 | App Objects | No | No | N/A | N/A |
-| Data Connections | No | No | No | Yes |
+| Data Connections | No | No | Yes | Yes |
 | Data Files | ? | ? | ? | ? |
 | Spaces | Yes | Yes | N/A | N/A |
 
@@ -41,7 +41,7 @@ This is not currently possible, as the owner is not surfaced via the data-connec
 
 ### Change space via GUI
 
-This is not currently possible.
+Navigate to Management console > Data content, and there is an option to "move" any data connection (go to https://{tenant}.{region}.qlikcloud.com/console/content/data-connections)
 
 ### Change space via API
 
