@@ -5,7 +5,6 @@ const config = require('./qct_config.json');
 const qcs = {
     licenseNumber: config.licenseNumber, // the license key for the organization, as shown in MyQlik or your welcome email, e.g. 0990654599117705
     licenseKey: config.licenseKey, // the license key for the organisation, e.g. eyJhbGciOiJFZERTQSIsImtp....
-    sourceTenant: config.sourceTenant, // a pre-existing tenant within the org, to look up the license key (just the hostname, e.g. name.eu.qlikcloud.com becomes name)
     region: config.region, // Qlik Cloud region URL (e.g. name.eu.qlikcloud.com becomes eu.qlikcloud.com)
     regionClientId: config.regionClientId, // our oauth client id, generated in MyQlik, e.g. '12345678912345678'
     regionClientSecret: config.regionClientSecret // our oauth client secret, generated in MyQlik, e.g. 'eac0dswfec23ewfweweg2g2vsebw77e1cce'
