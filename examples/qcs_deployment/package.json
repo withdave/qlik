@@ -1,7 +1,7 @@
 {
-  "name": "qcs_create_tenant",
+  "name": "qcs_deployment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a tenant, configure the tenant, and deploy apps and content",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
