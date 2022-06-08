@@ -1,1 +1,4 @@
 examples/qcs_deployment/qct_config.json
+examples/qcs_deployment/certs/
+examples/qcs_deployment/node_modules/
+
