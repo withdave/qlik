@@ -5,7 +5,7 @@ const config = require('./qct_config.json');
 const qcs = {
     licenseNumber: config.licenseNumber, // the license key for the organization, as shown in MyQlik or your welcome email, e.g. 0990654599117705
     licenseKey: config.licenseKey, // the license key for the organisation, e.g. eyJhbGciOiJFZERTQSIsImtp....
-    region: config.region, // Qlik Cloud region URL (e.g. name.eu.qlikcloud.com becomes eu.qlikcloud.com)
+    region: config.region, // Qlik Cloud region URL e.g. name.eu.qlikcloud.com becomes eu.qlikcloud.com
     regionClientId: config.regionClientId, // our oauth client id, generated in MyQlik, e.g. '12345678912345678'
     regionClientSecret: config.regionClientSecret // our oauth client secret, generated in MyQlik, e.g. 'eac0dswfec23ewfweweg2g2vsebw77e1cce'
 }
@@ -25,10 +25,11 @@ const oauthClientData = JSON.stringify({
 function httpsRequest(params, postBody) {
     return new Promise(function (resolve, reject) {
         var req = https.request(params, function (res) {
-            
-            if (res.statusCode < 200 || res.statusCode >= 300) {
-                return reject(new Error('Response type ' + res.statusCode));
-            }
+
+            // There is no error handling on HTTP response codes here
+            // In your application, you should handle these responses in either the request handler or your calls
+            //console.log(res);
+
             var body = [];
             res.on('data', function (chunk) {
                 body.push(chunk);
@@ -37,7 +38,8 @@ function httpsRequest(params, postBody) {
                 try {
                     body = JSON.parse(Buffer.concat(body).toString());
                 } catch (e) {
-                    reject(e);
+                    // Here to catch empty responses and play them back nicely
+                    body = 'Status ' + res.statusCode + 'r/n/' + body;
                 }
                 resolve(body);
             });
