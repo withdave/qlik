@@ -37,7 +37,7 @@ const jwtPayload = {
     name: 'Your Name Here',
     email: 'yournamehere@example.com',
     email_verified: true,
-    groups: ['Admin', 'Finance', 'Marketing', 'Sales1'],
+    groups: ['Admin', 'Finance', 'Marketing', 'Sales'],
 };
 
 // JWT: Identify keys
