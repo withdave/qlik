@@ -1,4 +1,4 @@
-// Bring in oauth client - this config file contains values for the qcs const below
+// Bring in config file with values for the qcs const below, template is in the package
 const config = require('./qct_config.json');
 
 // Configure for your Qlik Cloud deployment

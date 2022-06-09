@@ -1,4 +1,4 @@
-// Bring in oauth client - this config file contains values for the qcs const below
+// Bring in config file with values for the qcs const below, template is in the package
 const config = require('./qct_config.json');
 
 // This example uses just https, you may want to use a package for requests
