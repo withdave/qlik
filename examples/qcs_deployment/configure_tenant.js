@@ -100,29 +100,27 @@ function httpsRequest(params, postBody) {
     });
 }
 
-// Prepare license assignment
-let licenseAssignment = JSON.stringify({
-    autoAssignProfessional: tenantSettings.autoAssignProfessional,
-    autoAssignAnalyzer: tenantSettings.autoAssignAnalyzer
-});
+async function configureTenant() {
 
-// 1 - Get access token for target tenant, for use will all future requests
-httpsRequest({
-    hostname: targetTenantUrl,
-    port: 443,
-    path: '/oauth/token',
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-    }
-}, oauthClientData).then(function (body) {
-    // Print out access token for testing
-    console.log(body);
+    // ***************************
+    // 1 - Get access token for target tenant, for use will all future requests
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/oauth/token',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }, oauthClientData);
+    // For the demo, log out the response
+    console.log('Output from step 1: ' + JSON.stringify(data));
     // Save access token for next request
-    let targetTenantToken = body.access_token;
+    let targetTenantToken = data.access_token;
 
+    // ***************************
     // 2 - Configure autoCreateGroups
-    httpsRequest({
+    var data = await httpsRequest({
         hostname: targetTenantUrl,
         port: 443,
         path: '/api/v1/groups/settings',
@@ -135,116 +133,127 @@ httpsRequest({
         op: 'replace',
         path: '/autoCreateGroups',
         value: tenantSettings.autoCreateGroups
-    }])).then(function (body) {
-        // Print out response for testing
-        console.log(body);
+    }]));
+    // For the demo, log out the response
+    console.log('Output from step 2: ' + data);
 
-        // 3 - Configure automatic assignment of professional and analyzer licenses
-        httpsRequest({
-            hostname: targetTenantUrl,
-            port: 443,
-            path: '/api/v1/licenses/settings',
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'Application/Json',
-                'Authorization': 'Bearer ' + targetTenantToken
-            }
-        }, licenseAssignment).then(function (body) {
-            // Print out response for testing
-            console.log("License settings: " + JSON.stringify(body));
+    // ***************************
+    // 3 - Configure automatic assignment of professional and analyzer licenses
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/api/v1/licenses/settings',
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'Application/Json',
+            'Authorization': 'Bearer ' + targetTenantToken
+        }
+    }, JSON.stringify({
+        autoAssignProfessional: tenantSettings.autoAssignProfessional,
+        autoAssignAnalyzer: tenantSettings.autoAssignAnalyzer
+    }));
+    // For the demo, log out the response
+    console.log('Output from step 3: ' + JSON.stringify(data));
 
-            // 4 - Get tenant id
-            return httpsRequest({
-                hostname: targetTenantUrl,
-                port: 443,
-                path: '/api/v1/tenants',
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer ' + targetTenantToken
+    // ***************************
+    // 4 - Get tenant id
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/api/v1/tenants',
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + targetTenantToken
+        }
+    });
+    // For the demo, log out the response
+    console.log('Output from step 4: ' + JSON.stringify(data));
+
+    // Keep a copy of the tenant id, we'll need it shortly
+    const tenantId = data.data[0].id;
+
+    // ***************************
+    // 5 - Configure JWT IdP on the tenant
+    // Prepare IdP configuration for the JWT IdP post with the tenant ID and config
+    const idpConfiguration = JSON.stringify({
+        tenantIds: [
+            tenantId
+        ],
+        provider: "external",
+        protocol: "jwtAuth",
+        interactive: false,
+        active: true,
+        description: idpSettings.description,
+        options: {
+            jwtLoginEnabled: true,
+            issuer: jwtSigningOptions.issuer,
+            staticKeys: [
+                {
+                    kid: jwtSigningOptions.keyid,
+                    pem: jwtPublicKey.toString()
                 }
-            }).then(function (body) {
-                // Print out for testing
-                console.log(body);
+            ]
+        }
+    });
 
-                // Keep a copy of the tenant id, we'll need it
-                const tenantId = body.data[0].id;
-                console.log('Found tenant id: ' + tenantId);
+    // For the demo, log out the IdP config we're going to send
+    console.log('Output from step 5a: ' + idpConfiguration);
 
-                // Prepare IdP configuration
-                const idpConfiguration = JSON.stringify({
-                    tenantIds: [
-                        tenantId
-                    ],
-                    provider: "external",
-                    protocol: "jwtAuth",
-                    interactive: false,
-                    active: true,
-                    description: idpSettings.description,
-                    options: {
-                        jwtLoginEnabled: true,
-                        issuer: jwtSigningOptions.issuer,
-                        staticKeys: [
-                            {
-                                kid: jwtSigningOptions.keyid,
-                                pem: jwtPublicKey.toString()
-                            }
-                        ]
-                    }
-                })
-                console.log(idpConfiguration);
+    // Send request to create JWT IdP
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/api/v1/identity-providers',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + targetTenantToken
+        }
+    }, idpConfiguration);
 
+    // For the demo, log out the response
+    console.log('Output from step 5b: ' + JSON.stringify(data));
 
-                // 5 - Configure JWT IdP on the tenant
-                httpsRequest({
-                    hostname: targetTenantUrl,
-                    port: 443,
-                    path: '/api/v1/identity-providers',
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + targetTenantToken
-                    }
-                }, idpConfiguration).then(function (body) {
-                    // Print out response for testing
-                    console.log("Another: " + JSON.stringify(body));
+    // ***************************
+    // 6 - Send our JWT request and seed groups
+    // Built our JWT with the groups we want to seed
+    const seedToken = jwt.sign(jwtPayload, jwtPrivateKey, jwtSigningOptions);
 
-                    // Built token for next request
-                    const seedToken = jwt.sign(jwtPayload, jwtPrivateKey, jwtSigningOptions);
+    // For the demo, log out the token we're going to use to seed groups
+    console.log('Output from step 6a: ' + seedToken);
 
-                    // 6 - Send our JWT request and seed groups
-                    httpsRequest({
-                        hostname: targetTenantUrl,
-                        port: 443,
-                        path: '/login/jwt-session',
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': 'Bearer ' + seedToken
-                        }
-                    }).then(function (body) {
-                        // Print out response for testing
-                        console.log("Login: " + body);
+    // Send the request
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/login/jwt-session',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + seedToken
+        }
+    });
 
-                        // 7 - Get groups on the tenant to verify they have been created
-                        httpsRequest({
-                            hostname: targetTenantUrl,
-                            port: 443,
-                            path: '/api/v1/groups',
-                            method: 'GET',
-                            headers: {
-                                'Content-Type': 'application/json',
-                                'Authorization': 'Bearer ' + targetTenantToken
-                            }
-                        }).then(function (body) {
-                            // Print out response for testing
-                            console.log("Login: " + JSON.stringify(body));
+    // For the demo, log out the response
+    console.log('Output from step 6b: ' + JSON.stringify(data));
 
-                            // Optional - remove dummy user and remove seeding JWT IdP
-                        })
-                    })
-                })
-            })
-        })
-    })
-});
+    // ***************************
+    // 7 - Get groups on the tenant to give us way of verifying that they have been created
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/api/v1/groups',
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + targetTenantToken
+        }
+    });
+
+    // For the demo, log out the response
+    console.log('Output from step 7: ' + JSON.stringify(data));
+}
+
+// Go (con)figure!
+configureTenant();
