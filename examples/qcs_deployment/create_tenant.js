@@ -54,23 +54,28 @@ function httpsRequest(params, postBody) {
     });
 }
 
-// 1 - Get access token for register tenant
-httpsRequest({
-    hostname: 'register.' + qcs.region,
-    port: 443,
-    path: '/oauth/token',
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-    }
-}, oauthClientData).then(function (body) {
-    // Print out access token for testing
-    console.log(body);
-    // Save access token for next request
-    let registerTenantToken = body.access_token;
+async function createTenant() {
 
+    // ***************************
+    // 1 - Get access token for the regional register tenant, which we need to request a new tenant
+    var data = await httpsRequest({
+        hostname: 'register.' + qcs.region,
+        port: 443,
+        path: '/oauth/token',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }, oauthClientData);
+
+    // For the demo, log out the response
+    console.log('Output from step 1: ' + JSON.stringify(data));
+    // Save access token for next request
+    let registerTenantToken = data.access_token;
+
+    // ***************************
     // 2 - Request new tenant in region
-    return httpsRequest({
+    var data = await httpsRequest({
         hostname: 'register.' + qcs.region,
         port: 443,
         path: '/api/v1/tenants',
@@ -84,43 +89,51 @@ httpsRequest({
             key: qcs.licenseKey,
             number: qcs.licenseNumber
         }
-    })).then(function (body) {
-        // Print out new tenant properties for testing
-        console.log(body);
-        console.log('Built tenant ' + body.name + ' in region ' + body.datacenter + ' (id ' + body.id + ')');
+    }));
 
-        // Pick up the new tenant hostname
-        let targetTenant = body.name;
+    // For the demo, log out the response
+    console.log('Output from step 2: ' + JSON.stringify(data));
+    
+    // Save new tenant URL for next request
+    let targetTenantUrl = data.hostnames[0];
+    console.log('Output from step 2: ' + targetTenantUrl);
 
-        // 3 - Get access token for new tenant
-        return httpsRequest({
-            hostname: targetTenant + '.' + qcs.region,
-            port: 443,
-            path: '/oauth/token',
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }, oauthClientData).then(function (body) {
-            // Print out for testing
-            console.log(body);
-            // Save access token for next request
-            let targetTenantToken = body.access_token;
+    // ***************************
+    // 3 - Get access token for new tenant
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/oauth/token',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }, oauthClientData);
 
-            // 4 - Request information about the user (validation step)
-            return httpsRequest({
-                hostname: targetTenant + '.' + qcs.region,
-                port: 443,
-                path: '/api/v1/users/me',
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer ' + targetTenantToken
-                }
-            }).then(function (body) {
-                // Print out new user properties for testing
-                console.log(body);
-            })
-        })
-    })
-});
+    // For the demo, log out the response
+    console.log('Output from step 3: ' + JSON.stringify(data));
+
+    // Save target tenant access token for next request
+    let targetTenantToken = data.access_token;
+
+
+    // ***************************
+    // 4 - Send a request to the new tenant (proof of life)
+    var data = await httpsRequest({
+        hostname: targetTenantUrl,
+        port: 443,
+        path: '/api/v1/users/me',
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + targetTenantToken
+        }
+    });
+
+    // For the demo, log out the response
+    console.log('Output from step 4: ' + JSON.stringify(data));
+
+};
+
+// Go create!
+createTenant();
