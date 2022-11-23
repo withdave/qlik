@@ -3,7 +3,6 @@ const config = require('./qct_config.json');
 
 // Configure for your Qlik Cloud deployment
 const qcs = {
-    licenseNumber: config.licenseNumber, // the license key for the organization, as shown in MyQlik or your welcome email, e.g. 0990654599117705
     licenseKey: config.licenseKey, // the license key for the organisation, e.g. eyJhbGciOiJFZERTQSIsImtp....
     region: config.region, // Qlik Cloud region URL e.g. name.eu.qlikcloud.com becomes eu.qlikcloud.com
     regionClientId: config.regionClientId, // our oauth client id, generated in MyQlik, e.g. '12345678912345678'
@@ -20,53 +19,38 @@ const oauthClientData = JSON.stringify({
     grant_type: "client_credentials"
 })
 
-
 // Function to handle our requests
-function httpsRequest(params, postBody) {
-    return new Promise(function (resolve, reject) {
-        var req = https.request(params, function (res) {
+async function httpsFetch(url, settings) {
+    try {
+        const fetchResponse = await fetch(url, settings);
+        const data = await fetchResponse.json();
+        return data;
 
-            // There is no error handling on HTTP response codes here
-            // In your application, you should handle these responses in either the request handler or your calls
-            //console.log(res);
+    } catch (e) {
+        return e;
+    }
+}
 
-            var body = [];
-            res.on('data', function (chunk) {
-                body.push(chunk);
-            });
-            res.on('end', function () {
-                try {
-                    body = JSON.parse(Buffer.concat(body).toString());
-                } catch (e) {
-                    // Here to catch empty responses and play them back nicely
-                    body = 'Status ' + res.statusCode + 'r/n/' + body;
-                }
-                resolve(body);
-            });
-        });
-        req.on('error', function (err) {
-            reject(err);
-        });
-        if (postBody) {
-            req.write(postBody);
-        }
-        req.end();
+// Get an access token for a specified hostname and oauth client
+async function getAccessToken(hostname) {
+
+    var data = await httpsFetch('https://' + hostname + '/oauth/token', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: oauthClientData
     });
+
+    return data;
+
 }
 
 async function createTenant() {
 
     // ***************************
     // 1 - Get access token for the regional register tenant, which we need to request a new tenant
-    var data = await httpsRequest({
-        hostname: 'register.' + qcs.region,
-        port: 443,
-        path: '/oauth/token',
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    }, oauthClientData);
+    var data = await getAccessToken('register.' + qcs.region);
 
     // For the demo, log out the response
     console.log('Output from step 1: ' + JSON.stringify(data));
@@ -75,40 +59,27 @@ async function createTenant() {
 
     // ***************************
     // 2 - Request new tenant in region
-    var data = await httpsRequest({
-        hostname: 'register.' + qcs.region,
-        port: 443,
-        path: '/api/v1/tenants',
+    var data = await httpsFetch('https://register.' + qcs.region + '/api/v1/tenants', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + registerTenantToken
-        }
-    }, JSON.stringify({
-        license: {
-            key: qcs.licenseKey,
-            number: qcs.licenseNumber
-        }
-    }));
+        },
+        body: JSON.stringify({
+            licenseKey: qcs.licenseKey
+        })
+    });
 
     // For the demo, log out the response
     console.log('Output from step 2: ' + JSON.stringify(data));
     
     // Save new tenant URL for next request
     let targetTenantUrl = data.hostnames[0];
-    console.log('Output from step 2: ' + targetTenantUrl);
+    console.log('Hostname from step 2: ' + targetTenantUrl);
 
     // ***************************
     // 3 - Get access token for new tenant
-    var data = await httpsRequest({
-        hostname: targetTenantUrl,
-        port: 443,
-        path: '/oauth/token',
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    }, oauthClientData);
+    var data = await getAccessToken(targetTenantUrl);
 
     // For the demo, log out the response
     console.log('Output from step 3: ' + JSON.stringify(data));
@@ -119,10 +90,7 @@ async function createTenant() {
 
     // ***************************
     // 4 - Send a request to the new tenant (proof of life)
-    var data = await httpsRequest({
-        hostname: targetTenantUrl,
-        port: 443,
-        path: '/api/v1/users/me',
+    var data = await httpsFetch('https://' + targetTenantUrl + '/api/v1/users/me', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
@@ -135,5 +103,10 @@ async function createTenant() {
 
 };
 
-// Go create!
+// Create 1 tenant
 createTenant();
+
+// // Go create 5 tenants
+// for (let i = 0; i < 5; i++) {
+//     createTenant();
+//   }
