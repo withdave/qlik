@@ -8,7 +8,7 @@ This script:
 3) Uses Qlik CLI to create the users
 4) Uses the QCS APIs to assign users licenses (due to a bug in the CLI on this endpoint) 
 
-This will not overrite or amend licenses already assigned.
+This will not overwrite or amend licenses already assigned.
 
 ## Input 
 
