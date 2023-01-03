@@ -2,7 +2,7 @@
 
 This page documents how to change the owner and space properties on different resource types. 
 
-API examples will be written using Qlik CLI where possible.
+Apologies, a bit of variety in tooling and languages below.
 
 ## Object types and coverage
 
@@ -12,7 +12,7 @@ GUI and API availability varies per resource type in SaaS.
 | --- | --- | --- | --- | --- |
 | Apps | Yes | Yes | Yes | Yes |
 | App Objects | No | No | N/A | N/A |
-| Data Connections | No | No | Yes | Yes |
+| Data Connections | Yes | Yes | Yes | Yes |
 | Data Files | ? | ? | ? | ? |
 | Spaces | Yes | Yes | N/A | N/A |
 
@@ -27,27 +27,58 @@ This is not currently possible.
 
 This is not currently possible, as the object owner can't updated via the items API.
 
-It may be possible to script the rebuild of objects (using unbuild/ build) and impersonation (using JWT).
+It is possible to script the rebuild of objects (using unbuild/ build) and impersonation (using JWT).
 
 ## Data Connections
 
 ### Change owner via GUI
 
-This is not currently possible.
+Navigate to Management console > Data content, and there is an option to "move" any data connection (go to https://{hostname}.{region}.qlikcloud.com/console/content/data-connections)
 
 ### Change owner via API
 
-This is not currently possible, as the owner is not surfaced via the data-connections API.
+The `/actions/update` endpoint allows you to replace both or either the owner or space of an app:
+
+```
+curl -L -X POST 'https://{hostname}.{region}.qlikcloud.com/api/v1/data-connections/actions/update' \
+-H 'Authorization: Bearer {token}' \
+-H 'Content-type: application/json' \
+-H 'Accept: application/json' \
+--data-raw '{
+    "connections": [
+        {
+            "id": "{data connection id}",
+            "ownerId": "{new data connection owner id}"
+        }
+    ]
+}'
+```
 
 ### Change space via GUI
 
-Navigate to Management console > Data content, and there is an option to "move" any data connection (go to https://{tenant}.{region}.qlikcloud.com/console/content/data-connections)
+Navigate to Management console > Data content, and there is an option to "move" any data connection (go to https://{hostname}.{region}.qlikcloud.com/console/content/data-connections)
 
 ### Change space via API
 
-This is possible, although not super clean. The results may not be perfect where connections have encrypted credentials. 
+The new way of changing the space via API is using the `/actions/update` endpoint, and a call like the following:
 
-You could also try a patch request.
+```
+curl -L -X POST 'https://{hostname}.{region}.qlikcloud.com/api/v1/data-connections/actions/update' \
+-H 'Authorization: Bearer {token}' \
+-H 'Content-type: application/json' \
+-H 'Accept: application/json' \
+--data-raw '{
+    "connections": [
+        {
+            "id": "{data connection id}",
+            "spaceId": "{target space id}",
+            "spaceType": "{personal|shared|managed}"
+        }
+    ]
+}'
+```
+
+The old way of doing this is below, in a powershell snippet:
 
 ```
 # Script to do this in native PS as qlik CLI seems a bit buggy on this endpoint
