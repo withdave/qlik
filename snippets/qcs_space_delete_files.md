@@ -5,8 +5,6 @@ This powershell script requires you to provide a spaceId, and will loop over and
 ...use with caution.
 
 ```
-
-
 # Set the space ID
 $spaceId = '63bc52d878cff58eaeda4c58';
 
