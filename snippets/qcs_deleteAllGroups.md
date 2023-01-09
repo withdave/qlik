@@ -1,11 +1,11 @@
-# Delete all groups from a QCS tenant
+# Delete all groups from a Qlik Cloud tenant
 
 This script selects 100 groups at a time from the tenant, and sends a delete request per group to remove them from the tenant. 
 
 Notes:
-* This uses a deprecated API, which may stop working at any time
-* Groups will be repopulated the next time a user logs into the tenant (their groups)
+* Groups will be repopulated from the user's claims the next time a user logs into the tenant if `Creation of groups` is enabled on the tenant
 * If the script prints "No groups returned." then the initial request either returned no groups or an error
+* If you have more than 100 groups, you will need to run this script multiple times since it does not paginate
 
 ```
 # Assign result of groups to a groups variable
