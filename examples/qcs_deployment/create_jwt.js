@@ -37,7 +37,7 @@ const jwtPayload = {
     name: 'Your Name Here',
     email: 'yournamehere@example.com',
     email_verified: true,
-    groups: ['Admin', 'Finance', 'Marketing', 'Sales'],
+    groups: ['Admin'],
 };
 
 // JWT: Identify keys
@@ -109,7 +109,7 @@ async function createJWT() {
         }
     }, oauthClientData);
     // For the demo, log out the response
-    console.log(Math.floor(Date.now()/1000), 'Output from step 1: ' + JSON.stringify(data));
+    //console.log(Math.floor(Date.now()/1000), 'Output from step 1: ' + JSON.stringify(data));
     // Save access token for next request
     let targetTenantToken = data.access_token;
 
@@ -126,7 +126,7 @@ async function createJWT() {
         }
     });
     // For the demo, log out the response
-    console.log(Math.floor(Date.now()/1000), 'Output from step 2: ' + JSON.stringify(data));
+    //console.log(Math.floor(Date.now()/1000), 'Output from step 2: ' + JSON.stringify(data));
 
     // Keep a copy of the tenant id, we'll need it shortly
     const tenantId = data.data[0].id;
@@ -159,7 +159,7 @@ async function createJWT() {
     });
 
     // For the demo, log out the IdP config we're going to send
-    console.log(Math.floor(Date.now()/1000), 'Output from step 3a: ' + idpConfiguration);
+    //console.log(Math.floor(Date.now()/1000), 'Output from step 3a: ' + idpConfiguration);
 
     // Send request to create JWT IdP
     var data = await httpsRequest({
@@ -180,7 +180,7 @@ async function createJWT() {
     const idpCreated = Math.floor(new Date(data.created) / 1000);
 
     // For the demo, log out the response
-    console.log(Math.floor(Date.now()/1000), 'Output from step 3b, IdP created at:', idpCreated, 'with config:', JSON.stringify(data));
+    //console.log(Math.floor(Date.now()/1000), 'Output from step 3b, IdP created at:', idpCreated, 'with config:', JSON.stringify(data));
 
     // ***************************
     // 4 - Send our JWT request and seed groups
