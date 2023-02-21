@@ -1,0 +1,82 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <script>
+        function sendValues() {
+            var instance = $("#instance").val();
+            var jwt = $("#jwt").val();
+            var integrationID = $("#integrationID").val();
+
+            var myHeaders = new Headers();
+            myHeaders.append("qlik-web-integration-id", integrationID);
+            myHeaders.append("content-type", "application/json");
+            myHeaders.append("Authorization", "Bearer " + jwt);
+
+            var requestOptions = {
+                method: "POST",
+                headers: myHeaders,
+                body: "",
+                credentials: "include",
+                mode: "cors",
+                rejectunAuthorized: false,
+            };
+            fetch(
+                instance +
+                "/login/jwt-session?qlik-web-integration-id=" +
+                integrationID,
+                requestOptions
+            )
+                .then((response) => response.text())
+                .then((result) => {
+
+                    if (result == "OK") {
+                        window.open(instance, "_blank");
+                    } else {
+                        console.log("Invalid JWT:", result);
+                    }
+                })
+                .catch((error) => {
+                    console.log("error", error);
+                });
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md py-4 navbar-expand-lg navbar-custom">
+        Login using a JWT token
+    </nav>
+    <div class="formInjection">
+        <form class="formDef" id="mainform" action="javascript:void(0);" style="height: auto">
+            <div class="formbuilder-text form-group field-instance">
+                <label for="instance" class="formbuilder-text-label">Instance URL<span
+                        class="formbuilder-required">*</span></label>
+                <input type="text" value="https://5ie54a4r13glxs5.eu.qlikcloud.com" class="form-control" name="instance"
+                    access="false" id="instance" required="required" aria-required="true" />
+            </div>
+
+            <div class="formbuilder-text form-group field-APIToken">
+                <label for="APIToken" class="formbuilder-text-label">Web integration ID<span
+                        class="formbuilder-required">*</span></label>
+                <input type="text" class="form-control" name="integrationID" access="false" id="integrationID"
+                    required="required" aria-required="true" value="YR5aH3Ps92OC2s8v1JgE1gtx87f4dxkO" />
+            </div>
+
+            <div class="formbuilder-text form-group field-APIToken">
+                <label for="APIToken" class="formbuilder-text-label">jwt<span
+                        class="formbuilder-required">*</span></label>
+                <input type="text" class="form-control" name="jwt" access="false" id="jwt" required="required"
+                    aria-required="true" value="" />
+            </div>
+
+            <div class="formbuilder-button form-group field-button-1629187719298">
+                <button type="button" class="btn-success btn" name="button-1629187719298" access="false"
+                    id="button-1629187719298" onClick="sendValues()" style="margin-bottom: 20px">
+                    Login
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
