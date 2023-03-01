@@ -8,12 +8,12 @@ Apologies, a bit of variety in tooling and languages below.
 
 GUI and API availability varies per resource type in SaaS.
 
-| Resource Type | Change owner in GUI | Change owner in API | Change space in GUI | Change space in API |
+| Resource Type | Change owner via GUI | Change owner via API | Change space via GUI | Change space via API |
 | --- | --- | --- | --- | --- |
 | Apps | Yes | Yes | Yes | Yes |
 | App Objects | No | No | N/A | N/A |
 | Data Connections | Yes | Yes | Yes | Yes |
-| Data Files | ? | ? | ? | ? |
+| Data Files | No | ? | No | Yes |
 | Spaces | Yes | Yes | N/A | N/A |
 
 
