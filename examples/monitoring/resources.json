@@ -3,14 +3,14 @@
         "id": 10,
         "name": "Console Settings Collector",
         "version": "v1.0.1",
-        "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/2548/1/Console%20Settings%20Collector%20v1.0.1.qvf",
+        "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.1.qvf",
         "attributes": "tbc"
     },
     {
         "id": 90,
         "name": "OEM Dashboard",
         "version": "v1.0.0",
-        "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/2548/2/OEM%20Dashboard%20v1.0.0.qvf",
+        "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.qvf",
         "attributes": "tbc"
     }
 ]
