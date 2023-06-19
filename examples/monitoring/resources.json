@@ -135,6 +135,10 @@
             {
                 "attribute": "multitenancy",
                 "lookup": "SET vu_is_parent_app"
+            },
+            {
+                "attribute": "consoleSettings",
+                "lookup": "SET vConsoleSettingsCollector"
             }
         ]
     }
