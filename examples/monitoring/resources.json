@@ -4,6 +4,7 @@
         "name": "Console Settings Collector",
         "version": "v1.0.1",
         "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.1.qvf",
+        "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.1.txt",
         "attributes": "tbc"
     },
     {
@@ -11,6 +12,7 @@
         "name": "OEM Dashboard",
         "version": "v1.0.0",
         "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.qvf",
+        "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.txt",
         "attributes": "tbc"
     }
 ]
