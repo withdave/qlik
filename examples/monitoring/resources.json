@@ -41,11 +41,11 @@
             },
             {
                 "attribute": "connectionRest",
-                "lookup": "SET vu_rest_connection"
+                "lookup": "Set vu_rest_connection"
             },
             {
                 "attribute": "connectionRemote",
-                "lookup": "SET vu_qlik_meta_collection_parent_dir"
+                "lookup": "Set vu_qlik_meta_collection_parent_dir"
             },
             {
                 "attribute": "multitenancyEnabled",
@@ -53,7 +53,7 @@
             },
             {
                 "attribute": "multitenancy",
-                "lookup": "SET vu_is_parent_app"
+                "lookup": "Set vu_is_parent_app"
             }
         ]
     },
@@ -80,7 +80,7 @@
             },
             {
                 "attribute": "multitenancyEnabled",
-                "lookup": "Set vu_multi_tenant_enabled"
+                "lookup": "SET vu_multi_tenant_enabled"
             },
             {
                 "attribute": "multitenancy",
@@ -111,7 +111,7 @@
             },
             {
                 "attribute": "multitenancyEnabled",
-                "lookup": "Set vu_multi_tenant_enabled"
+                "lookup": "SET vu_multi_tenant_enabled"
             },
             {
                 "attribute": "multitenancy",
