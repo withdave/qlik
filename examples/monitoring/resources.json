@@ -6,22 +6,116 @@
         "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.1.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.1.txt",
         "type": "both",
+        "reloadSchedule": "",
         "attributes": [
             {
                 "attribute": "tenant",
-                "lookup": "<tenant>.<region>.qlikcloud.com"
+                "lookup": "SET vu_tenant_fqdn"
             },
             {
                 "attribute": "connectionRest",
-                "lookup": ":REST for Console Settings Collector"
+                "lookup": "SET vu_rest_connection"
             },
             {
                 "attribute": "connectionRemote",
-                "lookup": "lib://:"
+                "lookup": "SET vu_qlik_meta_collection_parent_dir"
             },
             {
                 "attribute": "multitenancy",
-                "lookup": "SET vu_is_parent_app = 0;"
+                "lookup": "SET vu_is_parent_app"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "App Analyzer",
+        "version": "v4.0.9",
+        "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/999/8/App%20Analyzer%20v4.0.9.qvf",
+        "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/App%20Analyzer%20v4.0.9.txt",
+        "type": "both",
+        "reloadSchedule": "",
+        "attributes": [
+            {
+                "attribute": "tenant",
+                "lookup": "SET vu_tenant_fqdn"
+            },
+            {
+                "attribute": "connectionRest",
+                "lookup": "SET vu_rest_connection"
+            },
+            {
+                "attribute": "connectionRemote",
+                "lookup": "SET vu_qlik_meta_collection_parent_dir"
+            },
+            {
+                "attribute": "multitenancyEnabled",
+                "lookup": "Set vu_multi_tenant_enabled"
+            },
+            {
+                "attribute": "multitenancy",
+                "lookup": "SET vu_is_parent_app"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Entitlement Analyzer",
+        "version": "current",
+        "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/1681/6/Entitlement%20Analyzer%20-%20Current.qvf",
+        "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Entitlement%20Analyzer%20-%20Current.txt",
+        "type": "both",
+        "reloadSchedule": "",
+        "attributes": [
+            {
+                "attribute": "tenant",
+                "lookup": "SET vu_tenant_fqdn"
+            },
+            {
+                "attribute": "connectionRest",
+                "lookup": "SET vu_rest_connection"
+            },
+            {
+                "attribute": "connectionRemote",
+                "lookup": "SET vu_qlik_meta_collection_parent_dir"
+            },
+            {
+                "attribute": "multitenancyEnabled",
+                "lookup": "Set vu_multi_tenant_enabled"
+            },
+            {
+                "attribute": "multitenancy",
+                "lookup": "SET vu_is_parent_app"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Reload Analyzer",
+        "version": "v2.0.8",
+        "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/1733/6/Reload%20Analyzer%20v2.0.8.qvf",
+        "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Reload%20Analyzer%20v2.0.8.txt",
+        "type": "both",
+        "reloadSchedule": "",
+        "attributes": [
+            {
+                "attribute": "tenant",
+                "lookup": "SET vu_tenant_fqdn"
+            },
+            {
+                "attribute": "connectionRest",
+                "lookup": "SET vu_rest_connection"
+            },
+            {
+                "attribute": "connectionRemote",
+                "lookup": "SET vu_qlik_meta_collection_parent_dir"
+            },
+            {
+                "attribute": "multitenancyEnabled",
+                "lookup": "Set vu_multi_tenant_enabled"
+            },
+            {
+                "attribute": "multitenancy",
+                "lookup": "SET vu_is_parent_app"
             }
         ]
     },
@@ -32,8 +126,16 @@
         "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.txt",
         "type": "source",
+        "reloadSchedule": "",
         "attributes": [
-            {}
+            {
+                "attribute": "connectionRemote",
+                "lookup": "SET vu_qlik_meta_collection_parent_dir"
+            },
+            {
+                "attribute": "multitenancy",
+                "lookup": "SET vu_is_parent_app"
+            }
         ]
     }
 ]
