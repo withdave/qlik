@@ -8,10 +8,20 @@
         "type": "both",
         "attributes": [
             {
-                "tenant": "<tenant>.<region>.qlikcloud.com",
-                "connectionRest": ":REST for Console Settings Collector",
-                "connectionRemote": "lib://:",
-                "multitenancy": "SET vu_is_parent_app = 0;"
+                "attribute": "tenant",
+                "lookup": "<tenant>.<region>.qlikcloud.com"
+            },
+            {
+                "attribute": "connectionRest",
+                "lookup": ":REST for Console Settings Collector"
+            },
+            {
+                "attribute": "connectionRemote",
+                "lookup": "lib://:"
+            },
+            {
+                "attribute": "multitenancy",
+                "lookup": "SET vu_is_parent_app = 0;"
             }
         ]
     },
@@ -23,11 +33,7 @@
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.txt",
         "type": "source",
         "attributes": [
-            {
-                "tenant": "<tenant>.<region>.qlikcloud.com",
-                "connectionRest": ":REST for Console Settings Collector",
-                "connectionRemote": "lib://:"
-            }
+            {}
         ]
     }
 ]
