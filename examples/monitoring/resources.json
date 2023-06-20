@@ -6,7 +6,8 @@
         "source": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.2.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Console%20Settings%20Collector%20v1.0.2.txt",
         "type": "both",
-        "reloadSchedule": "",
+        "reloadScheduleSource": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=1,7,13,19;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
+        "reloadScheduleTarget": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=0,6,12,18;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
         "attributes": [
             {
                 "attribute": "tenant",
@@ -33,7 +34,8 @@
         "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/999/8/App%20Analyzer%20v4.0.9.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/App%20Analyzer%20v4.0.9.txt",
         "type": "both",
-        "reloadSchedule": "",
+        "reloadScheduleSource": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=1,7,13,19;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
+        "reloadScheduleTarget": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=0,6,12,18;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
         "attributes": [
             {
                 "attribute": "tenant",
@@ -64,7 +66,8 @@
         "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/1681/6/Entitlement%20Analyzer%20-%20Current.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Entitlement%20Analyzer%20-%20Current.txt",
         "type": "both",
-        "reloadSchedule": "",
+        "reloadScheduleSource": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=1,7,13,19;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
+        "reloadScheduleTarget": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=0,6,12,18;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
         "attributes": [
             {
                 "attribute": "tenant",
@@ -95,7 +98,8 @@
         "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/1733/6/Reload%20Analyzer%20v2.0.8.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/Reload%20Analyzer%20v2.0.8.txt",
         "type": "both",
-        "reloadSchedule": "",
+        "reloadScheduleSource": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=1,7,13,19;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
+        "reloadScheduleTarget": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=0,6,12,18;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
         "attributes": [
             {
                 "attribute": "tenant",
@@ -126,7 +130,8 @@
         "source": "https://community.qlik.com/cyjdu72974/attachments/cyjdu72974/qlik-support-updates-blog/2548/2/OEM%20Dashboard%20v1.0.0.qvf",
         "sourceBase64": "https://github.com/withdave/qlik/raw/monitoring-resources/examples/monitoring/OEM%20Dashboard%20v1.0.0.txt",
         "type": "source",
-        "reloadSchedule": "",
+        "reloadScheduleSource": "RRULE:FREQ=WEEKLY;INTERVAL=1;BYHOUR=2,8,14,20;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR;BYSECOND=0",
+        "reloadScheduleTarget": "",
         "attributes": [
             {
                 "attribute": "connectionRemote",
