@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50689</QvBuildNo>
+   <CreatorDoc>10ee3aef-76c5-424a-8fab-ddaf6ce8fba9</CreatorDoc>
+   <CreateUtcTime>2025-07-14 10:04:38</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Customers</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Division</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Business Family</FieldName>
+       <BitOffset>11</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>7</Offset>
+       <Length>24</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Type</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>31</Offset>
+       <Length>12</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Channel</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>43</Offset>
+       <Length>33</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Category Code 5</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Zone Mgr</FieldName>
+       <BitOffset>51</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>81</Offset>
+       <Length>35</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Category Code 7</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>116</Offset>
+       <Length>3</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Regional Sales Mgr</FieldName>
+       <BitOffset>43</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>15</NoOfSymbols>
+       <Offset>119</Offset>
+       <Length>69</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Distribution Channel Mgr</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>188</Offset>
+       <Length>24</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Region Code</FieldName>
+       <BitOffset>57</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>212</Offset>
+       <Length>28</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Price Discount Cde 4</FieldName>
+       <BitOffset>61</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>240</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Line of Business</FieldName>
+       <BitOffset>62</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>249</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Sales Volume</FieldName>
+       <BitOffset>59</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>258</Offset>
+       <Length>17</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>347</NoOfSymbols>
+       <Offset>275</Offset>
+       <Length>5272</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Address Number</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>346</NoOfSymbols>
+       <Offset>5547</Offset>
+       <Length>3460</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+         <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Number</FieldName>
+       <BitOffset>25</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>346</NoOfSymbols>
+       <Offset>9007</Offset>
+       <Length>4844</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Consolidated</FieldName>
+       <BitOffset>34</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>347</NoOfSymbols>
+       <Offset>13851</Offset>
+       <Length>3607</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Search Type</FieldName>
+       <BitOffset>63</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17458</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Phone</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>17464</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Business Unit</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>17478</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SIC Code</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>17485</Offset>
+       <Length>12</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Tax Certificate</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>17497</Offset>
+       <Length>22</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>8</RecordByteSize>
+   <NoOfRecords>347</NoOfRecords>
+   <Offset>17519</Offset>
+   <Length>2776</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+   <TableTags></TableTags>
+   <ProfilingData></ProfilingData>
+ </QvdTableHeader>
+    2 R3 R2 O2 R1 R4 O1 G2 G3 G1 C7 C6 C10 C1 C8 C9 C2 C3     ZM5 ZM1 ZM8 ZM4 ZM2 ZM6 ZM7 N S16 S4 S3 S5 S9 S1 S14 S13 S19 S11 S2 S12 S22 S20 S18 JL TT RN OE JV DB    1    4    2    3     P1     M1     PC AP UP Hetrick Systems LiveWire BBS and   Favourite Links Brinco Ltd. FIBERWORKS DCS Laboratory Telus Corporation Tally Systems Earth Filmotype DEAC Sagent Ubicco ValiCert Caribian Specialties Clearout Benedict Tao Group Harvard Trust Company Today Zero-Knowledge Systems Signature Aaron Products A2Z Solutions Pacifico Towmotor Corporation Pacific Sierra Research Laker Airways Robust Code Dayton Malleable Inc. E Corp. Neostar Ra Co Amo Satronix ActionWorld Taos Mountain Xyplex Sigma Duke Hauppauge Works Ethyl Corporation MATRIX Valley  Solutions Vanstar Taligent Sifton Properties Limited City Fresh Foods Tailwind David L. Babson & Co., Inc. Helios Ilog Kari & Associates Deak-Perera Group. Dellovade, A.C./Dick Corp/Kendall Trend Line Corporation Ottercom Warsun International Gemini Controls XCOM Home Team Times Mirror Company High  Logistics (HTL) Venred N.Graphics Lmao Edorex Informatik C & C  Design HCHS Outbreak Geac SAS Distribution Ready-to-Run Reveal Products Hobart Manufacturing Company Toledo Edison Company Kabbalah Pinnacle Management Systems Editor Ibis R2J2 Racal-Datacom Remedy ScotGold Products Henning Industrial Labatt Brewing Company Ltd. Debenhams Ltd. CAF Systemhaus C & J Engineering Xetron SAIC Wateridge DCS International Soloman Brothers UTStarGate Illuminati AA-Wizard Quantum Group Road Warrior International Razorfish Transalta Utilities Corporation Finishing Stone Consolidated Corporation Saturnus Multi produkten Xtreme Salamander WBM Group Bechtel Corporation C & M Distributors HCS ACT Laboratory Watcom International Chas T. Main, Inc. Onetouch Interactive Pink Elephant Home Pages Abacus Niagara Home Automation (HAI) Teca-Print Livermore  Laboratories (LSLI) Gartner Group Meals on Plates Active Voice Pacific Handheld High Country Access Felidae Enterprises Homebound edit.nl Ping Unisys STARS RKS Rave Association HBO & Company Siemens Nixdorf Fibronics Zentrum f√ºr Interaktive Medien (ZIM) DC-Works Information Bureau Papyrus Consultants Fokas Kaim Associates Pinnacle Trading Canter SignatureFactory R&R Group Team Financial Management Systems Talou Pacific Matics Tredegar Company We Find It 4 U RFI Corporation Lamson and Session Company Racal Recorders RealiDyne UniForum David Spencer Ltd. Target Marketing Iconation Active Network Systems YourFuture Tampa Bay Interactive Your Site Southern Company A&R Partners Quantum Leap  Solutions Unitec Systems Garza Industries BigJobs GE Fanuc Automation EDP Idyllwild Pinnacle Unison Management Concepts Fill It Quantex Microsystems UUmail Kawneer Company XVT Bizmarts Panzl Minneapolis Star and Tribune Company GDSS Reuters Usability Group KeyComm Valley Scribe Stone Container Corporation CAPCON Caravelle Uniplex Paperless  Group Active Data Zero Assumption Recovery eDistrict Kazinformcom Keystar  Training Sage Patient Trust Company of Georgia Pathlight Data Systems Carden Jennings Publishing Icon Site Builders Miles Laboratories, Inc. Pantech International a2i Harbour and Associates Kool-Seal Safetynet U.S. West Zitel Litton Oklahoma  Marketing Unisys Xenet SASCO PC Products Tangent Valpatken F. & R. Lazarus and Company Molson Breweries BL Trading Berkeley Design VA Research ZipLip.Com BizNet Equity Management Trust (BEMT) Kensington  Group Hershey Chocolate Corporation Metro-Goldwyn-Mayer, Inc. ACS Lynn-Arthur Associates (LLA) SataMine CAPTA De La Rue (Thomas) and Company e-MDs Caprica  Resources ediSys SNC Group activeDesign Cam-Built Prpgramming Plus TargetedListings Neeka U.S. Robotics Aaron D. Meyer & Associates Pace Bigelow Sandford Bitstream PING K.C. Irving Abbotsbury Hegemony LiveWORLD Debian Zephyr OutPost Network IBVA TAGnology Pinnacle Micro Heurikon Xediom Capitola Works Abbott Time Warner zNET Edna Design IBEX East TransCanada Pipelines Limited iLanguage Qwest Satyam NACSCORP Venable RC Micrographix Haz-Mat D-Zines NECX Direct TICOR Radio Progressive MontrTal Output Enablers UNIS LUMIN Telesat Canada United Stationers Age Tampere United Switch Gulf and Western Industries Zilog Screaming Solutions Ventures Pacific Group Revolutionary Systems Farr Alpaca Company Pacel Tanager R&J Southwire Company Packard Bell Southam Inc. RC Cambio EDS A-ARVIN Laser Resources Del Monte Corporation CAM Group K International Edify Savetz Publishing Scottish Highlands and Islands server Ben and Jerry‚Äôs Scientific Atlanta ReviewBooth KentISP Pacific Voice Harte-Hanks (formerly Locator) Harvey Xilinx Karsing Xentec R.J. Matter & Associates PacificServ Sigma Matradi Gate Kentucky Utilities Company Papyrus Holy  Developers ACS  Shop Litton FiberCom PAP (Maintenance) K&M Enterprises Fins Paracel DDR J. S. Lee Associates Screen Saver.com Renegade info Crew UniPress Ferst Koppers Company, Inc. HMR EDGE Systems Betacorp Tandy Corporation Gastown space Central Soya Company QualServe Icon Salamander Junction Texasgulf Inc. Revnet Systems Panngea Capitolnet Marketing Group (CMG) Onestar Healtheon WDND 10015793 10019900 10007120 10011981 10009656 10025248 10025033 10010698 10012234 10009672 10023513 10025305 10025778 10000455 10009631 10004256 10025049 10014495 10025264 10027381 10024262 10000473 10000466 10021222 10025284 10021184 10019678 10023489 10009647 10009985 10020663 10022456 10023778 10002506 10025051 10026861 10024260 10014546 10011398 10020192 10025791 10025919 10025025 10024248 10000000 10025021 10009642 10015275 10017585 10018867 10009676 10026055 10025291 10020915 10026291 10013765 10026522 10016564 10025252 10016045 10026078 10020445 10019942 10010969 10007121 10014803 10020927 10013509 10023715 10022750 10023221 10016334 10025269 10018644 10021977 10010914 10016807 10022450 10022490 10023003 10024006 10015495 10019665 10009679 10007355 10007122 10026581 10023516 10009654 10024499 10025758 10017576 10000475 10022249 10023471 10022725 10025285 10012422 10024725 10023783 10026839 10023524 10026336 10003795 10007123 10014804 10002489 10026299 10009623 10020914 10021936 10016549 10000478 10016548 10025243 10019897 10013188 10000460 10002765 10021175 10016047 10011734 10016588 10010912 10021911 10025560 10023447 10022678 10014779 10024246 10011997 10027340 10009657 10017638 10021470 10012715 10018665 10021996 10008134 10024270 10022434 10025238 10025034 10021179 10025289 10026355 10023275 10019682 10022470 10022764 10025495 10009643 10025061 10017072 10002746 10027053 10025036 10027050 10024541 10000458 10022252 10025571 10013232 10006093 10013472 10010970 10017314 10021962 10025552 10012226 10022183 10025769 10018885 10026843 10006846 10021418 10020393 10013467 10023212 10019388 10025808 10024743 10008381 10008893 10025511 10021458 10002709 10027356 10010904 10018890 10019400 10023510 10021673 10025296 10021668 10009156 10017054 10020390 10021415 10000462 10014264 10019617 10023509 10025302 10027575 10019879 10020684 10025558 10026536 10023759 10025040 10025814 10011459 10020413 10006862 10004302 10025771 10027572 10006848 10019105 10015783 10020388 10002240 10020171 10023760 10008638 10009662 10011198 10008602 10010906 10024492 10002969 10007577 10025062 10020647 10025300 10000472 10021139 10006037 10006805 10018628 10000480 10015030 10019909 10009697 10027348 10020931 10016858 10024999 10021986 10015824 10026532 10008593 10000481 10025251 10027583 10010935 10016784 10010717 10025287 10017553 10022423 10023785 10020446 10026062 10022732 10014739 10020639 10025250 10000601 10020962 10025549 10025247 10025583 10003720 10025037 10025587 10014047 10027560 10024010 10021185 10023244 10011521 10021145 10025038 10022431 10024550 10021231 10024524 10022730 10007566 10010974 10000474 10009907 10007564 10018580 10010897 10023793 10024009 10004245 10024003 10023235 10019109 10021203 10014469 10014533 10026606 10018871 10026560 10022444 10021223 10024255 10020184 10013252 10019150 10021459 10016542 10002244 10019880 10021422 10018623 10012425 10021485 10009660 10017828 10024022 10023023 10025515 10011923 10019664 10016303 10010886 10005006 10025039 10013238 10009356 10022168 10017036 10023538 10025249 10023241 10021412 10008596 10020909 10014810 10026348 1‘ò 10015793 <‰ò 10019900 P≤ò 10007120 M≈ò 10011981 8ºò 10009656  ˘ò 10025248 I¯ò 10025033 J¿ò 10010698 J∆ò 10012234 Hºò 10009672 YÚò 10023513 Y˘ò 10025305 2˚ò 10025778 Gòò 10000455 ºò 10009631  ßò 10004256 Y¯ò 10025049 œò 10014495 0˘ò 10025264 uô 10027381 Fıò 10024262 Yòò 10000473 Ròò 10000466 fÈò 10021222 D˘ò 10025284 @Èò 10021184 ^„ò 10019678 AÚò 10023489 /ºò 10009647 ÅΩò 10009985 7Áò 10020663 8Óò 10022456 bÛò 10023778 J†ò 10002506 [¯ò 10025051 mˇò 10026861 Dıò 10024260 Rœò 10014546 √ò 10011398 `Âò 10020192 ?˚ò 10025791 ø˚ò 10025919 A¯ò 10025025 8ıò 10024248 Äñò 10000000 =¯ò 10025021 *ºò 10009642 +“ò 10015275 1€ò 10017585 3‡ò 10018867 Lºò 10009676 G¸ò 10026055 K˘ò 10025291 3Ëò 10020915 3˝ò 10026291 EÃò 10013765 ˛ò 10026522 4◊ò 10016564 $˘ò 10025252 -’ò 10016045 ^¸ò 10026078 ]Êò 10020445 f‰ò 10019942 Y¡ò 10010969 Q≤ò 10007121 S–ò 10014803 ?Ëò 10020927 EÀò 10013509 #Ûò 10023715 ^Ôò 10022750 5Òò 10023221 N÷ò 10016334 5˘ò 10025269 Tﬂò 10018644 YÏò 10021977 "¡ò 10010914 'ÿò 10016807 2Óò 10022450 ZÓò 10022490 [ò 10023003 FÙò 10024006 ”ò 10015495 Q„ò 10019665 Oºò 10009679 ;≥ò 10007355 R≤ò 10007122 U˛ò 10026581 \Úò 10023516 6ºò 10009654 3ˆò 10024499 ˚ò 10025758 (€ò 10017576 [òò 10000475 iÌò 10022249 /Úò 10023471 EÔò 10022725 E˘ò 10025285 «ò 10012422 ˜ò 10024725 gÛò 10023783 Wˇò 10026839 dÚò 10023524 `˝ò 10026336 S•ò 10003795 S≤ò 10007123 T–ò 10014804 9†ò 10002489 ;˝ò 10026299 ºò 10009623 2Ëò 10020914 0Ïò 10021936 %◊ò 10016549 ^òò 10000478 $◊ò 10016548 ˘ò 10025243 9‰ò 10019897  ò 10013188 Lòò 10000460 M°ò 10002765 7Èò 10021175 /’ò 10016047 Vƒò 10011734 L◊ò 10016588  ¡ò 10010912 Ïò 10021911 X˙ò 10025560 Úò 10023447 Ôò 10022678 ;–ò 10014779 6ıò 10024246 ]≈ò 10011997 Lô 10027340 9ºò 10009657 f€ò 10017638 ^Íò 10021470 +»ò 10012715 iﬂò 10018665 lÏò 10021996 F∂ò 10008134 Nıò 10024270 "Óò 10022434 ˘ò 10025238 J¯ò 10025034 ;Èò 10021179 I˘ò 10025289 s˝ò 10026355 kÒò 10023275 b„ò 10019682 FÓò 10022470 lÔò 10022764 ˙ò 10025495 +ºò 10009643 e¯ò 10025061 0Ÿò 10017072 :°ò 10002746 - ô 10027053 L¯ò 10025036 * ô 10027050 ]ˆò 10024541 Jòò 10000458 lÌò 10022252 c˙ò 10025571 0 ò 10013232 MÆò 10006093  Àò 10013472 Z¡ò 10010970 "⁄ò 10017314 JÏò 10021962 P˙ò 10025552 B∆ò 10012226 'Ìò 10022183 )˚ò 10025769 E‡ò 10018885 [ˇò 10026843 >±ò 10006846 *Íò 10021418 )Êò 10020393 Àò 10013467 ,Òò 10023212 <‚ò 10019388 P˚ò 10025808 '˜ò 10024743 =∑ò 10008381 =πò 10008893 '˙ò 10025511 RÍò 10021458 °ò 10002709 \ô 10027356 ¡ò 10010904 J‡ò 10018890 H‚ò 10019400 VÚò 10023510 )Îò 10021673 P˘ò 10025296 $Îò 10021668 D∫ò 10009156 Ÿò 10017054 &Êò 10020390 'Íò 10021415 Nòò 10000462 8Œò 10014264 !„ò 10019617 UÚò 10023509 V˘ò 10025302 7ô 10027575 '‰ò 10019879 LÁò 10020684 V˙ò 10025558 (˛ò 10026536 OÛò 10023759 P¯ò 10025040 V˚ò 10025814 C√ò 10011459 =Êò 10020413 N±ò 10006862 Nßò 10004302 +˚ò 10025771 4ô 10027572 @±ò 10006848 !·ò 10019105 '‘ò 10015783 $Êò 10020388 @üò 10002240 KÂò 10020171 PÛò 10023760 >∏ò 10008638 >ºò 10009662 >¬ò 10011198 ∏ò 10008602 ¡ò 10010906 ,ˆò 10024492 ¢ò 10002969 ¥ò 10007577 f¯ò 10025062 'Áò 10020647 T˘ò 10025300 Xòò 10000472 Èò 10021139 Æò 10006037 ±ò 10006805 Dﬂò 10018628 `òò 10000480 6—ò 10015030 E‰ò 10019909 aºò 10009697 Tô 10027348 CËò 10020931 Zÿò 10016858 '¯ò 10024999 bÏò 10021986 P‘ò 10015824 $˛ò 10026532 ∏ò 10008593 aòò 10000481 #˘ò 10025251 ?ô 10027583 7¡ò 10010935 ÿò 10016784 ]¿ò 10010717 G˘ò 10025287 €ò 10017553 Óò 10022423 iÛò 10023785 ^Êò 10020446 N¸ò 10026062 LÔò 10022732 –ò 10014739 Áò 10020639 "˘ò 10025250 Ÿòò 10000601 bËò 10020962 M˙ò 10025549 ˘ò 10025247 o˙ò 10025583 •ò 10003720 M¯ò 10025037 s˙ò 10025587 _Õò 10014047 (ô 10027560 JÙò 10024010 AÈò 10021185 LÒò 10023244 Å√ò 10011521 Èò 10021145 N¯ò 10025038 Óò 10022431 fˆò 10024550 oÈò 10021231 Lˆò 10024524 JÔò 10022730 ¥ò 10007566 ^¡ò 10010974 Zòò 10000474 3Ωò 10009907 ¥ò 10007564 ﬂò 10018580 ¡ò 10010897 qÛò 10023793 IÙò 10024009 ßò 10004245 CÙò 10024003 CÒò 10023235 %·ò 10019109 SÈò 10021203 œò 10014469 Eœò 10014533 n˛ò 10026606 7‡ò 10018871 @˛ò 10026560 ,Óò 10022444 gÈò 10021223 ?ıò 10024255 XÂò 10020184 D ò 10013252 N·ò 10019150 SÍò 10021459 ◊ò 10016542 Düò 10002244 (‰ò 10019880 .Íò 10021422 ?ﬂò 10018623 	«ò 10012425 mÍò 10021485 <ºò 10009660 $‹ò 10017828 VÙò 10024022 oò 10023023 +˙ò 10025515 ≈ò 10011923 P„ò 10019664 /÷ò 10016303 ¡ò 10010886 ™ò 10005006 O¯ò 10025039 6 ò 10013238 ªò 10009356 Ìò 10022168 Ÿò 10017036 rÚò 10023538 !˘ò 10025249 IÒò 10023241 $Íò 10021412 ∏ò 10008596 -Ëò 10020909 Z–ò 10014810 l˝ò 10026348 64  13366 74  13367 Nâ  35150 Dﬁ  56900 ›   221 7  311 Z  346 6 79380 <6 79420 æS 86974 ¥[ 89012 ∑[ 89015 ‘[ 89044 ›[ 89053 ¸[ 89084 [\ 89179 íl 93330 ìl 93331 ∂p 94390 ¯  504   523 2  562 }i  27005 O  591   3355 ∞  5552 24  13362 34  13363 44  13364 1   49 3Ô  61235 åı  62860 ôz  31385 ‚1 78306 ∏K 84920 „Ö  34275 @  1600 :k  27450   3354 54  13365 ûz  31390 &L 85030 B@  16450  65800    16 D„  58180 I„  58185 L„  58188 O„  58191 P„  58192 Ó  60940 í   146 Æ   174 D 69700 I 84250 { 97050 0  560 )  10500 >   62 N„  58190 ∆Ú  62150 oã  35695   526 4  564 8k  27448 n  28180 Ù.  12020 Ñz 96900 *   42 <Ê  58940 ¯ 71416 ˚ 71419 ˇ 71423   71424  71425  71426  71427  71430  71431 å6 79500 	  521 Ò  3825 ¸f 91900 1∞  45105    25 õG  18331   280 ¯  73976 f  358 BD 83010 {  379 –Q 86480 ¿  448 Ÿ  473 ¨p 94380 -  557 .  558 B  578 W  22280 ¿  3520 0   48 ò:  15000 9¡  49465 |G  18300 öG  18330 ùG  18333 z   122 Å¯  63617 úç 101788 & 70950 	 71433 Ú  73970 í  402 ;P 86075   525 ÷j  27350 `1  12640 j˘  63850 Ì  60700 ÿÔ  61400 ¯ì  37880 ö
+  2714 N8 79950 N 85520 Tn 93780 Yn 93785 Ú  3826 ˜D  17655 â   137 ù 70045 ¶  422 ∫$  9402 {   123 Ù   244 †å  36000 v∂  46710 ¬   194 y  377 ^n 93790    4    23 KG  18251   279 ßq  29095 \  348 ~   126 *  554 M  589 P  336 Û  499    8200 5∞  45109 úE  17820 j€  56170 2   50 [   91 f   102 ˛   254 8+ 76600 µ+ 76725 Å  385 zÖ  34170 Ω$  9405 ™‹  56490 åO 85900   517 éã 101262 õè 102299 Ké 101963 ç 101644 @ç 101696 ßç 101799 è 102162 ∆ç 101830 «ç 101831 |å 101500 å 101503 èå 101519 ¡å 101569 A  577 Vé 101974 Wé 101975 Xé 101976 Yé 101977 \é 101980 ç 101637 Ãé 102092 Nç 101710 kç 101739 lç 101740 ®ç 101800 wå 101495 ùå 101533 é 101915 *é 101930 ˚å 101627 ¸å 101628  ç 101632 -ç 101677 V€  56150 Ó   238 Öç 101765 Ñå 101508 àå 101512 ãå 101515 õå 101531 ˘ç 101881 ûå 101534 ˙ç 101882 ¸ç 101884 é 101907 –å 101584 ç 101636 Ò1  12785 ©∂  46761 ®∂  46760 \ç 101724 ]ç 101725 ^ç 101726 mç 101741 Ë˝  65000 †ç 101792 °ç 101793 ∂ç 101814 ∑ç 101815 Îç 101867 Ïç 101868 Ìç 101869 ¬å 101570 √å 101571 œå 101583 “å 101586 ”å 101587 ≤  5554 #ç 101667 $ç 101668 G  583 Ç8  14466 ˘é 102137 ˙é 102138 Ù  500    28 Ú   242 È  489 å   140 E   69 j   106 Ò  497   2050 Ä   128 ﬂ7  14303 Ôª  48111 H   72 Ö   133 ä   138 §   164 Ê 70630 #  291 â  393 ï  405 «  455 Œ  462 !  545 Ë  1000 tr  29300    24    30 î   148 •   165 ˜   247 Y  601 L6  13900 /   47 G  327 ±  433   535 -   45 O   79 v  374 S  339 ´   171 U  597 %   37 .   46 ß  423    19 ‘   212    22 F   70 Y   89 ú   156    256 t  372   513   539 m  365 ò  408 á   135 ·   225   272 é 102128 X  600 V  598 ÿã 101336 
+å 101386 ›7  14301 Âã 101349 ~c  25470 ∞c  25520 ∂c  25526 ëÜ 99985 E  581 wt  29815 ¥  61620 €ã 101339 Ëã 101352 å 101401 ñå 101526 ˜å 101623 å 101396 ÃU 87500 s  371 ‚  482 a  353 ◊é 102103 §} 97700 ~ 97800 É  387 Wç 101719 =è 102205 @} 97600 T  596 x  1400 8  312 –é 102096 -  301 q  369 “  466 D  580 L   76 ˘   249   263 é 101905 ;è 102203 ≤_ 90034 ;  571 +  555 C I 816-455-8733    1                                                          
+                	 	$   
+ 
+(    ,    0    4    8    <     @    "D    $H    &L    (P    *T    ,X    .\    0`    2d    4h    6l    8p    :t  @ <x    >|      @Ä   ! !BÑ   " "Dà   # #Få   $ $Hê   % %Jî   & &Lò   ' 'Nú   ( (P†  `) )R§  `* *T®  h+ +V¨  p, ,X∞  - -Z¥  . .\∏  / /^º  0 0`¿  1 1bƒ  2 2d»  3 3fÃ  4 4h–  5 5j‘  6 6lÿ  7 7n‹  8 8p‡  9 9r‰  : :tË  "; ;vÏ  "< <x  "= =zÙ  "> >|¯  "? ?~¸  "@ @Ä  "A AÇ "B BÑ "C CÜ :D Dà bE Eä bF Få bG Gé bH Hê  bI Ií$ bJ Jî( bK Kñ, bL Lò0 bM Mö4 bN Nú8 bO Oû< bP P†@ bQ Q¢D jR R§H rS S¶L T T®P U U™T V V¨X W WÆ\ X X∞` Y Y≤d Z Z¥h [ [∂l \ \∏p ] ]∫t ^ ^ºx _ _æ| ` `¿Ä a a¬Ñ b bƒà c c∆å d d»ê De e î $f fÃò $g gŒú $h h–† $i i“§ $j j‘® $k k÷¨ $l lÿ∞ §m m⁄¥ $n n‹∏ $o oﬁº $p p‡¿ $q q‚ƒ $r r‰» $s sÊÃ $t tË– $u uÍ‘ ,v vÏÿ 4w wÓ‹ 4x x‡ <y yÚ‰ <z zÙË d{ {ˆÏ d| |¯ d} }˙Ù d~ ~¸¯ l ˛¸ Ä Ä  Å Å Ç Ç	 É É Ñ Ñ &Ö Ö
+ &Ü Ü &á á fà à! fâ â% fä ä) fã ã-
+ å å1
+ ç ç5
+ é é9
+ è è=
+ ê ê A
+ ë ë"E í í$I ì ì&Mî î(Q	ï ï*U	ñ ñ,Y	$ó ó.]"	ò ò0a"	ô ô2e"	ö ö4i"	õ õ6m"	ú ú8q"	ù ù:u"	û û<y"	ü ü>}"	† †@Å"	° °BÖ"	¢ ¢Dâ"	£ £Fç"	"§ §Hë"	"• •Jï*	$¶ ¶Lô2Rß ßNù2R® ®P°:S© ©R•:S™ ™T©* ´ ´V≠* ¨ ¨X±* ≠ ≠Zµ* Æ Æ\π* Ø Ø^Ω* ∞ ∞`¡* ± ±b≈* ≤ ≤d…* ≥ ≥fÕ* ¥ ¥h—* µ µj’* ∂ ∂lŸ* ∑ ∑n›* ∏ ∏p·* π πrÂ* ∫ ∫tÈ* ª ªvÌ*º ºxÒ*Ω Ωzı*æ æ|˘*ø ø~˝*¿ ¿Ä+¡ ¡Ç+¬ ¬Ñ	+√ √Ü+ƒ ƒà+≈ ≈ä+∆ ∆å+« «é+"» »ê!+"… …í%+   î)+À Àñ-+Ã Ãò1+Õ Õö5+Œ Œú9+œ œû=+– –†A+— —¢E+“ “§I+” ”¶M+‘ ‘®Q+’ ’™U+÷ ÷¨Y+$◊ ◊Æ]+dÿ ÿ∞a+Ÿ Ÿ≤e+⁄ ⁄¥i+€ €∂m+‹ ‹∏q+Ü› ›∫u+ﬁ ﬁºy+ﬂ ﬂæ}+‡ ‡¿Å+· ·¬Ö+‚ ‚ƒâ+„ „∆ç+‰ ‰»ë+Â Â ï+Ê ÊÃô+Á ÁŒù+Ë Ë–°+È È“•+Í Í‘©+Î Î÷≠+Ï Ïÿ± ÌÌ⁄µ@ÓÓ‹πòÔÔﬁΩò|¯¿C†DÒ‡≈( ÚÒ‚…( ÛÚ‰Õ( ÙÛÊ—(ıÙË’(ÑˆıÍŸ(Ñ˜ˆÏ›h ¯˜Ó·h ˘¯Âh˙˘ÚÈh˚˙ÙÌh¸˚ˆÒh˝¸¯ıh˛˝˙˘hˇ˛¸˝h 	ˇ˛h	 h	
+h	h	h		h	h	h	"h		&h
+		*h	
+.h	2h	6h	:h	>h	Bh	!Fh	#Jh	%Nh	'R 	)V 	+Z 	-^,	/b	1fQ 	3j		5n		7r		9vL		;zL		=~$	 	?Ç$	!	 AÜ$	"	!Cä$	#	"Eé$	$	#Gí$	%	$Iñ$	&	%Kö$	'	&Mû,	(	'O¢,	)	(Q¶T	*	)S™T	+	*UÆT	,	+W≤S -	,Y∂S .	-[∫S/.]æ\Î 0/_¬\Î 10a∆\Î21c \Î32eŒ\Î43g“\Î54i÷\Î65k⁄\Î76mﬁ\Î87o‚\Î98qÊ\Î:9sÍ\Î;:uÓ\Î<;wÚ\Î=<yˆ\Î>={˙\Î?>}˛\Î@?(A@Å	$BAÉ
+)CBÖe+#DCáe+EDâm.!FEãm.!GFçm.#HGè"m.IHë&m/JIì*m/KJï.m/LKó2M7MLô6M7!NMõ:M7ONù>M7#POüBM7#QP°FM7#RQ£JM7#SR•NM7%TSßRM7%UT©VM7%V!U´ZuhW!V≠^uhX)WØbÎY)X±fÎZ)Y≥jÎ
