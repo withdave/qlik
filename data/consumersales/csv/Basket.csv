@@ -1,0 +1,1755 @@
+﻿BasketItem,Basket Produce Line,Basket Product Group Desc,Basket Product Line Desc,Basket Product Sub Group Desc,Basket Product Type Desc,Basket Item Desc
+CR-10731,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Imagine Popsicles
+CR-10731,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Imagine Popsicles
+CR-10799,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Prepared Salad
+CR-10799,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Prepared Salad
+CR-10029,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Chicken Ramen Soup
+CR-10029,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Chicken Ramen Soup
+CR-10690,1,Deli,Food,Hot Dogs,Meat,Cutting Edge Foot-Long Hot Dogs
+CR-10690,1,Deli,Drink,Hot Dogs,Meat,Cutting Edge Foot-Long Hot Dogs
+CR-10084,1,Frozen Foods,Food,Frozen Chicken,Meat,Golden Frozen Chicken Breast
+CR-10084,1,Frozen Foods,Drink,Frozen Chicken,Meat,Golden Frozen Chicken Breast
+CR-10397,1,Frozen Foods,Food,French Fries,Vegetables,Big Time Low Fat French Fries
+CR-10397,1,Frozen Foods,Drink,French Fries,Vegetables,Big Time Low Fat French Fries
+CR-10400,1,Frozen Foods,Food,French Fries,Vegetables,Big Time Fajita French Fries
+CR-10400,1,Frozen Foods,Drink,French Fries,Vegetables,Big Time Fajita French Fries
+CR-10797,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony New Potatos
+CR-10797,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony New Potatos
+CR-10035,1,Canned Foods,Food,Oysters,Canned Oysters,Blue Label Fancy Canned Oysters
+CR-10035,1,Canned Foods,Drink,Oysters,Canned Oysters,Blue Label Fancy Canned Oysters
+CR-10345,1,Canned Foods,Food,Clams,Canned Clams,Better Fancy Canned Clams
+CR-10345,1,Canned Foods,Drink,Clams,Canned Clams,Better Fancy Canned Clams
+CR-10887,1,Starchy Foods,Food,Rice,Starchy Foods,Monarch Rice Medly
+CR-10887,1,Starchy Foods,Drink,Rice,Starchy Foods,Monarch Rice Medly
+CR-10369,2,Dairy,Food,Milk,Dairy,Carlson Chocolate Milk
+CR-10369,2,Dairy,Drink,Milk,Dairy,Carlson Chocolate Milk
+CR-10484,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Asparagus
+CR-10484,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Asparagus
+CR-10867,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Strawberry Fruit Roll
+CR-10867,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Strawberry Fruit Roll
+CR-10638,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Canned Beets
+CR-10638,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Canned Beets
+CR-10942,2,Beverages,Food,Soda,Carbonated Beverages,Fabulous Cream Soda
+CR-10942,2,Beverages,Drink,Soda,Carbonated Beverages,Fabulous Cream Soda
+CR-10973,1,Canned Foods,Food,Oysters,Canned Oysters,Just Right Fancy Canned Oysters
+CR-10973,1,Canned Foods,Drink,Oysters,Canned Oysters,Just Right Fancy Canned Oysters
+CR-10621,1,Baking Goods,Food,Preserves,Jams and Jellies,Landslide Apple Preserves
+CR-10621,1,Baking Goods,Drink,Preserves,Jams and Jellies,Landslide Apple Preserves
+CR-10623,2,Beverages,Food,Juice,Pure Juice Beverages,Token Berry Juice
+CR-10623,2,Beverages,Drink,Juice,Pure Juice Beverages,Token Berry Juice
+CR-10077,1,Eggs,Food,Eggs,Eggs,Blue Medal Small Brown Eggs
+CR-10077,1,Eggs,Drink,Eggs,Eggs,Blue Medal Small Brown Eggs
+CR-10637,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Radius Grits
+CR-10637,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Radius Grits
+CR-10584,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Walrus Light Beer
+CR-10584,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Walrus Light Beer
+CR-10385,1,Deli,Food,Deli Meats,Meat,Moms Sliced Ham
+CR-10385,1,Deli,Drink,Deli Meats,Meat,Moms Sliced Ham
+CR-10935,1,Baking Goods,Food,Preserves,Jams and Jellies,BBB Best Strawberry Preserves
+CR-10935,1,Baking Goods,Drink,Preserves,Jams and Jellies,BBB Best Strawberry Preserves
+CR-10529,1,Snack Foods,Food,Chips,Snack Foods,Fast BBQ Potato Chips
+CR-10529,1,Snack Foods,Drink,Chips,Snack Foods,Fast BBQ Potato Chips
+CR-10893,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Pearl Imported Beer
+CR-10893,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Pearl Imported Beer
+CR-10898,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl Chardonnay
+CR-10898,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl Chardonnay
+CR-10880,1,Snacks,Food,Hard Candy,Candy,Thresher Spicy Mints
+CR-10880,1,Snacks,Drink,Hard Candy,Candy,Thresher Spicy Mints
+CR-10927,1,Baking Goods,Food,Spices,Baking Goods,BBB Best Salt
+CR-10927,1,Baking Goods,Drink,Spices,Baking Goods,BBB Best Salt
+CR-10680,2,Dairy,Food,Milk,Dairy,Gorilla Chocolate Milk
+CR-10680,2,Dairy,Drink,Milk,Dairy,Gorilla Chocolate Milk
+CR-10066,1,Deli,Food,Bologna,Meat,Red Spade Low Fat Bologna
+CR-10066,1,Deli,Drink,Bologna,Meat,Red Spade Low Fat Bologna
+CR-10392,1,Eggs,Food,Eggs,Eggs,Urban Egg Substitute
+CR-10392,1,Eggs,Drink,Eggs,Eggs,Urban Egg Substitute
+CR-10394,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Big Time Orange Popsicles
+CR-10394,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Big Time Orange Popsicles
+CR-10065,1,Deli,Food,Bologna,Meat,Red Spade Beef Bologna
+CR-10065,1,Deli,Drink,Bologna,Meat,Red Spade Beef Bologna
+CR-10414,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Big Time Ice Cream
+CR-10414,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Big Time Ice Cream
+CR-10642,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Canned Yams
+CR-10642,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Canned Yams
+CR-10412,1,Frozen Foods,Food,French Fries,Vegetables,Big Time Home Style French Fries
+CR-10412,1,Frozen Foods,Drink,French Fries,Vegetables,Big Time Home Style French Fries
+CR-10925,1,Baking Goods,Food,Spices,Baking Goods,BBB Best Pepper
+CR-10925,1,Baking Goods,Drink,Spices,Baking Goods,BBB Best Pepper
+CR-10068,1,Deli,Food,Hot Dogs,Meat,Red Spade Foot-Long Hot Dogs
+CR-10068,1,Deli,Drink,Hot Dogs,Meat,Red Spade Foot-Long Hot Dogs
+CR-10010,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Apple Juice
+CR-10010,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Apple Juice
+CR-10872,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Golden Raisins
+CR-10872,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Golden Raisins
+CR-10870,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Dried Dates
+CR-10870,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Dried Dates
+CR-10347,1,Canned Foods,Food,Sardines,Canned Sardines,Better Fancy Canned Sardines
+CR-10347,1,Canned Foods,Drink,Sardines,Canned Sardines,Better Fancy Canned Sardines
+CR-10101,1,Frozen Foods,Food,French Fries,Vegetables,Golden Home Style French Fries
+CR-10101,1,Frozen Foods,Drink,French Fries,Vegetables,Golden Home Style French Fries
+CR-10684,1,Dairy,Food,Yogurt,Dairy,Gorilla Blueberry Yogurt
+CR-10684,1,Dairy,Drink,Yogurt,Dairy,Gorilla Blueberry Yogurt
+CR-10814,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Squash
+CR-10814,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Squash
+CR-10936,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,BBB Best Extra Chunky Peanut Butter
+CR-10936,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,BBB Best Extra Chunky Peanut Butter
+CR-10048,1,Dairy,Food,Cheese,Dairy,Club String Cheese
+CR-10048,1,Dairy,Drink,Cheese,Dairy,Club String Cheese
+CR-10050,1,Dairy,Food,Cheese,Dairy,Club Havarti Cheese
+CR-10050,1,Dairy,Drink,Cheese,Dairy,Club Havarti Cheese
+CR-10093,1,Frozen Foods,Food,Pizza,Pizza,Golden Frozen Mushroom Pizza
+CR-10093,1,Frozen Foods,Drink,Pizza,Pizza,Golden Frozen Mushroom Pizza
+CR-11241,1,Deli,Food,Fresh Chicken,Meat,American Roasted Chicken
+CR-11241,1,Deli,Drink,Fresh Chicken,Meat,American Roasted Chicken
+CR-10644,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Canned Tomatos
+CR-10644,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Canned Tomatos
+CR-10282,1,Baked Goods,Food,Sliced Bread,Bread,Great Wheat Bread
+CR-10282,1,Baked Goods,Drink,Sliced Bread,Bread,Great Wheat Bread
+CR-10701,1,Eggs,Food,Eggs,Eggs,Jumbo Small Eggs
+CR-10701,1,Eggs,Drink,Eggs,Eggs,Jumbo Small Eggs
+CR-10362,1,Dairy,Food,Cheese,Dairy,Carlson Head Cheese
+CR-10362,1,Dairy,Drink,Cheese,Dairy,Carlson Head Cheese
+CR-10281,1,Baked Goods,Food,Muffins,Bread,Great Blueberry Muffins
+CR-10281,1,Baked Goods,Drink,Muffins,Bread,Great Blueberry Muffins
+CR-10672,1,Dairy,Food,Cheese,Dairy,Gorilla Havarti Cheese
+CR-10672,1,Dairy,Drink,Cheese,Dairy,Gorilla Havarti Cheese
+CR-10953,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Special Grits
+CR-10953,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Special Grits
+CR-10360,1,Dairy,Food,Cheese,Dairy,Carlson Low Fat String Cheese
+CR-10360,1,Dairy,Drink,Cheese,Dairy,Carlson Low Fat String Cheese
+CR-10059,2,Dairy,Food,Milk,Dairy,Club 1% Milk
+CR-10059,2,Dairy,Drink,Milk,Dairy,Club 1% Milk
+CR-10965,1,Canned Foods,Food,Soup,Canned Soup,Just Right Beef Soup
+CR-10965,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Beef Soup
+CR-10332,1,Canned Foods,Food,Soup,Canned Soup,Better Vegetable Soup
+CR-10332,1,Canned Foods,Drink,Soup,Canned Soup,Better Vegetable Soup
+CR-10241,1,Snack Foods,Food,Crackers,Snack Foods,Best Choice Sesame Crackers
+CR-10241,1,Snack Foods,Drink,Crackers,Snack Foods,Best Choice Sesame Crackers
+CR-10026,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Turkey Noodle Soup
+CR-10026,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Turkey Noodle Soup
+CR-10825,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Broccoli
+CR-10825,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Broccoli
+CR-10613,1,Baking Goods,Food,Spices,Baking Goods,Landslide Oregano
+CR-10613,1,Baking Goods,Drink,Spices,Baking Goods,Landslide Oregano
+CR-10946,2,Beverages,Food,Juice,Pure Juice Beverages,Fabulous Orange Juice
+CR-10946,2,Beverages,Drink,Juice,Pure Juice Beverages,Fabulous Orange Juice
+CR-10514,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Broccoli
+CR-10514,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Broccoli
+CR-10821,1,Produce,Food,Fresh Fruit,Fruit,Ebony Lemons
+CR-10821,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Lemons
+CR-10665,1,Dairy,Food,Cottage Cheese,Dairy,Gorilla Low Fat Cottage Cheese
+CR-10665,1,Dairy,Drink,Cottage Cheese,Dairy,Gorilla Low Fat Cottage Cheese
+CR-10654,1,Canned Foods,Food,Shrimp,Canned Shrimp,Bravo Large Canned Shrimp
+CR-10654,1,Canned Foods,Drink,Shrimp,Canned Shrimp,Bravo Large Canned Shrimp
+CR-10383,1,Deli,Food,Deli Meats,Meat,Moms Corned Beef
+CR-10383,1,Deli,Drink,Deli Meats,Meat,Moms Corned Beef
+CR-10291,1,Baking Goods,Food,Cooking Oil,Baking Goods,Super Vegetable Oil
+CR-10291,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Super Vegetable Oil
+CR-10004,2,Beverages,Food,Soda,Carbonated Beverages,Washington Cream Soda
+CR-10004,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Cream Soda
+CR-10395,1,Frozen Foods,Food,Frozen Chicken,Meat,Big Time Frozen Chicken Breast
+CR-10395,1,Frozen Foods,Drink,Frozen Chicken,Meat,Big Time Frozen Chicken Breast
+CR-10716,1,Frozen Foods,Food,Waffles,Breakfast Foods,Imagine Apple Cinnamon Waffles
+CR-10716,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Imagine Apple Cinnamon Waffles
+CR-10992,1,Dairy,Food,Cheese,Dairy,Even Better Mild Cheddar Cheese
+CR-10992,1,Dairy,Drink,Cheese,Dairy,Even Better Mild Cheddar Cheese
+CR-10046,1,Dairy,Food,Cheese,Dairy,Club Jack Cheese
+CR-10046,1,Dairy,Drink,Cheese,Dairy,Club Jack Cheese
+CR-10970,1,Canned Foods,Food,Shrimp,Canned Shrimp,Just Right Large Canned Shrimp
+CR-10970,1,Canned Foods,Drink,Shrimp,Canned Shrimp,Just Right Large Canned Shrimp
+CR-10384,1,Deli,Food,Deli Meats,Meat,Moms Sliced Turkey
+CR-10384,1,Deli,Drink,Deli Meats,Meat,Moms Sliced Turkey
+CR-10576,1,Starchy Foods,Food,Rice,Starchy Foods,Shady Lake Rice Medly
+CR-10576,1,Starchy Foods,Drink,Rice,Starchy Foods,Shady Lake Rice Medly
+CR-10948,2,Beverages,Food,Juice,Pure Juice Beverages,Fabulous Apple Juice
+CR-10948,2,Beverages,Drink,Juice,Pure Juice Beverages,Fabulous Apple Juice
+CR-10554,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Dried Apples
+CR-10554,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Dried Apples
+CR-10521,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Fuji Apples
+CR-10521,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Fuji Apples
+CR-10889,1,Starchy Foods,Food,Pasta,Starchy Foods,Discover Manicotti
+CR-10889,1,Starchy Foods,Drink,Pasta,Starchy Foods,Discover Manicotti
+CR-10184,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Garlic
+CR-10184,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Garlic
+CR-10218,1,Snack Foods,Food,Chips,Snack Foods,Best Choice BBQ Potato Chips
+CR-10218,1,Snack Foods,Drink,Chips,Snack Foods,Best Choice BBQ Potato Chips
+CR-10570,1,Snacks,Food,Hard Candy,Candy,Atomic Mints
+CR-10570,1,Snacks,Drink,Hard Candy,Candy,Atomic Mints
+CR-10813,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Fresh Lima Beans
+CR-10813,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Fresh Lima Beans
+CR-10504,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Limes
+CR-10504,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Limes
+CR-10197,1,Produce,Food,Fresh Fruit,Fruit,High Top Golden Delcious Apples
+CR-10197,1,Produce,Drink,Fresh Fruit,Fruit,High Top Golden Delcious Apples
+CR-10850,1,Snack Foods,Food,Crackers,Snack Foods,Nationeel Cheese Crackers
+CR-10850,1,Snack Foods,Drink,Crackers,Snack Foods,Nationeel Cheese Crackers
+CR-10633,2,Beverages,Food,Flavored Drinks,Drinks,Token Apple Drink
+CR-10633,2,Beverages,Drink,Flavored Drinks,Drinks,Token Apple Drink
+CR-10252,1,Snack Foods,Food,Donuts,Snack Foods,Best Choice Frosted Donuts
+CR-10252,1,Snack Foods,Drink,Donuts,Snack Foods,Best Choice Frosted Donuts
+CR-10949,2,Beverages,Food,Flavored Drinks,Drinks,Fabulous Apple Drink
+CR-10949,2,Beverages,Drink,Flavored Drinks,Drinks,Fabulous Apple Drink
+CR-10530,1,Snack Foods,Food,Chips,Snack Foods,Fast Corn Chips
+CR-10530,1,Snack Foods,Drink,Chips,Snack Foods,Fast Corn Chips
+CR-10187,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Tomatos
+CR-10187,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Tomatos
+CR-10250,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Golden Raisins
+CR-10250,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Golden Raisins
+CR-10912,2,Beverages,Food,Chocolate,Hot Beverages,BBB Best Hot Chocolate
+CR-10912,2,Beverages,Drink,Chocolate,Hot Beverages,BBB Best Hot Chocolate
+CR-10388,1,Eggs,Food,Eggs,Eggs,Urban Small Brown Eggs
+CR-10388,1,Eggs,Drink,Eggs,Eggs,Urban Small Brown Eggs
+CR-10413,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Big Time Lime Popsicles
+CR-10413,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Big Time Lime Popsicles
+CR-10390,1,Eggs,Food,Eggs,Eggs,Urban Small Eggs
+CR-10390,1,Eggs,Drink,Eggs,Eggs,Urban Small Eggs
+CR-10567,1,Snacks,Food,Chocolate Candy,Candy,Atomic Semi-Sweet Chocolate Bar
+CR-10567,1,Snacks,Drink,Chocolate Candy,Candy,Atomic Semi-Sweet Chocolate Bar
+CR-10288,2,Beverages,Food,Coffee,Hot Beverages,Super French Roast Coffee
+CR-10288,2,Beverages,Drink,Coffee,Hot Beverages,Super French Roast Coffee
+CR-10828,1,Produce,Food,Nuts,Specialty,Ebony Canned Peanuts
+CR-10828,1,Produce,Drink,Nuts,Specialty,Ebony Canned Peanuts
+CR-10568,1,Snacks,Food,Gum,Candy,Atomic Bubble Gum
+CR-10568,1,Snacks,Drink,Gum,Candy,Atomic Bubble Gum
+CR-10391,1,Eggs,Food,Eggs,Eggs,Urban Large Eggs
+CR-10391,1,Eggs,Drink,Eggs,Eggs,Urban Large Eggs
+CR-10508,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Golden Delcious Apples
+CR-10508,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Golden Delcious Apples
+CR-10577,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Walrus Imported Beer
+CR-10577,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Walrus Imported Beer
+CR-10251,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Dried Apricots
+CR-10251,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Dried Apricots
+CR-10869,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Grape Fruit Roll
+CR-10869,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Grape Fruit Roll
+CR-10901,1,Baked Goods,Food,Sliced Bread,Bread,Fantastic Pumpernickel Bread
+CR-10901,1,Baked Goods,Drink,Sliced Bread,Bread,Fantastic Pumpernickel Bread
+CR-10259,1,Snacks,Food,Hard Candy,Candy,Choice Mints
+CR-10259,1,Snacks,Drink,Hard Candy,Candy,Choice Mints
+CR-10670,1,Dairy,Food,Cheese,Dairy,Gorilla String Cheese
+CR-10670,1,Dairy,Drink,Cheese,Dairy,Gorilla String Cheese
+CR-10914,1,Baking Goods,Food,Sugar,Baking Goods,BBB Best White Sugar
+CR-10914,1,Baking Goods,Drink,Sugar,Baking Goods,BBB Best White Sugar
+CR-10964,1,Canned Foods,Food,Soup,Canned Soup,Just Right Turkey Noodle Soup
+CR-10964,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Turkey Noodle Soup
+CR-10102,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Golden Lime Popsicles
+CR-10102,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Golden Lime Popsicles
+CR-10091,1,Frozen Foods,Food,Pizza,Pizza,Golden Frozen Pepperoni Pizza
+CR-10091,1,Frozen Foods,Drink,Pizza,Pizza,Golden Frozen Pepperoni Pizza
+CR-10044,1,Dairy,Food,Sour Cream,Dairy,Club Low Fat Sour Cream
+CR-10044,1,Dairy,Drink,Sour Cream,Dairy,Club Low Fat Sour Cream
+CR-10415,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Big Time Ice Cream Sandwich
+CR-10415,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Big Time Ice Cream Sandwich
+CR-10423,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Big Time Lemon Popsicles
+CR-10423,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Big Time Lemon Popsicles
+CR-10611,1,Baking Goods,Food,Spices,Baking Goods,Landslide Salt
+CR-10611,1,Baking Goods,Drink,Spices,Baking Goods,Landslide Salt
+CR-10944,2,Beverages,Food,Soda,Carbonated Beverages,Fabulous Cola
+CR-10944,2,Beverages,Drink,Soda,Carbonated Beverages,Fabulous Cola
+CR-11000,1,Dairy,Food,Yogurt,Dairy,Even Better Blueberry Yogurt
+CR-11000,1,Dairy,Drink,Yogurt,Dairy,Even Better Blueberry Yogurt
+CR-10206,1,Produce,Food,Nuts,Specialty,High Top Canned Peanuts
+CR-10206,1,Produce,Drink,Nuts,Specialty,High Top Canned Peanuts
+CR-10697,1,Deli,Food,Deli Salads,Side Dishes,Cutting Edge Potato Salad
+CR-10697,1,Deli,Drink,Deli Salads,Side Dishes,Cutting Edge Potato Salad
+CR-10086,1,Frozen Foods,Food,French Fries,Vegetables,Golden Low Fat French Fries
+CR-10086,1,Frozen Foods,Drink,French Fries,Vegetables,Golden Low Fat French Fries
+CR-10671,1,Dairy,Food,Cheese,Dairy,Gorilla Low Fat String Cheese
+CR-10671,1,Dairy,Drink,Cheese,Dairy,Gorilla Low Fat String Cheese
+CR-10506,1,Produce,Food,Nuts,Specialty,Tell Tale Almonds
+CR-10506,1,Produce,Drink,Nuts,Specialty,Tell Tale Almonds
+CR-10399,1,Frozen Foods,Food,Waffles,Breakfast Foods,Big Time Blueberry Waffles
+CR-10399,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Big Time Blueberry Waffles
+CR-10196,1,Produce,Food,Fresh Fruit,Fruit,High Top Macintosh Apples
+CR-10196,1,Produce,Drink,Fresh Fruit,Fruit,High Top Macintosh Apples
+CR-10290,2,Beverages,Food,Coffee,Hot Beverages,Super Regular Coffee
+CR-10290,2,Beverages,Drink,Coffee,Hot Beverages,Super Regular Coffee
+CR-10796,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Sweet Peas
+CR-10796,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Sweet Peas
+CR-10919,1,Baking Goods,Food,Cooking Oil,Baking Goods,BBB Best Corn Oil
+CR-10919,1,Baking Goods,Drink,Cooking Oil,Baking Goods,BBB Best Corn Oil
+CR-10254,1,Snacks,Food,Chocolate Candy,Candy,Choice Mint Chocolate Bar
+CR-10254,1,Snacks,Drink,Chocolate Candy,Candy,Choice Mint Chocolate Bar
+CR-10038,1,Canned Products,Food,Canned Fruit,Fruit,Green Ribbon Canned Mixed Fruit
+CR-10038,1,Canned Products,Drink,Canned Fruit,Fruit,Green Ribbon Canned Mixed Fruit
+CR-10820,1,Produce,Food,Fresh Fruit,Fruit,Ebony Red Delcious Apples
+CR-10820,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Red Delcious Apples
+CR-10327,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Canned Beets
+CR-10327,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Canned Beets
+CR-10407,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Big Time Turkey TV Dinner
+CR-10407,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Big Time Turkey TV Dinner
+CR-10171,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Summer Squash
+CR-10171,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Summer Squash
+CR-10522,1,Produce,Food,Nuts,Specialty,Tell Tale Walnuts
+CR-10522,1,Produce,Drink,Nuts,Specialty,Tell Tale Walnuts
+CR-10933,1,Baking Goods,Food,Jam,Jams and Jellies,BBB Best Strawberry Jam
+CR-10933,1,Baking Goods,Drink,Jam,Jams and Jellies,BBB Best Strawberry Jam
+CR-10883,1,Starchy Foods,Food,Pasta,Starchy Foods,Monarch Ravioli
+CR-10883,1,Starchy Foods,Drink,Pasta,Starchy Foods,Monarch Ravioli
+CR-10876,1,Snacks,Food,Chocolate Candy,Candy,Thresher Mint Chocolate Bar
+CR-10876,1,Snacks,Drink,Chocolate Candy,Candy,Thresher Mint Chocolate Bar
+CR-10856,1,Snack Foods,Food,Pretzels,Snack Foods,Nationeel Salted Pretzels
+CR-10856,1,Snack Foods,Drink,Pretzels,Snack Foods,Nationeel Salted Pretzels
+CR-10315,2,Beverages,Food,Soda,Carbonated Beverages,Excellent Cream Soda
+CR-10315,2,Beverages,Drink,Soda,Carbonated Beverages,Excellent Cream Soda
+CR-10532,1,Snack Foods,Food,Cookies,Snack Foods,Fast Sugar Cookies
+CR-10532,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Sugar Cookies
+CR-10832,1,Produce,Food,Fresh Fruit,Fruit,Ebony Fuji Apples
+CR-10832,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Fuji Apples
+CR-10037,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Rice Soup
+CR-10037,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Rice Soup
+CR-10204,1,Produce,Food,Fresh Fruit,Fruit,High Top Mandarin Oranges
+CR-10204,1,Produce,Drink,Fresh Fruit,Fruit,High Top Mandarin Oranges
+CR-10891,1,Starchy Foods,Food,Rice,Starchy Foods,Discover Thai Rice
+CR-10891,1,Starchy Foods,Drink,Rice,Starchy Foods,Discover Thai Rice
+CR-10569,1,Snacks,Food,Hard Candy,Candy,Atomic Spicy Mints
+CR-10569,1,Snacks,Drink,Hard Candy,Candy,Atomic Spicy Mints
+CR-10683,1,Dairy,Food,Yogurt,Dairy,Gorilla Strawberry Yogurt
+CR-10683,1,Dairy,Drink,Yogurt,Dairy,Gorilla Strawberry Yogurt
+CR-10649,1,Canned Foods,Food,Soup,Canned Soup,Bravo Beef Soup
+CR-10649,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Beef Soup
+CR-10986,1,Dairy,Food,Cheese,Dairy,Even Better String Cheese
+CR-10986,1,Dairy,Drink,Cheese,Dairy,Even Better String Cheese
+CR-10078,1,Eggs,Food,Eggs,Eggs,Blue Medal Large Brown Eggs
+CR-10078,1,Eggs,Drink,Eggs,Eggs,Blue Medal Large Brown Eggs
+CR-10408,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Big Time Chicken TV Dinner
+CR-10408,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Big Time Chicken TV Dinner
+CR-10099,1,Frozen Foods,Food,Pancake Mix,Breakfast Foods,Golden Pancake Mix
+CR-10099,1,Frozen Foods,Drink,Pancake Mix,Breakfast Foods,Golden Pancake Mix
+CR-10326,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Best Grits
+CR-10326,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Best Grits
+CR-10612,1,Baking Goods,Food,Preserves,Jams and Jellies,Landslide Apple Butter
+CR-10612,1,Baking Goods,Drink,Preserves,Jams and Jellies,Landslide Apple Butter
+CR-10328,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Creamed Corn
+CR-10328,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Creamed Corn
+CR-10877,1,Snacks,Food,Chocolate Candy,Candy,Thresher Malted Milk Balls
+CR-10877,1,Snacks,Drink,Chocolate Candy,Candy,Thresher Malted Milk Balls
+CR-10999,1,Dairy,Food,Yogurt,Dairy,Even Better Strawberry Yogurt
+CR-10999,1,Dairy,Drink,Yogurt,Dairy,Even Better Strawberry Yogurt
+CR-10678,2,Dairy,Food,Milk,Dairy,Gorilla 2% Milk
+CR-10678,2,Dairy,Drink,Milk,Dairy,Gorilla 2% Milk
+CR-10296,2,Beverages,Food,Coffee,Hot Beverages,Super Columbian Coffee
+CR-10296,2,Beverages,Drink,Coffee,Hot Beverages,Super Columbian Coffee
+CR-10911,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,BBB Best Chunky Peanut Butter
+CR-10911,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,BBB Best Chunky Peanut Butter
+CR-10679,2,Dairy,Food,Milk,Dairy,Gorilla Buttermilk
+CR-10679,2,Dairy,Drink,Milk,Dairy,Gorilla Buttermilk
+CR-10651,1,Canned Foods,Food,Soup,Canned Soup,Bravo Chicken Ramen Soup
+CR-10651,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Chicken Ramen Soup
+CR-10227,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Graham Crackers
+CR-10227,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Graham Crackers
+CR-10728,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Imagine Frozen Broccoli
+CR-10728,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Imagine Frozen Broccoli
+CR-10645,1,Canned Foods,Food,Soup,Canned Soup,Bravo Noodle Soup
+CR-10645,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Noodle Soup
+CR-10258,1,Snacks,Food,Hard Candy,Candy,Choice Spicy Mints
+CR-10258,1,Snacks,Drink,Hard Candy,Candy,Choice Spicy Mints
+CR-10959,1,Canned Foods,Food,Soup,Canned Soup,Just Right Vegetable Soup
+CR-10959,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Vegetable Soup
+CR-10267,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Light Wine
+CR-10267,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Light Wine
+CR-10329,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Canned String Beans
+CR-10329,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Canned String Beans
+CR-10892,1,Starchy Foods,Food,Rice,Starchy Foods,Discover Rice Medly
+CR-10892,1,Starchy Foods,Drink,Rice,Starchy Foods,Discover Rice Medly
+CR-10855,1,Snack Foods,Food,Dips,Snack Foods,Nationeel Avocado Dip
+CR-10855,1,Snack Foods,Drink,Dips,Snack Foods,Nationeel Avocado Dip
+CR-10609,1,Baking Goods,Food,Spices,Baking Goods,Landslide Pepper
+CR-10609,1,Baking Goods,Drink,Spices,Baking Goods,Landslide Pepper
+CR-10505,1,Produce,Food,Tofu,Packaged Vegetables,Tell Tale Firm Tofu
+CR-10505,1,Produce,Drink,Tofu,Packaged Vegetables,Tell Tale Firm Tofu
+CR-10929,1,Baking Goods,Food,Spices,Baking Goods,BBB Best Oregano
+CR-10929,1,Baking Goods,Drink,Spices,Baking Goods,BBB Best Oregano
+CR-10860,1,Snack Foods,Food,Dried Meat,Snack Foods,Nationeel Beef Jerky
+CR-10860,1,Snack Foods,Drink,Dried Meat,Snack Foods,Nationeel Beef Jerky
+CR-10186,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Cauliflower
+CR-10186,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Cauliflower
+CR-10565,1,Snacks,Food,Chocolate Candy,Candy,Atomic Mint Chocolate Bar
+CR-10565,1,Snacks,Drink,Chocolate Candy,Candy,Atomic Mint Chocolate Bar
+CR-10067,1,Deli,Food,Hot Dogs,Meat,Red Spade Turkey Hot Dogs
+CR-10067,1,Deli,Drink,Hot Dogs,Meat,Red Spade Turkey Hot Dogs
+CR-10928,1,Baking Goods,Food,Preserves,Jams and Jellies,BBB Best Apple Butter
+CR-10928,1,Baking Goods,Drink,Preserves,Jams and Jellies,BBB Best Apple Butter
+CR-10709,1,Frozen Foods,Food,Pizza,Pizza,Imagine Frozen Sausage Pizza
+CR-10709,1,Frozen Foods,Drink,Pizza,Pizza,Imagine Frozen Sausage Pizza
+CR-10110,1,Frozen Foods,Food,Frozen Chicken,Meat,Golden Frozen Chicken Thighs
+CR-10110,1,Frozen Foods,Drink,Frozen Chicken,Meat,Golden Frozen Chicken Thighs
+CR-10578,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Light Wine
+CR-10578,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Light Wine
+CR-10588,1,Baked Goods,Food,Muffins,Bread,Colony English Muffins
+CR-10588,1,Baked Goods,Drink,Muffins,Bread,Colony English Muffins
+CR-10377,1,Deli,Food,Bologna,Meat,Moms Low Fat Bologna
+CR-10377,1,Deli,Drink,Bologna,Meat,Moms Low Fat Bologna
+CR-10019,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Chicken Soup
+CR-10019,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Chicken Soup
+CR-10020,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Canned Yams
+CR-10020,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Canned Yams
+CR-10178,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Onions
+CR-10178,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Onions
+CR-10923,2,Beverages,Food,Coffee,Hot Beverages,BBB Best Columbian Coffee
+CR-10923,2,Beverages,Drink,Coffee,Hot Beverages,BBB Best Columbian Coffee
+CR-10317,2,Beverages,Food,Soda,Carbonated Beverages,Excellent Cola
+CR-10317,2,Beverages,Drink,Soda,Carbonated Beverages,Excellent Cola
+CR-10704,1,Frozen Foods,Food,Waffles,Breakfast Foods,Imagine Low Fat Waffles
+CR-10704,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Imagine Low Fat Waffles
+CR-10630,2,Beverages,Food,Juice,Pure Juice Beverages,Token Orange Juice
+CR-10630,2,Beverages,Drink,Juice,Pure Juice Beverages,Token Orange Juice
+CR-10190,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Dried Mushrooms
+CR-10190,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Dried Mushrooms
+CR-10543,1,Snack Foods,Food,Dips,Snack Foods,Fast Salsa Dip
+CR-10543,1,Snack Foods,Drink,Dips,Snack Foods,Fast Salsa Dip
+CR-10808,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Cauliflower
+CR-10808,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Cauliflower
+CR-10106,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Golden Frozen Broccoli
+CR-10106,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Golden Frozen Broccoli
+CR-11112,1,Deli,Food,Deli Salads,Side Dishes,American Cole Slaw
+CR-11112,1,Deli,Drink,Deli Salads,Side Dishes,American Cole Slaw
+CR-10375,1,Deli,Food,Bologna,Meat,Moms Pimento Loaf
+CR-10375,1,Deli,Drink,Bologna,Meat,Moms Pimento Loaf
+CR-10374,1,Deli,Food,Hot Dogs,Meat,Moms Chicken Hot Dogs
+CR-10374,1,Deli,Drink,Hot Dogs,Meat,Moms Chicken Hot Dogs
+CR-10681,2,Dairy,Food,Milk,Dairy,Gorilla 1% Milk
+CR-10681,2,Dairy,Drink,Milk,Dairy,Gorilla 1% Milk
+CR-10490,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Green Pepper
+CR-10490,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Green Pepper
+CR-10515,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Mandarin Oranges
+CR-10515,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Mandarin Oranges
+CR-10492,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Lettuce
+CR-10492,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Lettuce
+CR-10718,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Imagine Turkey TV Dinner
+CR-10718,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Imagine Turkey TV Dinner
+CR-10105,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Golden Frozen Cauliflower
+CR-10105,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Golden Frozen Cauliflower
+CR-10943,2,Beverages,Food,Soda,Carbonated Beverages,Fabulous Diet Soda
+CR-10943,2,Beverages,Drink,Soda,Carbonated Beverages,Fabulous Diet Soda
+CR-10945,2,Beverages,Food,Soda,Carbonated Beverages,Fabulous Diet Cola
+CR-10945,2,Beverages,Drink,Soda,Carbonated Beverages,Fabulous Diet Cola
+CR-10940,2,Beverages,Food,Flavored Drinks,Drinks,Fabulous Mango Drink
+CR-10940,2,Beverages,Drink,Flavored Drinks,Drinks,Fabulous Mango Drink
+CR-10015,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Jeffers Grits
+CR-10015,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Jeffers Grits
+CR-10416,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Big Time Frozen Cauliflower
+CR-10416,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Big Time Frozen Cauliflower
+CR-10692,1,Deli,Food,Deli Salads,Side Dishes,Cutting Edge Cole Slaw
+CR-10692,1,Deli,Drink,Deli Salads,Side Dishes,Cutting Edge Cole Slaw
+CR-10816,1,Produce,Food,Tofu,Packaged Vegetables,Ebony Firm Tofu
+CR-10816,1,Produce,Drink,Tofu,Packaged Vegetables,Ebony Firm Tofu
+CR-10818,1,Produce,Food,Fresh Fruit,Fruit,Ebony Macintosh Apples
+CR-10818,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Macintosh Apples
+CR-10061,1,Dairy,Food,Yogurt,Dairy,Club Strawberry Yogurt
+CR-10061,1,Dairy,Drink,Yogurt,Dairy,Club Strawberry Yogurt
+CR-10502,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Fresh Lima Beans
+CR-10502,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Fresh Lima Beans
+CR-10007,2,Beverages,Food,Soda,Carbonated Beverages,Washington Diet Cola
+CR-10007,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Diet Cola
+CR-10517,1,Produce,Food,Nuts,Specialty,Tell Tale Canned Peanuts
+CR-10517,1,Produce,Drink,Nuts,Specialty,Tell Tale Canned Peanuts
+CR-10203,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Broccoli
+CR-10203,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Broccoli
+CR-10205,1,Produce,Food,Nuts,Specialty,High Top Mixed Nuts
+CR-10205,1,Produce,Drink,Nuts,Specialty,High Top Mixed Nuts
+CR-10034,1,Canned Foods,Food,Clams,Canned Clams,Blue Label Fancy Canned Clams
+CR-10034,1,Canned Foods,Drink,Clams,Canned Clams,Blue Label Fancy Canned Clams
+CR-10052,1,Dairy,Food,Cheese,Dairy,Club Cheese Spread
+CR-10052,1,Dairy,Drink,Cheese,Dairy,Club Cheese Spread
+CR-10095,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Golden Frozen Carrots
+CR-10095,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Golden Frozen Carrots
+CR-10831,1,Produce,Food,Fresh Fruit,Fruit,Ebony Honey Dew
+CR-10831,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Honey Dew
+CR-10069,1,Deli,Food,Deli Salads,Side Dishes,Red Spade Low Fat Cole Slaw
+CR-10069,1,Deli,Drink,Deli Salads,Side Dishes,Red Spade Low Fat Cole Slaw
+CR-10028,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Canned Peas
+CR-10028,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Canned Peas
+CR-10950,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Special Oatmeal
+CR-10950,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Special Oatmeal
+CR-10017,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Creamed Corn
+CR-10017,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Creamed Corn
+CR-10009,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Cranberry Juice
+CR-10009,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Cranberry Juice
+CR-10240,1,Snack Foods,Food,Chips,Snack Foods,Best Choice Low Fat Chips
+CR-10240,1,Snack Foods,Drink,Chips,Snack Foods,Best Choice Low Fat Chips
+CR-10064,1,Deli,Food,Bologna,Meat,Red Spade Pimento Loaf
+CR-10064,1,Deli,Drink,Bologna,Meat,Red Spade Pimento Loaf
+CR-10062,1,Dairy,Food,Yogurt,Dairy,Club Blueberry Yogurt
+CR-10062,1,Dairy,Drink,Yogurt,Dairy,Club Blueberry Yogurt
+CR-10890,1,Starchy Foods,Food,Pasta,Starchy Foods,Discover Spaghetti
+CR-10890,1,Starchy Foods,Drink,Pasta,Starchy Foods,Discover Spaghetti
+CR-10325,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Best Wheat Puffs
+CR-10325,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Best Wheat Puffs
+CR-10244,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Apple Fruit Roll
+CR-10244,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Apple Fruit Roll
+CR-10033,1,Canned Foods,Food,Anchovies,Canned Anchovies,Blue Label Fancy Canned Anchovies
+CR-10033,1,Canned Foods,Drink,Anchovies,Canned Anchovies,Blue Label Fancy Canned Anchovies
+CR-10618,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Landslide Creamy Peanut Butter
+CR-10618,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Landslide Creamy Peanut Butter
+CR-10593,1,Baked Goods,Food,Sliced Bread,Bread,Colony Wheat Bread
+CR-10593,1,Baked Goods,Drink,Sliced Bread,Bread,Colony Wheat Bread
+CR-10025,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Chicken Noodle Soup
+CR-10025,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Chicken Noodle Soup
+CR-10057,2,Dairy,Food,Milk,Dairy,Club Buttermilk
+CR-10057,2,Dairy,Drink,Milk,Dairy,Club Buttermilk
+CR-10006,2,Beverages,Food,Soda,Carbonated Beverages,Washington Cola
+CR-10006,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Cola
+CR-10991,1,Dairy,Food,Cheese,Dairy,Even Better Sharp Cheddar Cheese
+CR-10991,1,Dairy,Drink,Cheese,Dairy,Even Better Sharp Cheddar Cheese
+CR-10951,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Special Corn Puffs
+CR-10951,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Special Corn Puffs
+CR-10005,2,Beverages,Food,Soda,Carbonated Beverages,Washington Diet Soda
+CR-10005,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Diet Soda
+CR-10002,2,Beverages,Food,Flavored Drinks,Drinks,Washington Mango Drink
+CR-10002,2,Beverages,Drink,Flavored Drinks,Drinks,Washington Mango Drink
+CR-10060,2,Dairy,Food,Milk,Dairy,Club Whole Milk
+CR-10060,2,Dairy,Drink,Milk,Dairy,Club Whole Milk
+CR-10617,1,Baking Goods,Food,Jam,Jams and Jellies,Landslide Strawberry Jam
+CR-10617,1,Baking Goods,Drink,Jam,Jams and Jellies,Landslide Strawberry Jam
+CR-10804,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Elephant Garlic
+CR-10804,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Elephant Garlic
+CR-10592,1,Baked Goods,Food,Muffins,Bread,Colony Blueberry Muffins
+CR-10592,1,Baked Goods,Drink,Muffins,Bread,Colony Blueberry Muffins
+CR-10853,1,Snack Foods,Food,Popcorn,Snack Foods,Nationeel Low Fat Popcorn
+CR-10853,1,Snack Foods,Drink,Popcorn,Snack Foods,Nationeel Low Fat Popcorn
+CR-10553,1,Snack Foods,Food,Cookies,Snack Foods,Fast Frosted Cookies
+CR-10553,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Frosted Cookies
+CR-10591,1,Baked Goods,Food,Bagels,Bread,Colony Bagels
+CR-10591,1,Baked Goods,Drink,Bagels,Bread,Colony Bagels
+CR-10594,1,Baking Goods,Food,Cooking Oil,Baking Goods,Landslide Sesame Oil
+CR-10594,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Landslide Sesame Oil
+CR-10913,1,Baking Goods,Food,Sugar,Baking Goods,BBB Best Brown Sugar
+CR-10913,1,Baking Goods,Drink,Sugar,Baking Goods,BBB Best Brown Sugar
+CR-10589,1,Baked Goods,Food,Muffins,Bread,Colony Cranberry Muffins
+CR-10589,1,Baked Goods,Drink,Muffins,Bread,Colony Cranberry Muffins
+CR-10902,1,Baked Goods,Food,Sliced Bread,Bread,Fantastic White Bread
+CR-10902,1,Baked Goods,Drink,Sliced Bread,Bread,Fantastic White Bread
+CR-10524,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Tangerines
+CR-10524,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Tangerines
+CR-10495,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Garlic
+CR-10495,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Garlic
+CR-10507,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Macintosh Apples
+CR-10507,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Macintosh Apples
+CR-10635,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Radius Corn Puffs
+CR-10635,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Radius Corn Puffs
+CR-10982,1,Dairy,Food,Sour Cream,Dairy,Even Better Low Fat Sour Cream
+CR-10982,1,Dairy,Drink,Sour Cream,Dairy,Even Better Low Fat Sour Cream
+CR-10489,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Onions
+CR-10489,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Onions
+CR-10519,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Cantelope
+CR-10519,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Cantelope
+CR-10500,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Baby Onion
+CR-10500,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Baby Onion
+CR-10558,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Grape Fruit Roll
+CR-10558,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Grape Fruit Roll
+CR-10819,1,Produce,Food,Fresh Fruit,Fruit,Ebony Golden Delcious Apples
+CR-10819,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Golden Delcious Apples
+CR-10501,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Dried Mushrooms
+CR-10501,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Dried Mushrooms
+CR-10845,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Fudge Cookies
+CR-10845,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Fudge Cookies
+CR-10861,1,Snack Foods,Food,Donuts,Snack Foods,Nationeel Chocolate Donuts
+CR-10861,1,Snack Foods,Drink,Donuts,Snack Foods,Nationeel Chocolate Donuts
+CR-10899,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl White Zinfandel Wine
+CR-10899,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl White Zinfandel Wine
+CR-10924,1,Baking Goods,Food,Jelly,Jams and Jellies,BBB Best Strawberry Jelly
+CR-10924,1,Baking Goods,Drink,Jelly,Jams and Jellies,BBB Best Strawberry Jelly
+CR-10967,1,Canned Foods,Food,Soup,Canned Soup,Just Right Chicken Ramen Soup
+CR-10967,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Chicken Ramen Soup
+CR-10211,1,Produce,Food,Nuts,Specialty,High Top Walnuts
+CR-10211,1,Produce,Drink,Nuts,Specialty,High Top Walnuts
+CR-10834,1,Produce,Food,Fresh Fruit,Fruit,Ebony Oranges
+CR-10834,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Oranges
+CR-10411,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Big Time Grape Popsicles
+CR-10411,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Big Time Grape Popsicles
+CR-10201,1,Produce,Food,Fresh Fruit,Fruit,High Top Plums
+CR-10201,1,Produce,Drink,Fresh Fruit,Fruit,High Top Plums
+CR-10323,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Best Oatmeal
+CR-10323,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Best Oatmeal
+CR-10961,1,Canned Foods,Food,Soup,Canned Soup,Just Right Noodle Soup
+CR-10961,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Noodle Soup
+CR-10176,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Beets
+CR-10176,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Beets
+CR-10100,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Golden Grape Popsicles
+CR-10100,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Golden Grape Popsicles
+CR-10021,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Vegetable Soup
+CR-10021,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Vegetable Soup
+CR-10334,1,Canned Foods,Food,Soup,Canned Soup,Better Noodle Soup
+CR-10334,1,Canned Foods,Drink,Soup,Canned Soup,Better Noodle Soup
+CR-10104,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Golden Ice Cream Sandwich
+CR-10104,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Golden Ice Cream Sandwich
+CR-10309,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Super Extra Chunky Peanut Butter
+CR-10309,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Super Extra Chunky Peanut Butter
+CR-10287,1,Baking Goods,Food,Sugar,Baking Goods,Super White Sugar
+CR-10287,1,Baking Goods,Drink,Sugar,Baking Goods,Super White Sugar
+CR-10641,1,Canned Foods,Food,Soup,Canned Soup,Bravo Chicken Soup
+CR-10641,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Chicken Soup
+CR-10409,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Big Time Beef TV Dinner
+CR-10409,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Big Time Beef TV Dinner
+CR-10235,1,Snack Foods,Food,Dips,Snack Foods,Best Choice Cheese Dip
+CR-10235,1,Snack Foods,Drink,Dips,Snack Foods,Best Choice Cheese Dip
+CR-10939,2,Beverages,Food,Juice,Pure Juice Beverages,Fabulous Berry Juice
+CR-10939,2,Beverages,Drink,Juice,Pure Juice Beverages,Fabulous Berry Juice
+CR-10312,2,Beverages,Food,Juice,Pure Juice Beverages,Excellent Berry Juice
+CR-10312,2,Beverages,Drink,Juice,Pure Juice Beverages,Excellent Berry Juice
+CR-10639,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Creamed Corn
+CR-10639,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Creamed Corn
+CR-10520,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Honey Dew
+CR-10520,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Honey Dew
+CR-10222,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Chocolate Chip Cookies
+CR-10222,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Chocolate Chip Cookies
+CR-10807,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Potatos
+CR-10807,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Potatos
+CR-10386,1,Deli,Food,Deli Salads,Side Dishes,Moms Potato Salad
+CR-10386,1,Deli,Drink,Deli Salads,Side Dishes,Moms Potato Salad
+CR-10284,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Super Chunky Peanut Butter
+CR-10284,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Super Chunky Peanut Butter
+CR-10108,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Golden Frozen Peas
+CR-10108,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Golden Frozen Peas
+CR-10643,1,Canned Foods,Food,Soup,Canned Soup,Bravo Vegetable Soup
+CR-10643,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Vegetable Soup
+CR-10823,1,Produce,Food,Fresh Fruit,Fruit,Ebony Plums
+CR-10823,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Plums
+CR-10689,1,Deli,Food,Hot Dogs,Meat,Cutting Edge Turkey Hot Dogs
+CR-10689,1,Deli,Drink,Hot Dogs,Meat,Cutting Edge Turkey Hot Dogs
+CR-10074,1,Deli,Food,Deli Meats,Meat,Red Spade Sliced Ham
+CR-10074,1,Deli,Drink,Deli Meats,Meat,Red Spade Sliced Ham
+CR-10725,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Imagine Ice Cream
+CR-10725,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Imagine Ice Cream
+CR-10308,1,Baking Goods,Food,Preserves,Jams and Jellies,Super Strawberry Preserves
+CR-10308,1,Baking Goods,Drink,Preserves,Jams and Jellies,Super Strawberry Preserves
+CR-10800,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Onions
+CR-10800,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Onions
+CR-11008,1,Baked Goods,Food,Sliced Bread,Bread,American Pimento Loaf
+CR-11008,1,Baked Goods,Drink,Sliced Bread,Bread,American Pimento Loaf
+CR-10279,1,Baked Goods,Food,Muffins,Bread,Great Muffins
+CR-10279,1,Baked Goods,Drink,Muffins,Bread,Great Muffins
+CR-10076,1,Deli,Food,Deli Meats,Meat,Red Spade Sliced Chicken
+CR-10076,1,Deli,Drink,Deli Meats,Meat,Red Spade Sliced Chicken
+CR-10418,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Big Time Frozen Corn
+CR-10418,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Big Time Frozen Corn
+CR-10322,2,Beverages,Food,Flavored Drinks,Drinks,Excellent Apple Drink
+CR-10322,2,Beverages,Drink,Flavored Drinks,Drinks,Excellent Apple Drink
+CR-10228,1,Snack Foods,Food,Crackers,Snack Foods,Best Choice Cheese Crackers
+CR-10228,1,Snack Foods,Drink,Crackers,Snack Foods,Best Choice Cheese Crackers
+CR-10180,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Shitake Mushrooms
+CR-10180,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Shitake Mushrooms
+CR-10361,1,Dairy,Food,Cheese,Dairy,Carlson Havarti Cheese
+CR-10361,1,Dairy,Drink,Cheese,Dairy,Carlson Havarti Cheese
+CR-10354,1,Dairy,Food,Cottage Cheese,Dairy,Carlson Low Fat Cottage Cheese
+CR-10354,1,Dairy,Drink,Cottage Cheese,Dairy,Carlson Low Fat Cottage Cheese
+CR-10574,1,Starchy Foods,Food,Pasta,Starchy Foods,Shady Lake Spaghetti
+CR-10574,1,Starchy Foods,Drink,Pasta,Starchy Foods,Shady Lake Spaghetti
+CR-10843,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Sugar Cookies
+CR-10843,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Sugar Cookies
+CR-10172,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Corn on the Cob
+CR-10172,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Corn on the Cob
+CR-10688,1,Deli,Food,Bologna,Meat,Cutting Edge Low Fat Bologna
+CR-10688,1,Deli,Drink,Bologna,Meat,Cutting Edge Low Fat Bologna
+CR-10822,1,Produce,Food,Fresh Fruit,Fruit,Ebony Fancy Plums
+CR-10822,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Fancy Plums
+CR-10805,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Red Pepper
+CR-10805,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Red Pepper
+CR-10372,1,Dairy,Food,Yogurt,Dairy,Carlson Strawberry Yogurt
+CR-10372,1,Dairy,Drink,Yogurt,Dairy,Carlson Strawberry Yogurt
+CR-10355,1,Dairy,Food,Sour Cream,Dairy,Carlson Low Fat Sour Cream
+CR-10355,1,Dairy,Drink,Sour Cream,Dairy,Carlson Low Fat Sour Cream
+CR-10806,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Garlic
+CR-10806,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Garlic
+CR-10357,1,Dairy,Food,Cheese,Dairy,Carlson Jack Cheese
+CR-10357,1,Dairy,Drink,Cheese,Dairy,Carlson Jack Cheese
+CR-10363,1,Dairy,Food,Cheese,Dairy,Carlson Cheese Spread
+CR-10363,1,Dairy,Drink,Cheese,Dairy,Carlson Cheese Spread
+CR-10607,2,Beverages,Food,Coffee,Hot Beverages,Landslide Columbian Coffee
+CR-10607,2,Beverages,Drink,Coffee,Hot Beverages,Landslide Columbian Coffee
+CR-10182,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Elephant Garlic
+CR-10182,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Elephant Garlic
+CR-10367,2,Dairy,Food,Milk,Dairy,Carlson 2% Milk
+CR-10367,2,Dairy,Drink,Milk,Dairy,Carlson 2% Milk
+CR-10366,1,Dairy,Food,Cottage Cheese,Dairy,Carlson Large Curd Cottage Cheese
+CR-10366,1,Dairy,Drink,Cottage Cheese,Dairy,Carlson Large Curd Cottage Cheese
+CR-10358,1,Dairy,Food,Cheese,Dairy,Carlson Muenster Cheese
+CR-10358,1,Dairy,Drink,Cheese,Dairy,Carlson Muenster Cheese
+CR-10696,1,Deli,Food,Deli Meats,Meat,Cutting Edge Sliced Ham
+CR-10696,1,Deli,Drink,Deli Meats,Meat,Cutting Edge Sliced Ham
+CR-10817,1,Produce,Food,Nuts,Specialty,Ebony Almonds
+CR-10817,1,Produce,Drink,Nuts,Specialty,Ebony Almonds
+CR-10719,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Imagine Chicken TV Dinner
+CR-10719,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Imagine Chicken TV Dinner
+CR-10370,2,Dairy,Food,Milk,Dairy,Carlson 1% Milk
+CR-10370,2,Dairy,Drink,Milk,Dairy,Carlson 1% Milk
+CR-10181,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Lettuce
+CR-10181,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Lettuce
+CR-10364,1,Dairy,Food,Cheese,Dairy,Carlson Sharp Cheddar Cheese
+CR-10364,1,Dairy,Drink,Cheese,Dairy,Carlson Sharp Cheddar Cheese
+CR-10974,1,Canned Foods,Food,Sardines,Canned Sardines,Just Right Fancy Canned Sardines
+CR-10974,1,Canned Foods,Drink,Sardines,Canned Sardines,Just Right Fancy Canned Sardines
+CR-10220,1,Snack Foods,Food,Chips,Snack Foods,Best Choice Low Fat BBQ Chips
+CR-10220,1,Snack Foods,Drink,Chips,Snack Foods,Best Choice Low Fat BBQ Chips
+CR-10976,1,Canned Products,Food,Canned Fruit,Fruit,Big City Canned Mixed Fruit
+CR-10976,1,Canned Products,Drink,Canned Fruit,Fruit,Big City Canned Mixed Fruit
+CR-10721,1,Frozen Foods,Food,Pancake Mix,Breakfast Foods,Imagine Pancake Mix
+CR-10721,1,Frozen Foods,Drink,Pancake Mix,Breakfast Foods,Imagine Pancake Mix
+CR-10085,1,Frozen Foods,Food,Pancakes,Breakfast Foods,Golden Frozen Pancakes
+CR-10085,1,Frozen Foods,Drink,Pancakes,Breakfast Foods,Golden Frozen Pancakes
+CR-10702,1,Eggs,Food,Eggs,Eggs,Jumbo Large Eggs
+CR-10702,1,Eggs,Drink,Eggs,Eggs,Jumbo Large Eggs
+CR-10349,1,Canned Products,Food,Canned Fruit,Fruit,Swell Canned Mixed Fruit
+CR-10349,1,Canned Products,Drink,Canned Fruit,Fruit,Swell Canned Mixed Fruit
+CR-10603,1,Baking Goods,Food,Cooking Oil,Baking Goods,Landslide Corn Oil
+CR-10603,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Landslide Corn Oil
+CR-10653,1,Canned Foods,Food,Tuna,Canned Tuna,Bravo Canned Tuna in Oil
+CR-10653,1,Canned Foods,Drink,Tuna,Canned Tuna,Bravo Canned Tuna in Oil
+CR-10833,1,Produce,Food,Nuts,Specialty,Ebony Walnuts
+CR-10833,1,Produce,Drink,Nuts,Specialty,Ebony Walnuts
+CR-10534,1,Snack Foods,Food,Cookies,Snack Foods,Fast Fudge Cookies
+CR-10534,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Fudge Cookies
+CR-10668,1,Dairy,Food,Cheese,Dairy,Gorilla Jack Cheese
+CR-10668,1,Dairy,Drink,Cheese,Dairy,Gorilla Jack Cheese
+CR-10610,1,Baking Goods,Food,Preserves,Jams and Jellies,Landslide Low Fat Apple Butter
+CR-10610,1,Baking Goods,Drink,Preserves,Jams and Jellies,Landslide Low Fat Apple Butter
+CR-10103,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Golden Ice Cream
+CR-10103,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Golden Ice Cream
+CR-10981,1,Dairy,Food,Cottage Cheese,Dairy,Even Better Low Fat Cottage Cheese
+CR-10981,1,Dairy,Drink,Cottage Cheese,Dairy,Even Better Low Fat Cottage Cheese
+CR-10629,2,Beverages,Food,Soda,Carbonated Beverages,Token Diet Cola
+CR-10629,2,Beverages,Drink,Soda,Carbonated Beverages,Token Diet Cola
+CR-10615,1,Baking Goods,Food,Jam,Jams and Jellies,Landslide Grape Jam
+CR-10615,1,Baking Goods,Drink,Jam,Jams and Jellies,Landslide Grape Jam
+CR-10185,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Potatos
+CR-10185,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Potatos
+CR-10561,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Golden Raisins
+CR-10561,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Golden Raisins
+CR-10080,1,Eggs,Food,Eggs,Eggs,Blue Medal Large Eggs
+CR-10080,1,Eggs,Drink,Eggs,Eggs,Blue Medal Large Eggs
+CR-10008,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Orange Juice
+CR-10008,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Orange Juice
+CR-10307,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Super Creamy Peanut Butter
+CR-10307,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Super Creamy Peanut Butter
+CR-10107,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Golden Frozen Corn
+CR-10107,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Golden Frozen Corn
+CR-10410,1,Frozen Foods,Food,Pancake Mix,Breakfast Foods,Big Time Pancake Mix
+CR-10410,1,Frozen Foods,Drink,Pancake Mix,Breakfast Foods,Big Time Pancake Mix
+CR-10847,1,Snack Foods,Food,Chips,Snack Foods,Nationeel Potato Chips
+CR-10847,1,Snack Foods,Drink,Chips,Snack Foods,Nationeel Potato Chips
+CR-10920,1,Baking Goods,Food,Sauces,Baking Goods,BBB Best Tomato Sauce
+CR-10920,1,Baking Goods,Drink,Sauces,Baking Goods,BBB Best Tomato Sauce
+CR-10331,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Canned Yams
+CR-10331,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Canned Yams
+CR-10403,1,Frozen Foods,Food,Pizza,Pizza,Big Time Frozen Cheese Pizza
+CR-10403,1,Frozen Foods,Drink,Pizza,Pizza,Big Time Frozen Cheese Pizza
+CR-10212,1,Produce,Food,Fresh Fruit,Fruit,High Top Oranges
+CR-10212,1,Produce,Drink,Fresh Fruit,Fruit,High Top Oranges
+CR-10381,1,Deli,Food,Deli Salads,Side Dishes,Moms Cole Slaw
+CR-10381,1,Deli,Drink,Deli Salads,Side Dishes,Moms Cole Slaw
+CR-10238,1,Snack Foods,Food,Dried Meat,Snack Foods,Best Choice Beef Jerky
+CR-10238,1,Snack Foods,Drink,Dried Meat,Snack Foods,Best Choice Beef Jerky
+CR-10043,1,Dairy,Food,Cottage Cheese,Dairy,Club Low Fat Cottage Cheese
+CR-10043,1,Dairy,Drink,Cottage Cheese,Dairy,Club Low Fat Cottage Cheese
+CR-10421,1,Frozen Foods,Food,Frozen Chicken,Meat,Big Time Frozen Chicken Thighs
+CR-10421,1,Frozen Foods,Drink,Frozen Chicken,Meat,Big Time Frozen Chicken Thighs
+CR-10346,1,Canned Foods,Food,Oysters,Canned Oysters,Better Fancy Canned Oysters
+CR-10346,1,Canned Foods,Drink,Oysters,Canned Oysters,Better Fancy Canned Oysters
+CR-10918,1,Baking Goods,Food,Cooking Oil,Baking Goods,BBB Best Vegetable Oil
+CR-10918,1,Baking Goods,Drink,Cooking Oil,Baking Goods,BBB Best Vegetable Oil
+CR-10283,1,Baking Goods,Food,Cooking Oil,Baking Goods,Super Sesame Oil
+CR-10283,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Super Sesame Oil
+CR-10546,1,Snack Foods,Food,Dips,Snack Foods,Fast Cheese Dip
+CR-10546,1,Snack Foods,Drink,Dips,Snack Foods,Fast Cheese Dip
+CR-10602,1,Baking Goods,Food,Cooking Oil,Baking Goods,Landslide Vegetable Oil
+CR-10602,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Landslide Vegetable Oil
+CR-10868,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Raspberry Fruit Roll
+CR-10868,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Raspberry Fruit Roll
+CR-10230,1,Snack Foods,Food,Popcorn,Snack Foods,Best Choice No Salt Popcorn
+CR-10230,1,Snack Foods,Drink,Popcorn,Snack Foods,Best Choice No Salt Popcorn
+CR-10014,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Jeffers Wheat Puffs
+CR-10014,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Jeffers Wheat Puffs
+CR-10404,1,Frozen Foods,Food,Pizza,Pizza,Big Time Frozen Mushroom Pizza
+CR-10404,1,Frozen Foods,Drink,Pizza,Pizza,Big Time Frozen Mushroom Pizza
+CR-10405,1,Frozen Foods,Food,Waffles,Breakfast Foods,Big Time Apple Cinnamon Waffles
+CR-10405,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Big Time Apple Cinnamon Waffles
+CR-10221,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Sugar Cookies
+CR-10221,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Sugar Cookies
+CR-10541,1,Snack Foods,Food,Popcorn,Snack Foods,Fast No Salt Popcorn
+CR-10541,1,Snack Foods,Drink,Popcorn,Snack Foods,Fast No Salt Popcorn
+CR-10234,1,Snack Foods,Food,Pretzels,Snack Foods,Best Choice Salted Pretzels
+CR-10234,1,Snack Foods,Drink,Pretzels,Snack Foods,Best Choice Salted Pretzels
+CR-10217,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Low Fat Cookies
+CR-10217,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Low Fat Cookies
+CR-10229,1,Snack Foods,Food,Popcorn,Snack Foods,Best Choice Buttered Popcorn
+CR-10229,1,Snack Foods,Drink,Popcorn,Snack Foods,Best Choice Buttered Popcorn
+CR-10079,1,Eggs,Food,Eggs,Eggs,Blue Medal Small Eggs
+CR-10079,1,Eggs,Drink,Eggs,Eggs,Blue Medal Small Eggs
+CR-10802,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Shitake Mushrooms
+CR-10802,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Shitake Mushrooms
+CR-10713,1,Frozen Foods,Food,Pizza,Pizza,Imagine Frozen Pepperoni Pizza
+CR-10713,1,Frozen Foods,Drink,Pizza,Pizza,Imagine Frozen Pepperoni Pizza
+CR-10248,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Dried Dates
+CR-10248,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Dried Dates
+CR-10264,1,Starchy Foods,Food,Rice,Starchy Foods,Medalist Thai Rice
+CR-10264,1,Starchy Foods,Drink,Rice,Starchy Foods,Medalist Thai Rice
+CR-10083,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Golden Orange Popsicles
+CR-10083,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Golden Orange Popsicles
+CR-10930,1,Baking Goods,Food,Jelly,Jams and Jellies,BBB Best Apple Jelly
+CR-10930,1,Baking Goods,Drink,Jelly,Jams and Jellies,BBB Best Apple Jelly
+CR-10022,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Canned Tomatos
+CR-10022,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Canned Tomatos
+CR-10016,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Canned Beets
+CR-10016,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Canned Beets
+CR-10556,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Strawberry Fruit Roll
+CR-10556,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Strawberry Fruit Roll
+CR-10482,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Summer Squash
+CR-10482,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Summer Squash
+CR-10714,1,Frozen Foods,Food,Pizza,Pizza,Imagine Frozen Cheese Pizza
+CR-10714,1,Frozen Foods,Drink,Pizza,Pizza,Imagine Frozen Cheese Pizza
+CR-10199,1,Produce,Food,Fresh Fruit,Fruit,High Top Lemons
+CR-10199,1,Produce,Drink,Fresh Fruit,Fruit,High Top Lemons
+CR-10253,1,Snacks,Food,Chocolate Candy,Candy,Choice Tasty Candy Bar
+CR-10253,1,Snacks,Drink,Chocolate Candy,Candy,Choice Tasty Candy Bar
+CR-10177,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Prepared Salad
+CR-10177,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Prepared Salad
+CR-10256,1,Snacks,Food,Chocolate Candy,Candy,Choice Semi-Sweet Chocolate Bar
+CR-10256,1,Snacks,Drink,Chocolate Candy,Candy,Choice Semi-Sweet Chocolate Bar
+CR-10219,1,Snack Foods,Food,Chips,Snack Foods,Best Choice Corn Chips
+CR-10219,1,Snack Foods,Drink,Chips,Snack Foods,Best Choice Corn Chips
+CR-10931,1,Baking Goods,Food,Jam,Jams and Jellies,BBB Best Grape Jam
+CR-10931,1,Baking Goods,Drink,Jam,Jams and Jellies,BBB Best Grape Jam
+CR-10583,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus White Zinfandel Wine
+CR-10583,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus White Zinfandel Wine
+CR-10993,1,Dairy,Food,Cottage Cheese,Dairy,Even Better Large Curd Cottage Cheese
+CR-10993,1,Dairy,Drink,Cottage Cheese,Dairy,Even Better Large Curd Cottage Cheese
+CR-10620,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Landslide Extra Chunky Peanut Butter
+CR-10620,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Landslide Extra Chunky Peanut Butter
+CR-10640,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Canned String Beans
+CR-10640,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Canned String Beans
+CR-10627,2,Beverages,Food,Soda,Carbonated Beverages,Token Diet Soda
+CR-10627,2,Beverages,Drink,Soda,Carbonated Beverages,Token Diet Soda
+CR-10292,1,Baking Goods,Food,Cooking Oil,Baking Goods,Super Corn Oil
+CR-10292,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Super Corn Oil
+CR-10715,1,Frozen Foods,Food,Pizza,Pizza,Imagine Frozen Mushroom Pizza
+CR-10715,1,Frozen Foods,Drink,Pizza,Pizza,Imagine Frozen Mushroom Pizza
+CR-10957,1,Canned Foods,Food,Soup,Canned Soup,Just Right Chicken Soup
+CR-10957,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Chicken Soup
+CR-10111,1,Frozen Foods,Food,Frozen Chicken,Meat,Golden Frozen Chicken Wings
+CR-10111,1,Frozen Foods,Drink,Frozen Chicken,Meat,Golden Frozen Chicken Wings
+CR-10717,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Imagine Frozen Carrots
+CR-10717,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Imagine Frozen Carrots
+CR-10112,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Golden Lemon Popsicles
+CR-10112,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Golden Lemon Popsicles
+CR-10289,2,Beverages,Food,Coffee,Hot Beverages,Super Decaf Coffee
+CR-10289,2,Beverages,Drink,Coffee,Hot Beverages,Super Decaf Coffee
+CR-10582,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Chardonnay
+CR-10582,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Chardonnay
+CR-10266,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Good Imported Beer
+CR-10266,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Good Imported Beer
+CR-10049,1,Dairy,Food,Cheese,Dairy,Club Low Fat String Cheese
+CR-10049,1,Dairy,Drink,Cheese,Dairy,Club Low Fat String Cheese
+CR-10098,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Golden Beef TV Dinner
+CR-10098,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Golden Beef TV Dinner
+CR-10109,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Golden Popsicles
+CR-10109,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Golden Popsicles
+CR-10387,1,Deli,Food,Deli Meats,Meat,Moms Sliced Chicken
+CR-10387,1,Deli,Drink,Deli Meats,Meat,Moms Sliced Chicken
+CR-10097,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Golden Chicken TV Dinner
+CR-10097,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Golden Chicken TV Dinner
+CR-10070,1,Deli,Food,Deli Salads,Side Dishes,Red Spade Cole Slaw
+CR-10070,1,Deli,Drink,Deli Salads,Side Dishes,Red Spade Cole Slaw
+CR-10406,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Big Time Frozen Carrots
+CR-10406,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Big Time Frozen Carrots
+CR-10557,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Raspberry Fruit Roll
+CR-10557,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Raspberry Fruit Roll
+CR-10990,1,Dairy,Food,Cheese,Dairy,Even Better Cheese Spread
+CR-10990,1,Dairy,Drink,Cheese,Dairy,Even Better Cheese Spread
+CR-10841,1,Snack Foods,Food,Chips,Snack Foods,Nationeel Corn Chips
+CR-10841,1,Snack Foods,Drink,Chips,Snack Foods,Nationeel Corn Chips
+CR-10955,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Creamed Corn
+CR-10955,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Creamed Corn
+CR-10573,1,Starchy Foods,Food,Pasta,Starchy Foods,Shady Lake Manicotti
+CR-10573,1,Starchy Foods,Drink,Pasta,Starchy Foods,Shady Lake Manicotti
+CR-10551,1,Snack Foods,Food,Chips,Snack Foods,Fast Low Fat Chips
+CR-10551,1,Snack Foods,Drink,Chips,Snack Foods,Fast Low Fat Chips
+CR-10922,1,Baking Goods,Food,Preserves,Jams and Jellies,BBB Best Grape Preserves
+CR-10922,1,Baking Goods,Drink,Preserves,Jams and Jellies,BBB Best Grape Preserves
+CR-10952,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Special Wheat Puffs
+CR-10952,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Special Wheat Puffs
+CR-11001,1,Deli,Food,Hot Dogs,Meat,American Chicken Hot Dogs
+CR-11001,1,Deli,Drink,Hot Dogs,Meat,American Chicken Hot Dogs
+CR-10968,1,Canned Foods,Food,Tuna,Canned Tuna,Just Right Canned Tuna in Water
+CR-10968,1,Canned Foods,Drink,Tuna,Canned Tuna,Just Right Canned Tuna in Water
+CR-10173,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Asparagus
+CR-10173,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Asparagus
+CR-10938,1,Baking Goods,Food,Jelly,Jams and Jellies,BBB Best Grape Jelly
+CR-10938,1,Baking Goods,Drink,Jelly,Jams and Jellies,BBB Best Grape Jelly
+CR-10304,1,Baking Goods,Food,Jam,Jams and Jellies,Super Grape Jam
+CR-10304,1,Baking Goods,Drink,Jam,Jams and Jellies,Super Grape Jam
+CR-10348,1,Canned Foods,Food,Soup,Canned Soup,Better Rice Soup
+CR-10348,1,Canned Foods,Drink,Soup,Canned Soup,Better Rice Soup
+CR-10018,1,Canned Foods,Food,Canned Vegetables,Vegetables,Blue Label Canned String Beans
+CR-10018,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Blue Label Canned String Beans
+CR-10301,1,Baking Goods,Food,Preserves,Jams and Jellies,Super Apple Butter
+CR-10301,1,Baking Goods,Drink,Preserves,Jams and Jellies,Super Apple Butter
+CR-10836,1,Produce,Food,Nuts,Specialty,Ebony Party Nuts
+CR-10836,1,Produce,Drink,Nuts,Specialty,Ebony Party Nuts
+CR-10295,1,Baking Goods,Food,Preserves,Jams and Jellies,Super Grape Preserves
+CR-10295,1,Baking Goods,Drink,Preserves,Jams and Jellies,Super Grape Preserves
+CR-10934,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,BBB Best Creamy Peanut Butter
+CR-10934,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,BBB Best Creamy Peanut Butter
+CR-10393,1,Frozen Foods,Food,Waffles,Breakfast Foods,Big Time Low Fat Waffles
+CR-10393,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Big Time Low Fat Waffles
+CR-10498,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Tomatos
+CR-10498,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Tomatos
+CR-10987,1,Dairy,Food,Cheese,Dairy,Even Better Low Fat String Cheese
+CR-10987,1,Dairy,Drink,Cheese,Dairy,Even Better Low Fat String Cheese
+CR-10303,1,Baking Goods,Food,Jelly,Jams and Jellies,Super Apple Jelly
+CR-10303,1,Baking Goods,Drink,Jelly,Jams and Jellies,Super Apple Jelly
+CR-10656,1,Canned Foods,Food,Clams,Canned Clams,Bravo Fancy Canned Clams
+CR-10656,1,Canned Foods,Drink,Clams,Canned Clams,Bravo Fancy Canned Clams
+CR-10376,1,Deli,Food,Bologna,Meat,Moms Beef Bologna
+CR-10376,1,Deli,Drink,Bologna,Meat,Moms Beef Bologna
+CR-10092,1,Frozen Foods,Food,Pizza,Pizza,Golden Frozen Cheese Pizza
+CR-10092,1,Frozen Foods,Drink,Pizza,Pizza,Golden Frozen Cheese Pizza
+CR-10871,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Raisins
+CR-10871,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Raisins
+CR-10550,1,Snack Foods,Food,Donuts,Snack Foods,Fast Chocolate Donuts
+CR-10550,1,Snack Foods,Drink,Donuts,Snack Foods,Fast Chocolate Donuts
+CR-10531,1,Snack Foods,Food,Chips,Snack Foods,Fast Low Fat BBQ Chips
+CR-10531,1,Snack Foods,Drink,Chips,Snack Foods,Fast Low Fat BBQ Chips
+CR-10724,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Imagine Lime Popsicles
+CR-10724,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Imagine Lime Popsicles
+CR-10359,1,Dairy,Food,Cheese,Dairy,Carlson String Cheese
+CR-10359,1,Dairy,Drink,Cheese,Dairy,Carlson String Cheese
+CR-10494,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Red Pepper
+CR-10494,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Red Pepper
+CR-10031,1,Canned Foods,Food,Tuna,Canned Tuna,Blue Label Canned Tuna in Oil
+CR-10031,1,Canned Foods,Drink,Tuna,Canned Tuna,Blue Label Canned Tuna in Oil
+CR-10045,1,Dairy,Food,Sour Cream,Dairy,Club Sour Cream
+CR-10045,1,Dairy,Drink,Sour Cream,Dairy,Club Sour Cream
+CR-10226,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Lemon Cookies
+CR-10226,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Lemon Cookies
+CR-10710,1,Frozen Foods,Food,Waffles,Breakfast Foods,Imagine Blueberry Waffles
+CR-10710,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Imagine Blueberry Waffles
+CR-10903,1,Baked Goods,Food,Sliced Bread,Bread,Fantastic Rye Bread
+CR-10903,1,Baked Goods,Drink,Sliced Bread,Bread,Fantastic Rye Bread
+CR-10356,1,Dairy,Food,Sour Cream,Dairy,Carlson Sour Cream
+CR-10356,1,Dairy,Drink,Sour Cream,Dairy,Carlson Sour Cream
+CR-10575,1,Starchy Foods,Food,Rice,Starchy Foods,Shady Lake Thai Rice
+CR-10575,1,Starchy Foods,Drink,Rice,Starchy Foods,Shady Lake Thai Rice
+CR-10884,1,Starchy Foods,Food,Pasta,Starchy Foods,Monarch Manicotti
+CR-10884,1,Starchy Foods,Drink,Pasta,Starchy Foods,Monarch Manicotti
+CR-10476,1,Meat,Food,Hamburger,Meat,Quick Seasoned Hamburger
+CR-10476,1,Meat,Drink,Hamburger,Meat,Quick Seasoned Hamburger
+CR-10599,2,Beverages,Food,Coffee,Hot Beverages,Landslide French Roast Coffee
+CR-10599,2,Beverages,Drink,Coffee,Hot Beverages,Landslide French Roast Coffee
+CR-10882,1,Snacks,Food,Chocolate Candy,Candy,Thresher White Chocolate Bar
+CR-10882,1,Snacks,Drink,Chocolate Candy,Candy,Thresher White Chocolate Bar
+CR-10549,1,Snack Foods,Food,Dried Meat,Snack Foods,Fast Beef Jerky
+CR-10549,1,Snack Foods,Drink,Dried Meat,Snack Foods,Fast Beef Jerky
+CR-10475,1,Meat,Food,Hamburger,Meat,Quick Extra Lean Hamburger
+CR-10475,1,Meat,Drink,Hamburger,Meat,Quick Extra Lean Hamburger
+CR-10566,1,Snacks,Food,Chocolate Candy,Candy,Atomic Malted Milk Balls
+CR-10566,1,Snacks,Drink,Chocolate Candy,Candy,Atomic Malted Milk Balls
+CR-10527,1,Seafood,Food,Shellfish,Seafood,Kiwi Scallops
+CR-10527,1,Seafood,Drink,Shellfish,Seafood,Kiwi Scallops
+CR-10926,1,Baking Goods,Food,Preserves,Jams and Jellies,BBB Best Low Fat Apple Butter
+CR-10926,1,Baking Goods,Drink,Preserves,Jams and Jellies,BBB Best Low Fat Apple Butter
+CR-10313,2,Beverages,Food,Flavored Drinks,Drinks,Excellent Mango Drink
+CR-10313,2,Beverages,Drink,Flavored Drinks,Drinks,Excellent Mango Drink
+CR-10071,1,Deli,Food,Fresh Chicken,Meat,Red Spade Roasted Chicken
+CR-10071,1,Deli,Drink,Fresh Chicken,Meat,Red Spade Roasted Chicken
+CR-10972,1,Canned Foods,Food,Clams,Canned Clams,Just Right Fancy Canned Clams
+CR-10972,1,Canned Foods,Drink,Clams,Canned Clams,Just Right Fancy Canned Clams
+CR-10937,1,Baking Goods,Food,Preserves,Jams and Jellies,BBB Best Apple Preserves
+CR-10937,1,Baking Goods,Drink,Preserves,Jams and Jellies,BBB Best Apple Preserves
+CR-10682,2,Dairy,Food,Milk,Dairy,Gorilla Whole Milk
+CR-10682,2,Dairy,Drink,Milk,Dairy,Gorilla Whole Milk
+CR-10960,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Canned Tomatos
+CR-10960,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Canned Tomatos
+CR-10089,1,Frozen Foods,Food,French Fries,Vegetables,Golden Fajita French Fries
+CR-10089,1,Frozen Foods,Drink,French Fries,Vegetables,Golden Fajita French Fries
+CR-10072,1,Deli,Food,Deli Meats,Meat,Red Spade Corned Beef
+CR-10072,1,Deli,Drink,Deli Meats,Meat,Red Spade Corned Beef
+CR-10660,1,Canned Products,Food,Canned Fruit,Fruit,Applause Canned Mixed Fruit
+CR-10660,1,Canned Products,Drink,Canned Fruit,Fruit,Applause Canned Mixed Fruit
+CR-10319,2,Beverages,Food,Juice,Pure Juice Beverages,Excellent Orange Juice
+CR-10319,2,Beverages,Drink,Juice,Pure Juice Beverages,Excellent Orange Juice
+CR-10094,1,Frozen Foods,Food,Waffles,Breakfast Foods,Golden Apple Cinnamon Waffles
+CR-10094,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Golden Apple Cinnamon Waffles
+CR-10030,1,Canned Foods,Food,Tuna,Canned Tuna,Blue Label Canned Tuna in Water
+CR-10030,1,Canned Foods,Drink,Tuna,Canned Tuna,Blue Label Canned Tuna in Water
+CR-10075,1,Deli,Food,Deli Salads,Side Dishes,Red Spade Potato Salad
+CR-10075,1,Deli,Drink,Deli Salads,Side Dishes,Red Spade Potato Salad
+CR-10528,1,Snack Foods,Food,Cookies,Snack Foods,Fast Low Fat Cookies
+CR-10528,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Low Fat Cookies
+CR-10552,1,Snack Foods,Food,Crackers,Snack Foods,Fast Sesame Crackers
+CR-10552,1,Snack Foods,Drink,Crackers,Snack Foods,Fast Sesame Crackers
+CR-10054,1,Dairy,Food,Cheese,Dairy,Club Mild Cheddar Cheese
+CR-10054,1,Dairy,Drink,Cheese,Dairy,Club Mild Cheddar Cheese
+CR-10179,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Green Pepper
+CR-10179,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Green Pepper
+CR-10488,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Prepared Salad
+CR-10488,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Prepared Salad
+CR-10625,2,Beverages,Food,Flavored Drinks,Drinks,Token Strawberry Drink
+CR-10625,2,Beverages,Drink,Flavored Drinks,Drinks,Token Strawberry Drink
+CR-10314,2,Beverages,Food,Flavored Drinks,Drinks,Excellent Strawberry Drink
+CR-10314,2,Beverages,Drink,Flavored Drinks,Drinks,Excellent Strawberry Drink
+CR-10895,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl Chardonnay Wine
+CR-10895,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl Chardonnay Wine
+CR-10827,1,Produce,Food,Nuts,Specialty,Ebony Mixed Nuts
+CR-10827,1,Produce,Drink,Nuts,Specialty,Ebony Mixed Nuts
+CR-10547,1,Snack Foods,Food,Dips,Snack Foods,Fast Fondue Mix
+CR-10547,1,Snack Foods,Drink,Dips,Snack Foods,Fast Fondue Mix
+CR-10191,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Fresh Lima Beans
+CR-10191,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Fresh Lima Beans
+CR-10214,1,Produce,Food,Nuts,Specialty,High Top Party Nuts
+CR-10214,1,Produce,Drink,Nuts,Specialty,High Top Party Nuts
+CR-11101,1,Deli,Food,Deli Salads,Side Dishes,American Low Fat Cole Slaw
+CR-11101,1,Deli,Drink,Deli Salads,Side Dishes,American Low Fat Cole Slaw
+CR-10499,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Mushrooms
+CR-10499,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Mushrooms
+CR-10268,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Chardonnay Wine
+CR-10268,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Chardonnay Wine
+CR-10984,1,Dairy,Food,Cheese,Dairy,Even Better Jack Cheese
+CR-10984,1,Dairy,Drink,Cheese,Dairy,Even Better Jack Cheese
+CR-10810,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Mushrooms
+CR-10810,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Mushrooms
+CR-10661,1,Canned Products,Food,Canned Fruit,Fruit,Applause Canned Peaches
+CR-10661,1,Canned Products,Drink,Canned Fruit,Fruit,Applause Canned Peaches
+CR-10585,1,Baked Goods,Food,Sliced Bread,Bread,Colony Pumpernickel Bread
+CR-10585,1,Baked Goods,Drink,Sliced Bread,Bread,Colony Pumpernickel Bread
+CR-10013,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Jeffers Corn Puffs
+CR-10013,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Jeffers Corn Puffs
+CR-10707,1,Frozen Foods,Food,Pancakes,Breakfast Foods,Imagine Frozen Pancakes
+CR-10707,1,Frozen Foods,Drink,Pancakes,Breakfast Foods,Imagine Frozen Pancakes
+CR-10726,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Imagine Ice Cream Sandwich
+CR-10726,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Imagine Ice Cream Sandwich
+CR-10274,1,Baked Goods,Food,Sliced Bread,Bread,Great Pumpernickel Bread
+CR-10274,1,Baked Goods,Drink,Sliced Bread,Bread,Great Pumpernickel Bread
+CR-10857,1,Snack Foods,Food,Dips,Snack Foods,Nationeel Cheese Dip
+CR-10857,1,Snack Foods,Drink,Dips,Snack Foods,Nationeel Cheese Dip
+CR-10194,1,Produce,Food,Tofu,Packaged Vegetables,High Top Firm Tofu
+CR-10194,1,Produce,Drink,Tofu,Packaged Vegetables,High Top Firm Tofu
+CR-10859,1,Snack Foods,Food,Donuts,Snack Foods,Nationeel Mini Donuts
+CR-10859,1,Snack Foods,Drink,Donuts,Snack Foods,Nationeel Mini Donuts
+CR-10900,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Pearl Light Beer
+CR-10900,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Pearl Light Beer
+CR-10294,1,Baking Goods,Food,Cooking Oil,Baking Goods,Super Canola Oil
+CR-10294,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Super Canola Oil
+CR-10723,1,Frozen Foods,Food,French Fries,Vegetables,Imagine Home Style French Fries
+CR-10723,1,Frozen Foods,Drink,French Fries,Vegetables,Imagine Home Style French Fries
+CR-10378,1,Deli,Food,Hot Dogs,Meat,Moms Turkey Hot Dogs
+CR-10378,1,Deli,Drink,Hot Dogs,Meat,Moms Turkey Hot Dogs
+CR-10685,1,Deli,Food,Hot Dogs,Meat,Cutting Edge Chicken Hot Dogs
+CR-10685,1,Deli,Drink,Hot Dogs,Meat,Cutting Edge Chicken Hot Dogs
+CR-10562,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Dried Apricots
+CR-10562,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Dried Apricots
+CR-10908,1,Baked Goods,Food,Muffins,Bread,Fantastic Blueberry Muffins
+CR-10908,1,Baked Goods,Drink,Muffins,Bread,Fantastic Blueberry Muffins
+CR-10734,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Imagine Lemon Popsicles
+CR-10734,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Imagine Lemon Popsicles
+CR-10598,1,Baking Goods,Food,Sugar,Baking Goods,Landslide White Sugar
+CR-10598,1,Baking Goods,Drink,Sugar,Baking Goods,Landslide White Sugar
+CR-10848,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Lemon Cookies
+CR-10848,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Lemon Cookies
+CR-10536,1,Snack Foods,Food,Chips,Snack Foods,Fast Potato Chips
+CR-10536,1,Snack Foods,Drink,Chips,Snack Foods,Fast Potato Chips
+CR-10830,1,Produce,Food,Fresh Fruit,Fruit,Ebony Cantelope
+CR-10830,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Cantelope
+CR-10215,1,Seafood,Food,Fresh Fish,Seafood,Tip Top Lox
+CR-10215,1,Seafood,Drink,Fresh Fish,Seafood,Tip Top Lox
+CR-10249,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Raisins
+CR-10249,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Raisins
+CR-10024,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Regular Ramen Soup
+CR-10024,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Regular Ramen Soup
+CR-10419,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Big Time Frozen Peas
+CR-10419,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Big Time Frozen Peas
+CR-10844,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Chocolate Chip Cookies
+CR-10844,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Chocolate Chip Cookies
+CR-10824,1,Produce,Food,Fresh Fruit,Fruit,Ebony Peaches
+CR-10824,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Peaches
+CR-10809,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Tomatos
+CR-10809,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Tomatos
+CR-10854,1,Snack Foods,Food,Dips,Snack Foods,Nationeel Salsa Dip
+CR-10854,1,Snack Foods,Drink,Dips,Snack Foods,Nationeel Salsa Dip
+CR-10207,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Sweet Onion
+CR-10207,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Sweet Onion
+CR-10210,1,Produce,Food,Fresh Fruit,Fruit,High Top Fuji Apples
+CR-10210,1,Produce,Drink,Fresh Fruit,Fruit,High Top Fuji Apples
+CR-10605,1,Baking Goods,Food,Cooking Oil,Baking Goods,Landslide Canola Oil
+CR-10605,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Landslide Canola Oil
+CR-10587,1,Baked Goods,Food,Sliced Bread,Bread,Colony Rye Bread
+CR-10587,1,Baked Goods,Drink,Sliced Bread,Bread,Colony Rye Bread
+CR-10542,1,Snack Foods,Food,Popcorn,Snack Foods,Fast Low Fat Popcorn
+CR-10542,1,Snack Foods,Drink,Popcorn,Snack Foods,Fast Low Fat Popcorn
+CR-10371,2,Dairy,Food,Milk,Dairy,Carlson Whole Milk
+CR-10371,2,Dairy,Drink,Milk,Dairy,Carlson Whole Milk
+CR-10559,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Dried Dates
+CR-10559,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Dried Dates
+CR-10310,1,Baking Goods,Food,Preserves,Jams and Jellies,Super Apple Preserves
+CR-10310,1,Baking Goods,Drink,Preserves,Jams and Jellies,Super Apple Preserves
+CR-10988,1,Dairy,Food,Cheese,Dairy,Even Better Havarti Cheese
+CR-10988,1,Dairy,Drink,Cheese,Dairy,Even Better Havarti Cheese
+CR-10874,1,Snack Foods,Food,Donuts,Snack Foods,Nationeel Frosted Donuts
+CR-10874,1,Snack Foods,Drink,Donuts,Snack Foods,Nationeel Frosted Donuts
+CR-10608,1,Baking Goods,Food,Jelly,Jams and Jellies,Landslide Strawberry Jelly
+CR-10608,1,Baking Goods,Drink,Jelly,Jams and Jellies,Landslide Strawberry Jelly
+CR-10262,1,Starchy Foods,Food,Pasta,Starchy Foods,Medalist Manicotti
+CR-10262,1,Starchy Foods,Drink,Pasta,Starchy Foods,Medalist Manicotti
+CR-10523,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Oranges
+CR-10523,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Oranges
+CR-10601,2,Beverages,Food,Coffee,Hot Beverages,Landslide Regular Coffee
+CR-10601,2,Beverages,Drink,Coffee,Hot Beverages,Landslide Regular Coffee
+CR-10600,2,Beverages,Food,Coffee,Hot Beverages,Landslide Decaf Coffee
+CR-10600,2,Beverages,Drink,Coffee,Hot Beverages,Landslide Decaf Coffee
+CR-10401,1,Frozen Foods,Food,Waffles,Breakfast Foods,Big Time Waffles
+CR-10401,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Big Time Waffles
+CR-10337,1,Canned Foods,Food,Soup,Canned Soup,Better Turkey Noodle Soup
+CR-10337,1,Canned Foods,Drink,Soup,Canned Soup,Better Turkey Noodle Soup
+CR-10343,1,Canned Foods,Food,Shrimp,Canned Shrimp,Better Large Canned Shrimp
+CR-10343,1,Canned Foods,Drink,Shrimp,Canned Shrimp,Better Large Canned Shrimp
+CR-10894,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl Light Wine
+CR-10894,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl Light Wine
+CR-10839,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Low Fat Cookies
+CR-10839,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Low Fat Cookies
+CR-10422,1,Frozen Foods,Food,Frozen Chicken,Meat,Big Time Frozen Chicken Wings
+CR-10422,1,Frozen Foods,Drink,Frozen Chicken,Meat,Big Time Frozen Chicken Wings
+CR-10687,1,Deli,Food,Bologna,Meat,Cutting Edge Beef Bologna
+CR-10687,1,Deli,Drink,Bologna,Meat,Cutting Edge Beef Bologna
+CR-10604,1,Baking Goods,Food,Sauces,Baking Goods,Landslide Tomato Sauce
+CR-10604,1,Baking Goods,Drink,Sauces,Baking Goods,Landslide Tomato Sauce
+CR-10299,1,Baking Goods,Food,Preserves,Jams and Jellies,Super Low Fat Apple Butter
+CR-10299,1,Baking Goods,Drink,Preserves,Jams and Jellies,Super Low Fat Apple Butter
+CR-10023,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Noodle Soup
+CR-10023,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Noodle Soup
+CR-10342,1,Canned Foods,Food,Tuna,Canned Tuna,Better Canned Tuna in Oil
+CR-10342,1,Canned Foods,Drink,Tuna,Canned Tuna,Better Canned Tuna in Oil
+CR-10730,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Imagine Frozen Peas
+CR-10730,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Imagine Frozen Peas
+CR-10192,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Squash
+CR-10192,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Squash
+CR-10389,1,Eggs,Food,Eggs,Eggs,Urban Large Brown Eggs
+CR-10389,1,Eggs,Drink,Eggs,Eggs,Urban Large Brown Eggs
+CR-10803,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Lettuce
+CR-10803,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Lettuce
+CR-10994,2,Dairy,Food,Milk,Dairy,Even Better 2% Milk
+CR-10994,2,Dairy,Drink,Milk,Dairy,Even Better 2% Milk
+CR-10801,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Green Pepper
+CR-10801,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Green Pepper
+CR-10003,2,Beverages,Food,Flavored Drinks,Drinks,Washington Strawberry Drink
+CR-10003,2,Beverages,Drink,Flavored Drinks,Drinks,Washington Strawberry Drink
+CR-10417,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Big Time Frozen Broccoli
+CR-10417,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Big Time Frozen Broccoli
+CR-10674,1,Dairy,Food,Cheese,Dairy,Gorilla Cheese Spread
+CR-10674,1,Dairy,Drink,Cheese,Dairy,Gorilla Cheese Spread
+CR-10073,1,Deli,Food,Deli Meats,Meat,Red Spade Sliced Turkey
+CR-10073,1,Deli,Drink,Deli Meats,Meat,Red Spade Sliced Turkey
+CR-10544,1,Snack Foods,Food,Dips,Snack Foods,Fast Avocado Dip
+CR-10544,1,Snack Foods,Drink,Dips,Snack Foods,Fast Avocado Dip
+CR-10712,1,Frozen Foods,Food,Waffles,Breakfast Foods,Imagine Waffles
+CR-10712,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Imagine Waffles
+CR-10794,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Corn on the Cob
+CR-10794,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Corn on the Cob
+CR-10932,1,Baking Goods,Food,Jam,Jams and Jellies,BBB Best Apple Jam
+CR-10932,1,Baking Goods,Drink,Jam,Jams and Jellies,BBB Best Apple Jam
+CR-10975,1,Canned Foods,Food,Soup,Canned Soup,Just Right Rice Soup
+CR-10975,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Rice Soup
+CR-10917,2,Beverages,Food,Coffee,Hot Beverages,BBB Best Regular Coffee
+CR-10917,2,Beverages,Drink,Coffee,Hot Beverages,BBB Best Regular Coffee
+CR-10088,1,Frozen Foods,Food,Waffles,Breakfast Foods,Golden Blueberry Waffles
+CR-10088,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Golden Blueberry Waffles
+CR-10693,1,Deli,Food,Fresh Chicken,Meat,Cutting Edge Roasted Chicken
+CR-10693,1,Deli,Drink,Fresh Chicken,Meat,Cutting Edge Roasted Chicken
+CR-10732,1,Frozen Foods,Food,Frozen Chicken,Meat,Imagine Frozen Chicken Thighs
+CR-10732,1,Frozen Foods,Drink,Frozen Chicken,Meat,Imagine Frozen Chicken Thighs
+CR-10941,2,Beverages,Food,Flavored Drinks,Drinks,Fabulous Strawberry Drink
+CR-10941,2,Beverages,Drink,Flavored Drinks,Drinks,Fabulous Strawberry Drink
+CR-10051,1,Dairy,Food,Cheese,Dairy,Club Head Cheese
+CR-10051,1,Dairy,Drink,Cheese,Dairy,Club Head Cheese
+PC-10885,1,Starchy Foods,Food,Pasta,Starchy Foods,Monarch Spaghetti
+PC-10885,1,Starchy Foods,Drink,Pasta,Starchy Foods,Monarch Spaghetti
+CR-10213,1,Produce,Food,Fresh Fruit,Fruit,High Top Tangerines
+CR-10213,1,Produce,Drink,Fresh Fruit,Fruit,High Top Tangerines
+CR-10691,1,Deli,Food,Deli Salads,Side Dishes,Cutting Edge Low Fat Cole Slaw
+CR-10691,1,Deli,Drink,Deli Salads,Side Dishes,Cutting Edge Low Fat Cole Slaw
+CR-10058,2,Dairy,Food,Milk,Dairy,Club Chocolate Milk
+CR-10058,2,Dairy,Drink,Milk,Dairy,Club Chocolate Milk
+CR-10954,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Canned Beets
+CR-10954,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Canned Beets
+CR-10572,1,Starchy Foods,Food,Pasta,Starchy Foods,Shady Lake Ravioli
+CR-10572,1,Starchy Foods,Drink,Pasta,Starchy Foods,Shady Lake Ravioli
+CR-10340,1,Canned Foods,Food,Soup,Canned Soup,Better Chicken Ramen Soup
+CR-10340,1,Canned Foods,Drink,Soup,Canned Soup,Better Chicken Ramen Soup
+CR-10247,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Grape Fruit Roll
+CR-10247,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Grape Fruit Roll
+CR-10236,1,Snack Foods,Food,Dips,Snack Foods,Best Choice Fondue Mix
+CR-10236,1,Snack Foods,Drink,Dips,Snack Foods,Best Choice Fondue Mix
+CR-10188,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Mushrooms
+CR-10188,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Mushrooms
+CR-10032,1,Canned Foods,Food,Shrimp,Canned Shrimp,Blue Label Large Canned Shrimp
+CR-10032,1,Canned Foods,Drink,Shrimp,Canned Shrimp,Blue Label Large Canned Shrimp
+CR-10053,1,Dairy,Food,Cheese,Dairy,Club Sharp Cheddar Cheese
+CR-10053,1,Dairy,Drink,Cheese,Dairy,Club Sharp Cheddar Cheese
+CR-10081,1,Eggs,Food,Eggs,Eggs,Blue Medal Egg Substitute
+CR-10081,1,Eggs,Drink,Eggs,Eggs,Blue Medal Egg Substitute
+CR-10865,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Dried Apples
+CR-10865,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Dried Apples
+CR-10677,1,Dairy,Food,Cottage Cheese,Dairy,Gorilla Large Curd Cottage Cheese
+CR-10677,1,Dairy,Drink,Cottage Cheese,Dairy,Gorilla Large Curd Cottage Cheese
+CR-10486,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale New Potatos
+CR-10486,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale New Potatos
+CR-10350,1,Canned Products,Food,Canned Fruit,Fruit,Swell Canned Peaches
+CR-10350,1,Canned Products,Drink,Canned Fruit,Fruit,Swell Canned Peaches
+CR-10842,1,Snack Foods,Food,Chips,Snack Foods,Nationeel Low Fat BBQ Chips
+CR-10842,1,Snack Foods,Drink,Chips,Snack Foods,Nationeel Low Fat BBQ Chips
+CR-10511,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Fancy Plums
+CR-10511,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Fancy Plums
+CR-10881,1,Snacks,Food,Hard Candy,Candy,Thresher Mints
+CR-10881,1,Snacks,Drink,Hard Candy,Candy,Thresher Mints
+CR-11373,1,Deli,Food,Deli Salads,Side Dishes,American Potato Salad
+CR-11373,1,Deli,Drink,Deli Salads,Side Dishes,American Potato Salad
+CR-10835,1,Produce,Food,Fresh Fruit,Fruit,Ebony Tangerines
+CR-10835,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Tangerines
+CR-10657,1,Canned Foods,Food,Oysters,Canned Oysters,Bravo Fancy Canned Oysters
+CR-10657,1,Canned Foods,Drink,Oysters,Canned Oysters,Bravo Fancy Canned Oysters
+CR-10485,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Sweet Peas
+CR-10485,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Sweet Peas
+CR-10989,1,Dairy,Food,Cheese,Dairy,Even Better Head Cheese
+CR-10989,1,Dairy,Drink,Cheese,Dairy,Even Better Head Cheese
+CR-11100,1,Deli,Food,Hot Dogs,Meat,American Foot-Long Hot Dogs
+CR-11100,1,Deli,Drink,Hot Dogs,Meat,American Foot-Long Hot Dogs
+PC-10343,1,Canned Foods,Food,Shrimp,Canned Shrimp,Better Large Canned Shrimp
+PC-10343,1,Canned Foods,Drink,Shrimp,Canned Shrimp,Better Large Canned Shrimp
+CR-10483,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Corn on the Cob
+CR-10483,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Corn on the Cob
+CR-10698,1,Deli,Food,Deli Meats,Meat,Cutting Edge Sliced Chicken
+CR-10698,1,Deli,Drink,Deli Meats,Meat,Cutting Edge Sliced Chicken
+CR-10711,1,Frozen Foods,Food,French Fries,Vegetables,Imagine Fajita French Fries
+CR-10711,1,Frozen Foods,Drink,French Fries,Vegetables,Imagine Fajita French Fries
+CR-10305,1,Baking Goods,Food,Jam,Jams and Jellies,Super Apple Jam
+CR-10305,1,Baking Goods,Drink,Jam,Jams and Jellies,Super Apple Jam
+CR-10811,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Baby Onion
+CR-10811,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Baby Onion
+PC-10342,1,Canned Foods,Food,Tuna,Canned Tuna,Better Canned Tuna in Oil
+PC-10342,1,Canned Foods,Drink,Tuna,Canned Tuna,Better Canned Tuna in Oil
+CR-10398,1,Frozen Foods,Food,Pizza,Pizza,Big Time Frozen Sausage Pizza
+CR-10398,1,Frozen Foods,Drink,Pizza,Pizza,Big Time Frozen Sausage Pizza
+CR-10852,1,Snack Foods,Food,Popcorn,Snack Foods,Nationeel No Salt Popcorn
+CR-10852,1,Snack Foods,Drink,Popcorn,Snack Foods,Nationeel No Salt Popcorn
+CR-10862,1,Snack Foods,Food,Chips,Snack Foods,Nationeel Low Fat Chips
+CR-10862,1,Snack Foods,Drink,Chips,Snack Foods,Nationeel Low Fat Chips
+CR-10300,1,Baking Goods,Food,Spices,Baking Goods,Super Salt
+CR-10300,1,Baking Goods,Drink,Spices,Baking Goods,Super Salt
+CR-10896,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl Chablis Wine
+CR-10896,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl Chablis Wine
+CR-10402,1,Frozen Foods,Food,Pizza,Pizza,Big Time Frozen Pepperoni Pizza
+CR-10402,1,Frozen Foods,Drink,Pizza,Pizza,Big Time Frozen Pepperoni Pizza
+CR-10695,1,Deli,Food,Deli Meats,Meat,Cutting Edge Sliced Turkey
+CR-10695,1,Deli,Drink,Deli Meats,Meat,Cutting Edge Sliced Turkey
+CR-10512,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Plums
+CR-10512,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Plums
+CR-10795,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Asparagus
+CR-10795,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Asparagus
+CR-10373,1,Dairy,Food,Yogurt,Dairy,Carlson Blueberry Yogurt
+CR-10373,1,Dairy,Drink,Yogurt,Dairy,Carlson Blueberry Yogurt
+PC-10344,1,Canned Foods,Food,Anchovies,Canned Anchovies,Better Fancy Canned Anchovies
+PC-10344,1,Canned Foods,Drink,Anchovies,Canned Anchovies,Better Fancy Canned Anchovies
+CR-10722,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Imagine Grape Popsicles
+CR-10722,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Imagine Grape Popsicles
+CR-10909,1,Baked Goods,Food,Sliced Bread,Bread,Fantastic Wheat Bread
+CR-10909,1,Baked Goods,Drink,Sliced Bread,Bread,Fantastic Wheat Bread
+CR-10838,1,Seafood,Food,Shellfish,Seafood,Curlew Scallops
+CR-10838,1,Seafood,Drink,Shellfish,Seafood,Curlew Scallops
+CR-10090,1,Frozen Foods,Food,Waffles,Breakfast Foods,Golden Waffles
+CR-10090,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Golden Waffles
+CR-10840,1,Snack Foods,Food,Chips,Snack Foods,Nationeel BBQ Potato Chips
+CR-10840,1,Snack Foods,Drink,Chips,Snack Foods,Nationeel BBQ Potato Chips
+CR-10231,1,Snack Foods,Food,Popcorn,Snack Foods,Best Choice Low Fat Popcorn
+CR-10231,1,Snack Foods,Drink,Popcorn,Snack Foods,Best Choice Low Fat Popcorn
+CR-10879,1,Snacks,Food,Gum,Candy,Thresher Bubble Gum
+CR-10879,1,Snacks,Drink,Gum,Candy,Thresher Bubble Gum
+CR-10560,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Raisins
+CR-10560,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Raisins
+CR-10239,1,Snack Foods,Food,Donuts,Snack Foods,Best Choice Chocolate Donuts
+CR-10239,1,Snack Foods,Drink,Donuts,Snack Foods,Best Choice Chocolate Donuts
+CR-10676,1,Dairy,Food,Cheese,Dairy,Gorilla Mild Cheddar Cheese
+CR-10676,1,Dairy,Drink,Cheese,Dairy,Gorilla Mild Cheddar Cheese
+CR-10699,1,Eggs,Food,Eggs,Eggs,Jumbo Small Brown Eggs
+CR-10699,1,Eggs,Drink,Eggs,Eggs,Jumbo Small Brown Eggs
+CR-10533,1,Snack Foods,Food,Cookies,Snack Foods,Fast Chocolate Chip Cookies
+CR-10533,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Chocolate Chip Cookies
+CR-10208,1,Produce,Food,Fresh Fruit,Fruit,High Top Cantelope
+CR-10208,1,Produce,Drink,Fresh Fruit,Fruit,High Top Cantelope
+CR-10027,1,Canned Foods,Food,Soup,Canned Soup,Blue Label Beef Soup
+CR-10027,1,Canned Foods,Drink,Soup,Canned Soup,Blue Label Beef Soup
+CR-10626,2,Beverages,Food,Soda,Carbonated Beverages,Token Cream Soda
+CR-10626,2,Beverages,Drink,Soda,Carbonated Beverages,Token Cream Soda
+CR-10636,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Radius Wheat Puffs
+CR-10636,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Radius Wheat Puffs
+CR-10706,1,Frozen Foods,Food,Frozen Chicken,Meat,Imagine Frozen Chicken Breast
+CR-10706,1,Frozen Foods,Drink,Frozen Chicken,Meat,Imagine Frozen Chicken Breast
+CR-10628,2,Beverages,Food,Soda,Carbonated Beverages,Token Cola
+CR-10628,2,Beverages,Drink,Soda,Carbonated Beverages,Token Cola
+CR-10189,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Baby Onion
+CR-10189,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Baby Onion
+CR-10878,1,Snacks,Food,Chocolate Candy,Candy,Thresher Semi-Sweet Chocolate Bar
+CR-10878,1,Snacks,Drink,Chocolate Candy,Candy,Thresher Semi-Sweet Chocolate Bar
+CR-10995,2,Dairy,Food,Milk,Dairy,Even Better Buttermilk
+CR-10995,2,Dairy,Drink,Milk,Dairy,Even Better Buttermilk
+CR-11021,1,Deli,Food,Bologna,Meat,American Beef Bologna
+CR-11021,1,Deli,Drink,Bologna,Meat,American Beef Bologna
+CR-10245,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Strawberry Fruit Roll
+CR-10245,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Strawberry Fruit Roll
+CR-10320,2,Beverages,Food,Juice,Pure Juice Beverages,Excellent Cranberry Juice
+CR-10320,2,Beverages,Drink,Juice,Pure Juice Beverages,Excellent Cranberry Juice
+CR-10516,1,Produce,Food,Nuts,Specialty,Tell Tale Mixed Nuts
+CR-10516,1,Produce,Drink,Nuts,Specialty,Tell Tale Mixed Nuts
+CR-10242,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Frosted Cookies
+CR-10242,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Frosted Cookies
+CR-11052,1,Deli,Food,Hot Dogs,Meat,American Turkey Hot Dogs
+CR-11052,1,Deli,Drink,Hot Dogs,Meat,American Turkey Hot Dogs
+CR-10579,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Chardonnay Wine
+CR-10579,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Chardonnay Wine
+CR-10705,1,Frozen Foods,Food,Popsicles,Frozen Desserts,Imagine Orange Popsicles
+CR-10705,1,Frozen Foods,Drink,Popsicles,Frozen Desserts,Imagine Orange Popsicles
+CR-10863,1,Snack Foods,Food,Crackers,Snack Foods,Nationeel Sesame Crackers
+CR-10863,1,Snack Foods,Drink,Crackers,Snack Foods,Nationeel Sesame Crackers
+CR-10382,1,Deli,Food,Fresh Chicken,Meat,Moms Roasted Chicken
+CR-10382,1,Deli,Drink,Fresh Chicken,Meat,Moms Roasted Chicken
+CR-10590,1,Baked Goods,Food,Muffins,Bread,Colony Muffins
+CR-10590,1,Baked Goods,Drink,Muffins,Bread,Colony Muffins
+CR-10225,1,Snack Foods,Food,Chips,Snack Foods,Best Choice Potato Chips
+CR-10225,1,Snack Foods,Drink,Chips,Snack Foods,Best Choice Potato Chips
+CR-10673,1,Dairy,Food,Cheese,Dairy,Gorilla Head Cheese
+CR-10673,1,Dairy,Drink,Cheese,Dairy,Gorilla Head Cheese
+CR-10858,1,Snack Foods,Food,Dips,Snack Foods,Nationeel Fondue Mix
+CR-10858,1,Snack Foods,Drink,Dips,Snack Foods,Nationeel Fondue Mix
+PC-10582,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Chardonnay
+PC-10582,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Chardonnay
+CR-10503,1,Produce,Food,Fresh Vegetables,Vegetables,Choice Spicy Mints
+CR-10503,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Squash
+CR-10503,1,Produce,Drink,Fresh Vegetables,Vegetables,Choice Spicy Mints
+CR-10503,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Squash
+CR-10202,1,Produce,Food,Fresh Fruit,Fruit,High Top Peaches
+CR-10202,1,Produce,Drink,Fresh Fruit,Fruit,High Top Peaches
+CR-10277,1,Baked Goods,Food,Muffins,Bread,Great English Muffins
+CR-10277,1,Baked Goods,Drink,Muffins,Bread,Great English Muffins
+CR-10518,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Sweet Onion
+CR-10518,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Sweet Onion
+CR-10787,1,Meat,Food,Hamburger,Meat,Footnote Seasoned Hamburger
+CR-10787,1,Meat,Drink,Hamburger,Meat,Footnote Seasoned Hamburger
+CR-10055,1,Dairy,Food,Cottage Cheese,Dairy,Club Large Curd Cottage Cheese
+CR-10055,1,Dairy,Drink,Cottage Cheese,Dairy,Club Large Curd Cottage Cheese
+CR-10616,1,Baking Goods,Food,Jam,Jams and Jellies,Landslide Apple Jam
+CR-10616,1,Baking Goods,Drink,Jam,Jams and Jellies,Landslide Apple Jam
+CR-10047,1,Dairy,Food,Cheese,Dairy,Club Muenster Cheese
+CR-10047,1,Dairy,Drink,Cheese,Dairy,Club Muenster Cheese
+CR-10897,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Pearl Merlot Wine
+CR-10897,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Pearl Merlot Wine
+CR-10729,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Imagine Frozen Corn
+CR-10729,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Imagine Frozen Corn
+CR-11249,1,Deli,Food,Deli Meats,Meat,American Sliced Ham
+CR-11249,1,Deli,Drink,Deli Meats,Meat,American Sliced Ham
+CR-10510,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Lemons
+CR-10510,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Lemons
+PC-10064,1,Deli,Food,Bologna,Meat,Red Spade Pimento Loaf
+PC-10064,1,Deli,Drink,Bologna,Meat,Red Spade Pimento Loaf
+CR-10962,1,Canned Foods,Food,Soup,Canned Soup,Just Right Regular Ramen Soup
+CR-10962,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Regular Ramen Soup
+CR-10963,1,Canned Foods,Food,Soup,Canned Soup,Just Right Chicken Noodle Soup
+CR-10963,1,Canned Foods,Drink,Soup,Canned Soup,Just Right Chicken Noodle Soup
+CR-10396,1,Frozen Foods,Food,Pancakes,Breakfast Foods,Big Time Frozen Pancakes
+CR-10396,1,Frozen Foods,Drink,Pancakes,Breakfast Foods,Big Time Frozen Pancakes
+CR-10873,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Dried Apricots
+CR-10873,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Dried Apricots
+CR-10888,1,Starchy Foods,Food,Pasta,Starchy Foods,Discover Ravioli
+CR-10888,1,Starchy Foods,Drink,Pasta,Starchy Foods,Discover Ravioli
+CR-10525,1,Produce,Food,Nuts,Specialty,Tell Tale Party Nuts
+CR-10525,1,Produce,Drink,Nuts,Specialty,Tell Tale Party Nuts
+CR-10667,1,Dairy,Food,Sour Cream,Dairy,Gorilla Sour Cream
+CR-10667,1,Dairy,Drink,Sour Cream,Dairy,Gorilla Sour Cream
+CR-10538,1,Snack Foods,Food,Cookies,Snack Foods,Fast Graham Crackers
+CR-10538,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Graham Crackers
+CR-10958,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Canned Yams
+CR-10958,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Canned Yams
+CR-10971,1,Canned Foods,Food,Anchovies,Canned Anchovies,Just Right Fancy Canned Anchovies
+CR-10971,1,Canned Foods,Drink,Anchovies,Canned Anchovies,Just Right Fancy Canned Anchovies
+PC-10725,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Imagine Ice Cream
+PC-10725,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Imagine Ice Cream
+CR-10886,1,Starchy Foods,Food,Rice,Starchy Foods,Monarch Thai Rice
+CR-10886,1,Starchy Foods,Drink,Rice,Starchy Foods,Monarch Thai Rice
+CR-10183,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Red Pepper
+CR-10183,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Red Pepper
+CR-10302,1,Baking Goods,Food,Spices,Baking Goods,Super Oregano
+CR-10302,1,Baking Goods,Drink,Spices,Baking Goods,Super Oregano
+CR-10096,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Golden Turkey TV Dinner
+CR-10096,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Golden Turkey TV Dinner
+CR-10338,1,Canned Foods,Food,Soup,Canned Soup,Better Beef Soup
+CR-10338,1,Canned Foods,Drink,Soup,Canned Soup,Better Beef Soup
+CR-10634,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Radius Oatmeal
+CR-10634,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Radius Oatmeal
+CR-10011,2,Beverages,Food,Flavored Drinks,Drinks,Washington Apple Drink
+CR-10011,2,Beverages,Drink,Flavored Drinks,Drinks,Washington Apple Drink
+CR-10708,1,Frozen Foods,Food,French Fries,Vegetables,Imagine Low Fat French Fries
+CR-10708,1,Frozen Foods,Drink,French Fries,Vegetables,Imagine Low Fat French Fries
+CR-10297,1,Baking Goods,Food,Jelly,Jams and Jellies,Super Strawberry Jelly
+CR-10297,1,Baking Goods,Drink,Jelly,Jams and Jellies,Super Strawberry Jelly
+CR-10606,1,Baking Goods,Food,Preserves,Jams and Jellies,Landslide Grape Preserves
+CR-10606,1,Baking Goods,Drink,Preserves,Jams and Jellies,Landslide Grape Preserves
+CR-10849,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Graham Crackers
+CR-10849,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Graham Crackers
+CR-10966,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Canned Peas
+CR-10966,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Canned Peas
+CR-10535,1,Snack Foods,Food,Cookies,Snack Foods,Fast Fudge Brownies
+CR-10535,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Fudge Brownies
+CR-10563,1,Snack Foods,Food,Donuts,Snack Foods,Fast Frosted Donuts
+CR-10563,1,Snack Foods,Drink,Donuts,Snack Foods,Fast Frosted Donuts
+CR-10380,1,Deli,Food,Deli Salads,Side Dishes,Moms Low Fat Cole Slaw
+CR-10380,1,Deli,Drink,Deli Salads,Side Dishes,Moms Low Fat Cole Slaw
+CR-10200,1,Produce,Food,Fresh Fruit,Fruit,High Top Fancy Plums
+CR-10200,1,Produce,Drink,Fresh Fruit,Fruit,High Top Fancy Plums
+CR-10255,1,Snacks,Food,Chocolate Candy,Candy,Choice Malted Milk Balls
+CR-10255,1,Snacks,Drink,Chocolate Candy,Candy,Choice Malted Milk Balls
+CR-10232,1,Snack Foods,Food,Dips,Snack Foods,Best Choice Salsa Dip
+CR-10232,1,Snack Foods,Drink,Dips,Snack Foods,Best Choice Salsa Dip
+CR-10631,2,Beverages,Food,Juice,Pure Juice Beverages,Token Cranberry Juice
+CR-10631,2,Beverages,Drink,Juice,Pure Juice Beverages,Token Cranberry Juice
+CR-10996,2,Dairy,Food,Milk,Dairy,Even Better Chocolate Milk
+CR-10996,2,Dairy,Drink,Milk,Dairy,Even Better Chocolate Milk
+CR-10947,2,Beverages,Food,Juice,Pure Juice Beverages,Fabulous Cranberry Juice
+CR-10947,2,Beverages,Drink,Juice,Pure Juice Beverages,Fabulous Cranberry Juice
+CR-10829,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Sweet Onion
+CR-10829,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Sweet Onion
+CR-10675,1,Dairy,Food,Cheese,Dairy,Gorilla Sharp Cheddar Cheese
+CR-10675,1,Dairy,Drink,Cheese,Dairy,Gorilla Sharp Cheddar Cheese
+CR-10581,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Merlot Wine
+CR-10581,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Merlot Wine
+CR-10243,1,Snack Foods,Food,Dried Fruit,Snack Foods,Best Choice Dried Apples
+CR-10243,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Best Choice Dried Apples
+CR-10586,1,Baked Goods,Food,Sliced Bread,Bread,Colony White Bread
+CR-10586,1,Baked Goods,Drink,Sliced Bread,Bread,Colony White Bread
+CR-10564,1,Snacks,Food,Chocolate Candy,Candy,Atomic Tasty Candy Bar
+CR-10564,1,Snacks,Drink,Chocolate Candy,Candy,Atomic Tasty Candy Bar
+CR-10686,1,Deli,Food,Bologna,Meat,Cutting Edge Pimento Loaf
+CR-10686,1,Deli,Drink,Bologna,Meat,Cutting Edge Pimento Loaf
+CR-10985,1,Dairy,Food,Cheese,Dairy,Even Better Muenster Cheese
+CR-10985,1,Dairy,Drink,Cheese,Dairy,Even Better Muenster Cheese
+CR-10324,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Best Corn Puffs
+CR-10324,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Best Corn Puffs
+CR-10368,2,Dairy,Food,Milk,Dairy,Carlson Buttermilk
+CR-10368,2,Dairy,Drink,Milk,Dairy,Carlson Buttermilk
+CR-10580,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Walrus Chablis Wine
+CR-10580,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Walrus Chablis Wine
+CR-10275,1,Baked Goods,Food,Sliced Bread,Bread,Great White Bread
+CR-10275,1,Baked Goods,Drink,Sliced Bread,Bread,Great White Bread
+CR-10956,1,Canned Foods,Food,Canned Vegetables,Vegetables,Just Right Canned String Beans
+CR-10956,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Just Right Canned String Beans
+CR-10339,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Canned Peas
+CR-10339,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Canned Peas
+CR-10316,2,Beverages,Food,Soda,Carbonated Beverages,Excellent Diet Soda
+CR-10316,2,Beverages,Drink,Soda,Carbonated Beverages,Excellent Diet Soda
+CR-10915,2,Beverages,Food,Coffee,Hot Beverages,BBB Best French Roast Coffee
+CR-10915,2,Beverages,Drink,Coffee,Hot Beverages,BBB Best French Roast Coffee
+CR-10496,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Potatos
+CR-10496,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Potatos
+CR-10311,1,Baking Goods,Food,Jelly,Jams and Jellies,Super Grape Jelly
+CR-10311,1,Baking Goods,Drink,Jelly,Jams and Jellies,Super Grape Jelly
+CR-10619,1,Baking Goods,Food,Preserves,Jams and Jellies,Landslide Strawberry Preserves
+CR-10619,1,Baking Goods,Drink,Preserves,Jams and Jellies,Landslide Strawberry Preserves
+CR-11971,1,Eggs,Food,Eggs,Eggs,National Large Brown Eggs
+CR-11971,1,Eggs,Drink,Eggs,Eggs,National Large Brown Eggs
+CR-10622,1,Baking Goods,Food,Jelly,Jams and Jellies,Landslide Grape Jelly
+CR-10622,1,Baking Goods,Drink,Jelly,Jams and Jellies,Landslide Grape Jelly
+CR-10175,1,Produce,Food,Fresh Vegetables,Vegetables,High Top New Potatos
+CR-10175,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top New Potatos
+CR-10276,1,Baked Goods,Food,Sliced Bread,Bread,Great Rye Bread
+CR-10276,1,Baked Goods,Drink,Sliced Bread,Bread,Great Rye Bread
+CR-10271,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Chardonnay
+CR-10271,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Chardonnay
+CR-10632,2,Beverages,Food,Juice,Pure Juice Beverages,Token Apple Juice
+CR-10632,2,Beverages,Drink,Juice,Pure Juice Beverages,Token Apple Juice
+CR-10733,1,Frozen Foods,Food,Frozen Chicken,Meat,Imagine Frozen Chicken Wings
+CR-10733,1,Frozen Foods,Drink,Frozen Chicken,Meat,Imagine Frozen Chicken Wings
+CR-10344,1,Canned Foods,Food,Anchovies,Canned Anchovies,Better Fancy Canned Anchovies
+CR-10344,1,Canned Foods,Drink,Anchovies,Canned Anchovies,Better Fancy Canned Anchovies
+CR-10237,1,Snack Foods,Food,Donuts,Snack Foods,Best Choice Mini Donuts
+CR-10237,1,Snack Foods,Drink,Donuts,Snack Foods,Best Choice Mini Donuts
+CR-10650,1,Canned Foods,Food,Canned Vegetables,Vegetables,Bravo Canned Peas
+CR-10650,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Bravo Canned Peas
+CR-10321,2,Beverages,Food,Juice,Pure Juice Beverages,Excellent Apple Juice
+CR-10321,2,Beverages,Drink,Juice,Pure Juice Beverages,Excellent Apple Juice
+CR-10285,2,Beverages,Food,Chocolate,Hot Beverages,Super Hot Chocolate
+CR-10285,2,Beverages,Drink,Chocolate,Hot Beverages,Super Hot Chocolate
+CR-10082,1,Frozen Foods,Food,Waffles,Breakfast Foods,Golden Low Fat Waffles
+CR-10082,1,Frozen Foods,Drink,Waffles,Breakfast Foods,Golden Low Fat Waffles
+CR-10087,1,Frozen Foods,Food,Pizza,Pizza,Golden Frozen Sausage Pizza
+CR-10087,1,Frozen Foods,Drink,Pizza,Pizza,Golden Frozen Sausage Pizza
+CR-11247,1,Deli,Food,Deli Meats,Meat,American Corned Beef
+CR-11247,1,Deli,Drink,Deli Meats,Meat,American Corned Beef
+CR-10420,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Big Time Popsicles
+CR-10420,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Big Time Popsicles
+CR-10969,1,Canned Foods,Food,Tuna,Canned Tuna,Just Right Canned Tuna in Oil
+CR-10969,1,Canned Foods,Drink,Tuna,Canned Tuna,Just Right Canned Tuna in Oil
+CR-10272,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good White Zinfandel Wine
+CR-10272,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good White Zinfandel Wine
+CR-10497,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Cauliflower
+CR-10497,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Cauliflower
+CR-10983,1,Dairy,Food,Sour Cream,Dairy,Even Better Sour Cream
+CR-10983,1,Dairy,Drink,Sour Cream,Dairy,Even Better Sour Cream
+CR-10652,1,Canned Foods,Food,Tuna,Canned Tuna,Bravo Canned Tuna in Water
+CR-10652,1,Canned Foods,Drink,Tuna,Canned Tuna,Bravo Canned Tuna in Water
+CR-10260,1,Snacks,Food,Chocolate Candy,Candy,Choice White Chocolate Bar
+CR-10260,1,Snacks,Drink,Chocolate Candy,Candy,Choice White Chocolate Bar
+CR-10039,1,Canned Products,Food,Canned Fruit,Fruit,Green Ribbon Canned Peaches
+CR-10039,1,Canned Products,Drink,Canned Fruit,Fruit,Green Ribbon Canned Peaches
+CR-10164,1,Meat,Food,Hamburger,Meat,Ship Shape Extra Lean Hamburger
+CR-10164,1,Meat,Drink,Hamburger,Meat,Ship Shape Extra Lean Hamburger
+CR-10036,1,Canned Foods,Food,Sardines,Canned Sardines,Blue Label Fancy Canned Sardines
+CR-10036,1,Canned Foods,Drink,Sardines,Canned Sardines,Blue Label Fancy Canned Sardines
+CR-10793,1,Produce,Food,Fresh Vegetables,Vegetables,Choice Spicy Mints
+CR-10793,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Summer Squash
+CR-10793,1,Produce,Drink,Fresh Vegetables,Vegetables,Choice Spicy Mints
+CR-10793,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Summer Squash
+CR-10012,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Jeffers Oatmeal
+CR-10012,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Jeffers Oatmeal
+CR-10539,1,Snack Foods,Food,Crackers,Snack Foods,Fast Cheese Crackers
+CR-10539,1,Snack Foods,Drink,Crackers,Snack Foods,Fast Cheese Crackers
+CR-10261,1,Starchy Foods,Food,Pasta,Starchy Foods,Medalist Ravioli
+CR-10261,1,Starchy Foods,Drink,Pasta,Starchy Foods,Medalist Ravioli
+CR-10365,1,Dairy,Food,Cheese,Dairy,Carlson Mild Cheddar Cheese
+CR-10365,1,Dairy,Drink,Cheese,Dairy,Carlson Mild Cheddar Cheese
+CR-10596,2,Beverages,Food,Chocolate,Hot Beverages,Landslide Hot Chocolate
+CR-10596,2,Beverages,Drink,Chocolate,Hot Beverages,Landslide Hot Chocolate
+CR-10540,1,Snack Foods,Food,Popcorn,Snack Foods,Fast Buttered Popcorn
+CR-10540,1,Snack Foods,Drink,Popcorn,Snack Foods,Fast Buttered Popcorn
+CR-10910,1,Baking Goods,Food,Cooking Oil,Baking Goods,BBB Best Sesame Oil
+CR-10910,1,Baking Goods,Drink,Cooking Oil,Baking Goods,BBB Best Sesame Oil
+CR-10379,1,Deli,Food,Hot Dogs,Meat,Moms Foot-Long Hot Dogs
+CR-10379,1,Deli,Drink,Hot Dogs,Meat,Moms Foot-Long Hot Dogs
+CR-10659,1,Canned Foods,Food,Soup,Canned Soup,Bravo Rice Soup
+CR-10659,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Rice Soup
+CR-10278,1,Baked Goods,Food,Muffins,Bread,Great Cranberry Muffins
+CR-10278,1,Baked Goods,Drink,Muffins,Bread,Great Cranberry Muffins
+CR-10341,1,Canned Foods,Food,Tuna,Canned Tuna,Better Canned Tuna in Water
+CR-10341,1,Canned Foods,Drink,Tuna,Canned Tuna,Better Canned Tuna in Water
+CR-10648,1,Canned Foods,Food,Soup,Canned Soup,Bravo Turkey Noodle Soup
+CR-10648,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Turkey Noodle Soup
+CR-10233,1,Snack Foods,Food,Dips,Snack Foods,Best Choice Avocado Dip
+CR-10233,1,Snack Foods,Drink,Dips,Snack Foods,Best Choice Avocado Dip
+CR-10265,1,Starchy Foods,Food,Rice,Starchy Foods,Medalist Rice Medly
+CR-10265,1,Starchy Foods,Drink,Rice,Starchy Foods,Medalist Rice Medly
+CR-10257,1,Snacks,Food,Gum,Candy,Choice Bubble Gum
+CR-10257,1,Snacks,Drink,Gum,Candy,Choice Bubble Gum
+CR-10174,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Sweet Peas
+CR-10174,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Sweet Peas
+CR-10812,1,Produce,Food,Fresh Vegetables,Vegetables,Ebony Dried Mushrooms
+CR-10812,1,Produce,Drink,Fresh Vegetables,Vegetables,Ebony Dried Mushrooms
+CR-10537,1,Snack Foods,Food,Cookies,Snack Foods,Fast Lemon Cookies
+CR-10537,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Lemon Cookies
+CR-10509,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Red Delcious Apples
+CR-10509,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Red Delcious Apples
+CR-10273,2,Alcoholic Beverages,Food,Beer,Beer and Wine,Good Light Beer
+CR-10273,2,Alcoholic Beverages,Drink,Beer,Beer and Wine,Good Light Beer
+CR-10286,1,Baking Goods,Food,Sugar,Baking Goods,Super Brown Sugar
+CR-10286,1,Baking Goods,Drink,Sugar,Baking Goods,Super Brown Sugar
+CR-10694,1,Deli,Food,Deli Meats,Meat,Cutting Edge Corned Beef
+CR-10694,1,Deli,Drink,Deli Meats,Meat,Cutting Edge Corned Beef
+PC-10198,1,Produce,Food,Fresh Fruit,Fruit,High Top Red Delcious Apples
+PC-10198,1,Produce,Drink,Fresh Fruit,Fruit,High Top Red Delcious Apples
+CR-10727,1,Frozen Foods,Food,Frozen Vegetables,Vegetables,Imagine Frozen Cauliflower
+CR-10727,1,Frozen Foods,Drink,Frozen Vegetables,Vegetables,Imagine Frozen Cauliflower
+CR-10998,2,Dairy,Food,Milk,Dairy,Even Better Whole Milk
+CR-10998,2,Dairy,Drink,Milk,Dairy,Even Better Whole Milk
+CR-10647,1,Canned Foods,Food,Soup,Canned Soup,Bravo Chicken Noodle Soup
+CR-10647,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Chicken Noodle Soup
+CR-10571,1,Snacks,Food,Chocolate Candy,Candy,Atomic White Chocolate Bar
+CR-10571,1,Snacks,Drink,Chocolate Candy,Candy,Atomic White Chocolate Bar
+CR-10216,1,Seafood,Food,Shellfish,Seafood,Tip Top Scallops
+CR-10216,1,Seafood,Drink,Shellfish,Seafood,Tip Top Scallops
+CR-10336,1,Canned Foods,Food,Soup,Canned Soup,Better Chicken Noodle Soup
+CR-10336,1,Canned Foods,Drink,Soup,Canned Soup,Better Chicken Noodle Soup
+CR-10916,2,Beverages,Food,Coffee,Hot Beverages,BBB Best Decaf Coffee
+CR-10916,2,Beverages,Drink,Coffee,Hot Beverages,BBB Best Decaf Coffee
+CR-10703,1,Eggs,Food,Eggs,Eggs,Jumbo Egg Substitute
+CR-10703,1,Eggs,Drink,Eggs,Eggs,Jumbo Egg Substitute
+CR-10526,1,Seafood,Food,Fresh Fish,Seafood,Kiwi Lox
+CR-10526,1,Seafood,Drink,Fresh Fish,Seafood,Kiwi Lox
+CR-10193,1,Produce,Food,Fresh Fruit,Fruit,High Top Limes
+CR-10193,1,Produce,Drink,Fresh Fruit,Fruit,High Top Limes
+CR-10666,1,Dairy,Food,Sour Cream,Dairy,Gorilla Low Fat Sour Cream
+CR-10666,1,Dairy,Drink,Sour Cream,Dairy,Gorilla Low Fat Sour Cream
+CR-10487,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Beets
+CR-10487,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Beets
+CR-10491,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Shitake Mushrooms
+CR-10491,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Shitake Mushrooms
+CR-10658,1,Canned Foods,Food,Sardines,Canned Sardines,Bravo Fancy Canned Sardines
+CR-10658,1,Canned Foods,Drink,Sardines,Canned Sardines,Bravo Fancy Canned Sardines
+CR-10298,1,Baking Goods,Food,Spices,Baking Goods,Super Pepper
+CR-10298,1,Baking Goods,Drink,Spices,Baking Goods,Super Pepper
+CR-10614,1,Baking Goods,Food,Jelly,Jams and Jellies,Landslide Apple Jelly
+CR-10614,1,Baking Goods,Drink,Jelly,Jams and Jellies,Landslide Apple Jelly
+CR-10826,1,Produce,Food,Fresh Fruit,Fruit,Ebony Mandarin Oranges
+CR-10826,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Mandarin Oranges
+CR-10700,1,Eggs,Food,Eggs,Eggs,Jumbo Large Brown Eggs
+CR-10700,1,Eggs,Drink,Eggs,Eggs,Jumbo Large Brown Eggs
+CR-10209,1,Produce,Food,Fresh Fruit,Fruit,High Top Honey Dew
+CR-10209,1,Produce,Drink,Fresh Fruit,Fruit,High Top Honey Dew
+CR-10263,1,Starchy Foods,Food,Pasta,Starchy Foods,Medalist Spaghetti
+CR-10263,1,Starchy Foods,Drink,Pasta,Starchy Foods,Medalist Spaghetti
+CR-10198,1,Produce,Food,Fresh Fruit,Fruit,High Top Red Delcious Apples
+CR-10198,1,Produce,Drink,Fresh Fruit,Fruit,High Top Red Delcious Apples
+CR-10864,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Frosted Cookies
+CR-10864,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Frosted Cookies
+CR-10548,1,Snack Foods,Food,Donuts,Snack Foods,Fast Mini Donuts
+CR-10548,1,Snack Foods,Drink,Donuts,Snack Foods,Fast Mini Donuts
+CR-11793,1,Deli,Food,Fresh Chicken,Meat,American Sliced Chicken
+CR-11793,1,Deli,Drink,Fresh Chicken,Meat,American Sliced Chicken
+CR-10063,1,Deli,Food,Hot Dogs,Meat,Red Spade Chicken Hot Dogs
+CR-10063,1,Deli,Drink,Hot Dogs,Meat,Red Spade Chicken Hot Dogs
+CR-10293,1,Baking Goods,Food,Sauces,Baking Goods,Super Tomato Sauce
+CR-10293,1,Baking Goods,Drink,Sauces,Baking Goods,Super Tomato Sauce
+CR-10866,1,Snack Foods,Food,Dried Fruit,Snack Foods,Nationeel Apple Fruit Roll
+CR-10866,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Nationeel Apple Fruit Roll
+CR-10330,1,Canned Foods,Food,Soup,Canned Soup,Better Chicken Soup
+CR-10330,1,Canned Foods,Drink,Soup,Canned Soup,Better Chicken Soup
+CR-10786,1,Meat,Food,Hamburger,Meat,Footnote Extra Lean Hamburger
+CR-10786,1,Meat,Drink,Hamburger,Meat,Footnote Extra Lean Hamburger
+CR-10223,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Fudge Cookies
+CR-10223,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Fudge Cookies
+CR-10597,1,Baking Goods,Food,Sugar,Baking Goods,Landslide Brown Sugar
+CR-10597,1,Baking Goods,Drink,Sugar,Baking Goods,Landslide Brown Sugar
+CR-10875,1,Snacks,Food,Chocolate Candy,Candy,Thresher Tasty Candy Bar
+CR-10875,1,Snacks,Drink,Chocolate Candy,Candy,Thresher Tasty Candy Bar
+CR-10851,1,Snack Foods,Food,Popcorn,Snack Foods,Nationeel Buttered Popcorn
+CR-10851,1,Snack Foods,Drink,Popcorn,Snack Foods,Nationeel Buttered Popcorn
+CR-10815,1,Produce,Food,Fresh Fruit,Fruit,Ebony Limes
+CR-10815,1,Produce,Drink,Fresh Fruit,Fruit,Ebony Limes
+CR-10837,1,Seafood,Food,Fresh Fish,Seafood,Curlew Lox
+CR-10837,1,Seafood,Drink,Fresh Fish,Seafood,Curlew Lox
+CR-11925,1,Eggs,Food,Eggs,Eggs,National Small Brown Eggs
+CR-11925,1,Eggs,Drink,Eggs,Eggs,National Small Brown Eggs
+CR-10270,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Merlot Wine
+CR-10270,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Merlot Wine
+CR-10646,1,Canned Foods,Food,Soup,Canned Soup,Bravo Regular Ramen Soup
+CR-10646,1,Canned Foods,Drink,Soup,Canned Soup,Bravo Regular Ramen Soup
+CR-10513,1,Produce,Food,Fresh Fruit,Fruit,Tell Tale Peaches
+CR-10513,1,Produce,Drink,Fresh Fruit,Fruit,Tell Tale Peaches
+CR-10921,1,Baking Goods,Food,Cooking Oil,Baking Goods,BBB Best Canola Oil
+CR-10921,1,Baking Goods,Drink,Cooking Oil,Baking Goods,BBB Best Canola Oil
+CR-10846,1,Snack Foods,Food,Cookies,Snack Foods,Nationeel Fudge Brownies
+CR-10846,1,Snack Foods,Drink,Cookies,Snack Foods,Nationeel Fudge Brownies
+CR-10306,1,Baking Goods,Food,Jam,Jams and Jellies,Super Strawberry Jam
+CR-10306,1,Baking Goods,Drink,Jam,Jams and Jellies,Super Strawberry Jam
+CR-10885,1,Starchy Foods,Food,Pasta,Starchy Foods,Monarch Spaghetti
+CR-10885,1,Starchy Foods,Drink,Pasta,Starchy Foods,Monarch Spaghetti
+CR-10595,1,Baking Goods,Food,Peanut Butter,Jams and Jellies,Landslide Chunky Peanut Butter
+CR-10595,1,Baking Goods,Drink,Peanut Butter,Jams and Jellies,Landslide Chunky Peanut Butter
+CR-10555,1,Snack Foods,Food,Dried Fruit,Snack Foods,Fast Apple Fruit Roll
+CR-10555,1,Snack Foods,Drink,Dried Fruit,Snack Foods,Fast Apple Fruit Roll
+CR-10655,1,Canned Foods,Food,Anchovies,Canned Anchovies,Bravo Fancy Canned Anchovies
+CR-10655,1,Canned Foods,Drink,Anchovies,Canned Anchovies,Bravo Fancy Canned Anchovies
+CR-10195,1,Produce,Food,Nuts,Specialty,High Top Almonds
+CR-10195,1,Produce,Drink,Nuts,Specialty,High Top Almonds
+PC-10378,1,Deli,Food,Hot Dogs,Meat,Moms Turkey Hot Dogs
+PC-10378,1,Deli,Drink,Hot Dogs,Meat,Moms Turkey Hot Dogs
+CR-10545,1,Snack Foods,Food,Pretzels,Snack Foods,Fast Salted Pretzels
+CR-10545,1,Snack Foods,Drink,Pretzels,Snack Foods,Fast Salted Pretzels
+CR-10669,1,Dairy,Food,Cheese,Dairy,Gorilla Muenster Cheese
+CR-10669,1,Dairy,Drink,Cheese,Dairy,Gorilla Muenster Cheese
+CR-10056,2,Dairy,Food,Milk,Dairy,Club 2% Milk
+CR-10056,2,Dairy,Drink,Milk,Dairy,Club 2% Milk
+CR-10977,1,Canned Products,Food,Canned Fruit,Fruit,Big City Canned Peaches
+CR-10977,1,Canned Products,Drink,Canned Fruit,Fruit,Big City Canned Peaches
+CR-10001,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Berry Juice
+CR-10001,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Berry Juice
+CR-10624,2,Beverages,Food,Flavored Drinks,Drinks,Token Mango Drink
+CR-10624,2,Beverages,Drink,Flavored Drinks,Drinks,Token Mango Drink
+CR-10997,2,Dairy,Food,Milk,Dairy,Even Better 1% Milk
+CR-10997,2,Dairy,Drink,Milk,Dairy,Even Better 1% Milk
+PC-10233,1,Snack Foods,Food,Dips,Snack Foods,Best Choice Avocado Dip
+PC-10233,1,Snack Foods,Drink,Dips,Snack Foods,Best Choice Avocado Dip
+PC-10886,1,Starchy Foods,Food,Rice,Starchy Foods,Monarch Thai Rice
+PC-10886,1,Starchy Foods,Drink,Rice,Starchy Foods,Monarch Thai Rice
+CR-10318,2,Beverages,Food,Soda,Carbonated Beverages,Excellent Diet Cola
+CR-10318,2,Beverages,Drink,Soda,Carbonated Beverages,Excellent Diet Cola
+CR-10720,1,Frozen Foods,Food,TV Dinner,Frozen Entrees,Imagine Beef TV Dinner
+CR-10720,1,Frozen Foods,Drink,TV Dinner,Frozen Entrees,Imagine Beef TV Dinner
+CR-10335,1,Canned Foods,Food,Soup,Canned Soup,Better Regular Ramen Soup
+CR-10335,1,Canned Foods,Drink,Soup,Canned Soup,Better Regular Ramen Soup
+CR-10493,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Elephant Garlic
+CR-10493,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Elephant Garlic
+CR-10224,1,Snack Foods,Food,Cookies,Snack Foods,Best Choice Fudge Brownies
+CR-10224,1,Snack Foods,Drink,Cookies,Snack Foods,Best Choice Fudge Brownies
+CR-10280,1,Baked Goods,Food,Bagels,Bread,Great Bagels
+CR-10280,1,Baked Goods,Drink,Bagels,Bread,Great Bagels
+PC-10537,1,Snack Foods,Food,Cookies,Snack Foods,Fast Lemon Cookies
+PC-10537,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Lemon Cookies
+PC-10270,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Merlot Wine
+PC-10270,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Merlot Wine
+PC-10010,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Apple Juice
+PC-10010,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Apple Juice
+PC-10596,2,Beverages,Food,Chocolate,Hot Beverages,Landslide Hot Chocolate
+PC-10596,2,Beverages,Drink,Chocolate,Hot Beverages,Landslide Hot Chocolate
+PC-10347,1,Canned Foods,Food,Sardines,Canned Sardines,Better Fancy Canned Sardines
+PC-10347,1,Canned Foods,Drink,Sardines,Canned Sardines,Better Fancy Canned Sardines
+PC-10348,1,Canned Foods,Food,Soup,Canned Soup,Better Rice Soup
+PC-10348,1,Canned Foods,Drink,Soup,Canned Soup,Better Rice Soup
+PC-10691,1,Deli,Food,Deli Salads,Side Dishes,Cutting Edge Low Fat Cole Slaw
+PC-10691,1,Deli,Drink,Deli Salads,Side Dishes,Cutting Edge Low Fat Cole Slaw
+PC-10283,1,Baking Goods,Food,Cooking Oil,Baking Goods,Super Sesame Oil
+PC-10283,1,Baking Goods,Drink,Cooking Oil,Baking Goods,Super Sesame Oil
+PC-10361,1,Dairy,Food,Cheese,Dairy,Carlson Havarti Cheese
+PC-10361,1,Dairy,Drink,Cheese,Dairy,Carlson Havarti Cheese
+PC-10258,1,Snacks,Food,Hard Candy,Candy,Choice Spicy Mints
+PC-10258,1,Snacks,Drink,Hard Candy,Candy,Choice Spicy Mints
+PC-10057,2,Dairy,Food,Milk,Dairy,Club Buttermilk
+PC-10057,2,Dairy,Drink,Milk,Dairy,Club Buttermilk
+PC-10382,1,Deli,Food,Fresh Chicken,Meat,Moms Roasted Chicken
+PC-10382,1,Deli,Drink,Fresh Chicken,Meat,Moms Roasted Chicken
+PC-10350,1,Canned Products,Food,Canned Fruit,Fruit,Swell Canned Peaches
+PC-10350,1,Canned Products,Drink,Canned Fruit,Fruit,Swell Canned Peaches
+PC-10006,2,Beverages,Food,Soda,Carbonated Beverages,Washington Cola
+PC-10006,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Cola
+PC-10009,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Cranberry Juice
+PC-10009,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Cranberry Juice
+PC-10065,1,Deli,Food,Bologna,Meat,Red Spade Beef Bologna
+PC-10065,1,Deli,Drink,Bologna,Meat,Red Spade Beef Bologna
+PC-10058,2,Dairy,Food,Milk,Dairy,Club Chocolate Milk
+PC-10058,2,Dairy,Drink,Milk,Dairy,Club Chocolate Milk
+PC-10277,1,Baked Goods,Food,Muffins,Bread,Great English Muffins
+PC-10277,1,Baked Goods,Drink,Muffins,Bread,Great English Muffins
+PC-10887,1,Starchy Foods,Food,Rice,Starchy Foods,Monarch Rice Medly
+PC-10887,1,Starchy Foods,Drink,Rice,Starchy Foods,Monarch Rice Medly
+PC-10008,2,Beverages,Food,Juice,Pure Juice Beverages,Washington Orange Juice
+PC-10008,2,Beverages,Drink,Juice,Pure Juice Beverages,Washington Orange Juice
+PC-10349,1,Canned Products,Food,Canned Fruit,Fruit,Swell Canned Mixed Fruit
+PC-10349,1,Canned Products,Drink,Canned Fruit,Fruit,Swell Canned Mixed Fruit
+PC-10066,1,Deli,Food,Bologna,Meat,Red Spade Low Fat Bologna
+PC-10066,1,Deli,Drink,Bologna,Meat,Red Spade Low Fat Bologna
+CR-10333,1,Canned Foods,Food,Canned Vegetables,Vegetables,Better Canned Tomatos
+CR-10333,1,Canned Foods,Drink,Canned Vegetables,Vegetables,Better Canned Tomatos
+PC-10275,1,Baked Goods,Food,Sliced Bread,Bread,Great White Bread
+PC-10275,1,Baked Goods,Drink,Sliced Bread,Bread,Great White Bread
+PC-10370,2,Dairy,Food,Milk,Dairy,Carlson 1% Milk
+PC-10370,2,Dairy,Drink,Milk,Dairy,Carlson 1% Milk
+PC-10538,1,Snack Foods,Food,Cookies,Snack Foods,Fast Graham Crackers
+PC-10538,1,Snack Foods,Drink,Cookies,Snack Foods,Fast Graham Crackers
+PC-10491,1,Produce,Food,Fresh Vegetables,Vegetables,Tell Tale Shitake Mushrooms
+PC-10491,1,Produce,Drink,Fresh Vegetables,Vegetables,Tell Tale Shitake Mushrooms
+PC-10360,1,Dairy,Food,Cheese,Dairy,Carlson Low Fat String Cheese
+PC-10360,1,Dairy,Drink,Cheese,Dairy,Carlson Low Fat String Cheese
+PC-10172,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Corn on the Cob
+PC-10172,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Corn on the Cob
+PC-10269,2,Alcoholic Beverages,Food,Wine,Beer and Wine,Good Chablis Wine
+PC-10269,2,Alcoholic Beverages,Drink,Wine,Beer and Wine,Good Chablis Wine
+PC-10007,2,Beverages,Food,Soda,Carbonated Beverages,Washington Diet Cola
+PC-10007,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Diet Cola
+PC-10414,1,Frozen Foods,Food,Ice Cream,Frozen Desserts,Big Time Ice Cream
+PC-10414,1,Frozen Foods,Drink,Ice Cream,Frozen Desserts,Big Time Ice Cream
+PC-10174,1,Produce,Food,Fresh Vegetables,Vegetables,High Top Sweet Peas
+PC-10174,1,Produce,Drink,Fresh Vegetables,Vegetables,High Top Sweet Peas
+PC-10381,1,Deli,Food,Deli Salads,Side Dishes,Moms Cole Slaw
+PC-10381,1,Deli,Drink,Deli Salads,Side Dishes,Moms Cole Slaw
+PC-10005,2,Beverages,Food,Soda,Carbonated Beverages,Washington Diet Soda
+PC-10005,2,Beverages,Drink,Soda,Carbonated Beverages,Washington Diet Soda
+PC-10373,1,Dairy,Food,Yogurt,Dairy,Carlson Blueberry Yogurt
+PC-10373,1,Dairy,Drink,Yogurt,Dairy,Carlson Blueberry Yogurt
+PC-10060,2,Dairy,Food,Milk,Dairy,Club Whole Milk
+PC-10060,2,Dairy,Drink,Milk,Dairy,Club Whole Milk
+PC-10318,2,Beverages,Food,Soda,Carbonated Beverages,Excellent Diet Cola
+PC-10318,2,Beverages,Drink,Soda,Carbonated Beverages,Excellent Diet Cola
+PC-10326,1,Breakfast Foods,Food,Cereal,Breakfast Foods,Best Grits
+PC-10326,1,Breakfast Foods,Drink,Cereal,Breakfast Foods,Best Grits
