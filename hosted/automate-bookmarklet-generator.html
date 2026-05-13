@@ -63,15 +63,6 @@
   .page { max-width: 640px; margin: 0 auto; }
 
   header { margin-bottom: 2.5rem; }
-  .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
-  .logo-mark {
-    width: 32px; height: 32px;
-    background: var(--accent);
-    border-radius: var(--radius-sm);
-    display: flex; align-items: center; justify-content: center;
-  }
-  .logo-mark svg { width: 18px; height: 18px; fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round; }
-  .logo-name { font-size: 14px; font-weight: 600; color: var(--muted); letter-spacing: 0.03em; text-transform: uppercase; }
   h1 { font-size: 1.6rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; }
   .subtitle { font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
 
@@ -203,13 +194,7 @@
 <div class="page">
 
   <header>
-    <div class="logo">
-      <div class="logo-mark">
-        <svg viewBox="0 0 18 18"><path d="M3 9h12M9 3v12"/></svg>
-      </div>
-      <span class="logo-name">Qlik Automate</span>
-    </div>
-    <h1>Bookmarklet generator</h1>
+    <h1>Qlik Automate Bookmarklet generator</h1>
     <p class="subtitle">Create browser bookmarks that trigger automations with <code>X-Execution-Token</code> as a header, compatible with the June 2 2026 enforcement change.</p>
   </header>
 
@@ -246,20 +231,14 @@
   </div>
 
   <footer>
-    <p>No backend. No tracking. Tokens never leave this page or your browser's memory.</p>
+    <p><a href="https://github.com/withdave/qlik/blob/master/hosted/automate-bookmarklet-generator.html" target="_blank" rel="noopener">View source on GitHub</a></p>
+    <p>No backend. No tracking. Nothing is persisted.</p>
     <p style="margin-top:4px">See the <a href="https://community.qlik.com/t5/Support-Updates/Qlik-Automate-Execution-tokens-will-become-header-parameters-on/ba-p/2536744" target="_blank" rel="noopener">Qlik support announcement</a> for context on the token header change.</p>
   </footer>
 
 </div>
 <script>
-  const KEY = 'qlik-automate-bookmarks-v2';
-
-  function load() {
-    try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; }
-  }
-  function save(list) {
-    localStorage.setItem(KEY, JSON.stringify(list));
-  }
+  let bookmarks = [];
 
   function buildBookmarklet(url, token, label) {
     const safeUrl   = url.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
@@ -294,7 +273,7 @@
   }
 
   function render() {
-    const list = load();
+    const list = bookmarks;
     const ul = document.getElementById('bookmarks-list');
     ul.innerHTML = '';
 
@@ -323,8 +302,7 @@
       delBtn.title = 'Remove';
       delBtn.innerHTML = '<svg viewBox="0 0 14 14"><path d="M2 3.5h10M5 3.5V2h4v1.5M5.5 6v4.5M8.5 6v4.5M3 3.5l.75 8h6.5l.75-8"/></svg>';
       delBtn.addEventListener('click', () => {
-        const updated = load().filter((_, j) => j !== i);
-        save(updated);
+        bookmarks = bookmarks.filter((_, j) => j !== i);
         render();
       });
 
@@ -411,9 +389,7 @@
     const toast = document.getElementById('add-toast');
     if (!url)   { showToast(toast, 'Enter a trigger URL.', 'er'); return; }
     if (!label) { showToast(toast, 'Enter a label.', 'er'); return; }
-    const list = load();
-    list.push({ url, label });
-    save(list);
+    bookmarks.push({ url, label });
     document.getElementById('bm-url').value = '';
     document.getElementById('bm-label').value = '';
     showToast(toast, 'Added.', 'ok');
