@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qlik Automate bookmarklet generator</title>
+<style>
+  :root {
+    --bg: #f0eeea;
+    --surface: #ffffff;
+    --surface2: #f7f6f3;
+    --border: rgba(0,0,0,0.1);
+    --border2: rgba(0,0,0,0.18);
+    --text: #1a1a18;
+    --muted: #6b6a65;
+    --accent: #0060a9;
+    --accent-hover: #004e8a;
+    --accent-text: #ffffff;
+    --success-bg: #eaf3de;
+    --success-text: #27500a;
+    --error-bg: #fcebeb;
+    --error-text: #791f1f;
+    --warn-bg: #faeeda;
+    --warn-text: #633806;
+    --tag-bg: #e6f1fb;
+    --tag-text: #0c447c;
+    --radius-sm: 6px;
+    --radius: 10px;
+    --radius-lg: 14px;
+    --mono: 'Courier New', Courier, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a18;
+      --surface: #242422;
+      --surface2: #2e2e2b;
+      --border: rgba(255,255,255,0.08);
+      --border2: rgba(255,255,255,0.15);
+      --text: #eeecea;
+      --muted: #99988f;
+      --accent: #4da3e8;
+      --accent-hover: #6db4ee;
+      --accent-text: #042c53;
+      --success-bg: #173404;
+      --success-text: #c0dd97;
+      --error-bg: #501313;
+      --error-text: #f09595;
+      --warn-bg: #412402;
+      --warn-text: #fac775;
+      --tag-bg: #042c53;
+      --tag-text: #b5d4f4;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 3rem 1.5rem 5rem;
+    line-height: 1.6;
+  }
+  .page { max-width: 640px; margin: 0 auto; }
+
+  header { margin-bottom: 2.5rem; }
+  .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+  .logo-mark {
+    width: 32px; height: 32px;
+    background: var(--accent);
+    border-radius: var(--radius-sm);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .logo-mark svg { width: 18px; height: 18px; fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round; }
+  .logo-name { font-size: 14px; font-weight: 600; color: var(--muted); letter-spacing: 0.03em; text-transform: uppercase; }
+  h1 { font-size: 1.6rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; }
+  .subtitle { font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
+
+  .notice {
+    display: flex; gap: 10px;
+    border-radius: var(--radius);
+    padding: 0.75rem 1rem;
+    font-size: 0.825rem; line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  .notice svg { flex-shrink: 0; width: 16px; height: 16px; margin-top: 2px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+  .notice-info { background: var(--tag-bg); color: var(--tag-text); }
+  .notice-warn { background: var(--warn-bg); color: var(--warn-text); }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .card-title {
+    font-size: 0.8rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin-bottom: 1.25rem;
+  }
+  .field { margin-bottom: 1rem; }
+  .field:last-child { margin-bottom: 0; }
+  .field label { display: block; font-size: 0.825rem; font-weight: 500; color: var(--muted); margin-bottom: 5px; }
+  .field input {
+    width: 100%; padding: 9px 12px;
+    font-size: 0.875rem; font-family: inherit;
+    background: var(--surface2); color: var(--text);
+    border: 1px solid var(--border2);
+    border-radius: var(--radius-sm);
+    outline: none; transition: border-color 0.15s;
+  }
+  .field input:focus { border-color: var(--accent); }
+  .field input.mono { font-family: var(--mono); font-size: 0.8rem; }
+  .field-hint { font-size: 0.775rem; color: var(--muted); margin-top: 4px; }
+
+  .form-actions { display: flex; gap: 8px; margin-top: 1.25rem; align-items: center; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 6px 12px; font-size: 0.8rem; font-family: inherit; font-weight: 500;
+    border-radius: var(--radius-sm); border: 1px solid var(--border2);
+    background: transparent; color: var(--text);
+    cursor: pointer; transition: background 0.12s, border-color 0.12s;
+    white-space: nowrap;
+  }
+  .btn:hover { background: var(--surface2); }
+  .btn:disabled { opacity: 0.4; cursor: default; pointer-events: none; }
+  .btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; flex-shrink: 0; }
+  .btn-primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+  .btn-sm { padding: 4px 8px; font-size: 0.75rem; }
+  .btn-danger { color: var(--error-text); border-color: transparent; }
+  .btn-danger:hover { background: var(--error-bg); }
+
+  .toast { font-size: 0.8rem; padding: 4px 10px; border-radius: var(--radius-sm); opacity: 0; transition: opacity 0.2s; }
+  .toast.show { opacity: 1; }
+  .toast.ok { background: var(--success-bg); color: var(--success-text); }
+  .toast.er { background: var(--error-bg); color: var(--error-text); }
+
+  .bookmarks-list { list-style: none; }
+  .bookmark-item {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .bookmark-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px;
+    background: var(--surface2);
+  }
+  .bm-label { flex: 1; font-size: 0.875rem; font-weight: 500; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bm-url { font-size: 0.75rem; color: var(--muted); font-family: var(--mono); padding: 6px 12px; border-top: 1px solid var(--border); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bm-actions { display: flex; gap: 6px; flex-shrink: 0; }
+
+  .token-row {
+    display: flex; gap: 8px; align-items: center;
+    padding: 8px 12px; border-top: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .token-row input {
+    flex: 1; padding: 6px 10px; font-size: 0.775rem;
+    font-family: var(--mono); background: var(--surface2); color: var(--text);
+    border: 1px solid var(--border2); border-radius: var(--radius-sm);
+    outline: none; transition: border-color 0.15s;
+  }
+  .token-row input:focus { border-color: var(--accent); }
+  .token-row input::placeholder { color: var(--muted); font-style: italic; font-family: inherit; font-size: 0.775rem; }
+  .token-label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+
+  .drag-zone {
+    border-top: 1px solid var(--border);
+    padding: 8px 12px;
+    background: var(--surface);
+    display: none;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .drag-zone.visible { display: flex; }
+  .drag-zone-hint { font-size: 0.775rem; color: var(--muted); }
+  .drag-link {
+    display: inline-block; padding: 5px 14px;
+    background: var(--surface2); border: 1px solid var(--border2);
+    border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 500;
+    color: var(--text); cursor: grab; text-decoration: none;
+    transition: background 0.12s;
+  }
+  .drag-link:hover { background: var(--bg); }
+  .drag-link:active { cursor: grabbing; }
+
+  .empty-state { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.875rem; }
+
+  footer {
+    margin-top: 3rem; font-size: 0.775rem; color: var(--muted);
+    text-align: center; line-height: 1.6;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="logo">
+      <div class="logo-mark">
+        <svg viewBox="0 0 18 18"><path d="M3 9h12M9 3v12"/></svg>
+      </div>
+      <span class="logo-name">Qlik Automate</span>
+    </div>
+    <h1>Bookmarklet generator</h1>
+    <p class="subtitle">Create browser bookmarks that trigger automations with <code>X-Execution-Token</code> as a header, compatible with the June 2 2026 enforcement change.</p>
+  </header>
+
+  <div class="notice notice-info">
+    <svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M8 5v3.5M8 11v.5"/></svg>
+    <span>Nothing is saved — automations and tokens exist only while this page is open. Tokens never leave this page or your browser's memory.</span>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Add automation</div>
+    <div class="field">
+      <label for="bm-url">Trigger URL</label>
+      <input type="text" id="bm-url" class="mono" placeholder="https://your-tenant.eu.qlikcloud.com/api/v1/automations/{id}/actions/execute" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="field">
+      <label for="bm-label">Label</label>
+      <input type="text" id="bm-label" placeholder="e.g. Reload sales dashboard" autocomplete="off" />
+      <div class="field-hint">This becomes the bookmark name in your browser.</div>
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-primary" id="add-btn">
+        <svg viewBox="0 0 14 14"><path d="M7 1v12M1 7h12"/></svg>
+        Add
+      </button>
+      <span class="toast" id="add-toast"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Your automations</div>
+    <ul class="bookmarks-list" id="bookmarks-list">
+      <li class="empty-state">No automations yet. Add one above.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>No backend. No tracking. Tokens never leave this page or your browser's memory.</p>
+    <p style="margin-top:4px">See the <a href="https://community.qlik.com/t5/Support-Updates/Qlik-Automate-Execution-tokens-will-become-header-parameters-on/ba-p/2536744" target="_blank" rel="noopener">Qlik support announcement</a> for context on the token header change.</p>
+  </footer>
+
+</div>
+<script>
+  const KEY = 'qlik-automate-bookmarks-v2';
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; }
+  }
+  function save(list) {
+    localStorage.setItem(KEY, JSON.stringify(list));
+  }
+
+  function buildBookmarklet(url, token, label) {
+    const safeUrl   = url.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    const safeToken = token.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    const safeLabel = label.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    return `javascript:(function(){` +
+      `var w=window.open('','_blank');` +
+      `var d=w.document;` +
+      `d.write('<title>${safeLabel}<\\/title>');` +
+      `d.write('<style>body{font-family:system-ui,sans-serif;max-width:520px;margin:3rem auto;padding:0 1.5rem}h2{font-size:1rem;font-weight:500;margin-bottom:1rem}pre{background:#f5f4f0;padding:1rem;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all}.ok{color:#3b6d11}.er{color:#a32d2d}.inf{color:#185fa5;font-size:13px}<\\/style>');` +
+      `d.write('<h2>${safeLabel}<\\/h2><p class=inf id=s>Sending\u2026<\\/p><pre id=r><\\/pre>');` +
+      `d.close();` +
+      `fetch('${safeUrl}',{method:'GET',headers:{'X-Execution-Token':'${safeToken}'}})` +
+      `.then(function(r){return r.text().then(function(t){return{ok:r.ok,status:r.status,body:t}})})` +
+      `.then(function(d){` +
+        `w.document.getElementById('s').textContent=d.ok?'Success ('+d.status+')':'Error ('+d.status+')';` +
+        `w.document.getElementById('s').className=d.ok?'ok':'er';` +
+        `w.document.getElementById('r').textContent=d.body||'(no body)';` +
+      `})` +
+      `.catch(function(e){` +
+        `w.document.getElementById('s').textContent='Network error';` +
+        `w.document.getElementById('s').className='er';` +
+        `w.document.getElementById('r').textContent=e.message;` +
+      `});` +
+    `})();`;
+  }
+
+  function showToast(el, msg, type) {
+    el.textContent = msg;
+    el.className = 'toast show ' + type;
+    setTimeout(() => { el.className = 'toast'; }, 2000);
+  }
+
+  function render() {
+    const list = load();
+    const ul = document.getElementById('bookmarks-list');
+    ul.innerHTML = '';
+
+    if (list.length === 0) {
+      ul.innerHTML = '<li class="empty-state">No automations yet. Add one above.</li>';
+      return;
+    }
+
+    list.forEach((bm, i) => {
+      const li = document.createElement('li');
+      li.className = 'bookmark-item';
+
+      // Header
+      const header = document.createElement('div');
+      header.className = 'bookmark-header';
+
+      const labelEl = document.createElement('span');
+      labelEl.className = 'bm-label';
+      labelEl.textContent = bm.label;
+
+      const actions = document.createElement('div');
+      actions.className = 'bm-actions';
+
+      const delBtn = document.createElement('button');
+      delBtn.className = 'btn btn-sm btn-danger';
+      delBtn.title = 'Remove';
+      delBtn.innerHTML = '<svg viewBox="0 0 14 14"><path d="M2 3.5h10M5 3.5V2h4v1.5M5.5 6v4.5M8.5 6v4.5M3 3.5l.75 8h6.5l.75-8"/></svg>';
+      delBtn.addEventListener('click', () => {
+        const updated = load().filter((_, j) => j !== i);
+        save(updated);
+        render();
+      });
+
+      actions.appendChild(delBtn);
+      header.append(labelEl, actions);
+
+      // URL display
+      const urlEl = document.createElement('div');
+      urlEl.className = 'bm-url';
+      urlEl.textContent = bm.url;
+      urlEl.title = bm.url;
+
+      // Token input row
+      const tokenRow = document.createElement('div');
+      tokenRow.className = 'token-row';
+
+      const tokenLabel = document.createElement('span');
+      tokenLabel.className = 'token-label';
+      tokenLabel.textContent = 'Token';
+
+      const tokenInput = document.createElement('input');
+      tokenInput.type = 'password';
+      tokenInput.placeholder = 'Paste execution token to activate Copy and Drag';
+      tokenInput.autocomplete = 'off';
+      tokenInput.spellcheck = false;
+
+      const copyBtn = document.createElement('button');
+      copyBtn.className = 'btn btn-sm';
+      copyBtn.disabled = true;
+      copyBtn.innerHTML = '<svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg> Copy';
+
+      // Drag zone
+      const dragZone = document.createElement('div');
+      dragZone.className = 'drag-zone';
+
+      const dragHint = document.createElement('span');
+      dragHint.className = 'drag-zone-hint';
+      dragHint.textContent = 'Drag to bookmarks bar:';
+
+      const dragLink = document.createElement('a');
+      dragLink.className = 'drag-link';
+      dragLink.draggable = true;
+      dragLink.href = '#';
+      dragLink.textContent = bm.label;
+
+      dragZone.append(dragHint, dragLink);
+
+      tokenInput.addEventListener('input', () => {
+        const token = tokenInput.value;
+        if (token) {
+          const href = buildBookmarklet(bm.url, token, bm.label);
+          copyBtn.disabled = false;
+          dragLink.href = href;
+          dragZone.classList.add('visible');
+        } else {
+          copyBtn.disabled = true;
+          dragLink.href = '#';
+          dragZone.classList.remove('visible');
+        }
+      });
+
+      copyBtn.addEventListener('click', () => {
+        const token = tokenInput.value;
+        if (!token) return;
+        navigator.clipboard.writeText(buildBookmarklet(bm.url, token, bm.label)).then(() => {
+          copyBtn.innerHTML = 'Copied';
+          setTimeout(() => {
+            copyBtn.innerHTML = '<svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg> Copy';
+          }, 1500);
+        }).catch(() => {
+          copyBtn.textContent = 'Failed';
+        });
+      });
+
+      tokenRow.append(tokenLabel, tokenInput, copyBtn);
+      li.append(header, urlEl, tokenRow, dragZone);
+      ul.appendChild(li);
+    });
+  }
+
+  document.getElementById('add-btn').addEventListener('click', () => {
+    const url   = document.getElementById('bm-url').value.trim();
+    const label = document.getElementById('bm-label').value.trim();
+    const toast = document.getElementById('add-toast');
+    if (!url)   { showToast(toast, 'Enter a trigger URL.', 'er'); return; }
+    if (!label) { showToast(toast, 'Enter a label.', 'er'); return; }
+    const list = load();
+    list.push({ url, label });
+    save(list);
+    document.getElementById('bm-url').value = '';
+    document.getElementById('bm-label').value = '';
+    showToast(toast, 'Added.', 'ok');
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>
