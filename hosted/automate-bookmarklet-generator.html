@@ -20,8 +20,6 @@
     --success-text: #27500a;
     --error-bg: #fcebeb;
     --error-text: #791f1f;
-    --warn-bg: #faeeda;
-    --warn-text: #633806;
     --tag-bg: #e6f1fb;
     --tag-text: #0c447c;
     --radius-sm: 6px;
@@ -45,8 +43,6 @@
       --success-text: #c0dd97;
       --error-bg: #501313;
       --error-text: #f09595;
-      --warn-bg: #412402;
-      --warn-text: #fac775;
       --tag-bg: #042c53;
       --tag-text: #b5d4f4;
     }
@@ -75,7 +71,6 @@
   }
   .notice svg { flex-shrink: 0; width: 16px; height: 16px; margin-top: 2px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
   .notice-info { background: var(--tag-bg); color: var(--tag-text); }
-  .notice-warn { background: var(--warn-bg); color: var(--warn-text); }
 
   .card {
     background: var(--surface);
@@ -104,8 +99,6 @@
   .field input.mono { font-family: var(--mono); font-size: 0.8rem; }
   .field-hint { font-size: 0.775rem; color: var(--muted); margin-top: 4px; }
 
-  .form-actions { display: flex; gap: 8px; margin-top: 1.25rem; align-items: center; }
-
   .btn {
     display: inline-flex; align-items: center; gap: 5px;
     padding: 6px 12px; font-size: 0.8rem; font-family: inherit; font-weight: 500;
@@ -117,58 +110,13 @@
   .btn:hover { background: var(--surface2); }
   .btn:disabled { opacity: 0.4; cursor: default; pointer-events: none; }
   .btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; flex-shrink: 0; }
-  .btn-primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
-  .btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
   .btn-sm { padding: 4px 8px; font-size: 0.75rem; }
-  .btn-danger { color: var(--error-text); border-color: transparent; }
-  .btn-danger:hover { background: var(--error-bg); }
-
-  .toast { font-size: 0.8rem; padding: 4px 10px; border-radius: var(--radius-sm); opacity: 0; transition: opacity 0.2s; }
-  .toast.show { opacity: 1; }
-  .toast.ok { background: var(--success-bg); color: var(--success-text); }
-  .toast.er { background: var(--error-bg); color: var(--error-text); }
-
-  .bookmarks-list { list-style: none; }
-  .bookmark-item {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    margin-bottom: 10px;
-    overflow: hidden;
-  }
-  .bookmark-header {
-    display: flex; align-items: center; gap: 10px;
-    padding: 10px 12px;
-    background: var(--surface2);
-  }
-  .bm-label { flex: 1; font-size: 0.875rem; font-weight: 500; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .bm-url { font-size: 0.75rem; color: var(--muted); font-family: var(--mono); padding: 6px 12px; border-top: 1px solid var(--border); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .bm-actions { display: flex; gap: 6px; flex-shrink: 0; }
-
-  .token-row {
-    display: flex; gap: 8px; align-items: center;
-    padding: 8px 12px; border-top: 1px solid var(--border);
-    background: var(--surface);
-  }
-  .token-row input {
-    flex: 1; padding: 6px 10px; font-size: 0.775rem;
-    font-family: var(--mono); background: var(--surface2); color: var(--text);
-    border: 1px solid var(--border2); border-radius: var(--radius-sm);
-    outline: none; transition: border-color 0.15s;
-  }
-  .token-row input:focus { border-color: var(--accent); }
-  .token-row input::placeholder { color: var(--muted); font-style: italic; font-family: inherit; font-size: 0.775rem; }
-  .token-label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
 
   .drag-zone {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    margin-top: 1.5rem; padding-top: 1.25rem;
     border-top: 1px solid var(--border);
-    padding: 8px 12px;
-    background: var(--surface);
-    display: none;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
   }
-  .drag-zone.visible { display: flex; }
   .drag-zone-hint { font-size: 0.775rem; color: var(--muted); }
   .drag-link {
     display: inline-block; padding: 5px 14px;
@@ -179,8 +127,7 @@
   }
   .drag-link:hover { background: var(--bg); }
   .drag-link:active { cursor: grabbing; }
-
-  .empty-state { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.875rem; }
+  .drag-link.inactive { opacity: 0.35; cursor: not-allowed; pointer-events: none; }
 
   footer {
     margin-top: 3rem; font-size: 0.775rem; color: var(--muted);
@@ -195,39 +142,33 @@
 
   <header>
     <h1>Qlik Automate Bookmarklet generator</h1>
-    <p class="subtitle">Create browser bookmarks that trigger automations with <code>X-Execution-Token</code> as a header, compatible with the June 2 2026 enforcement change.</p>
+    <p class="subtitle">Create browser bookmarks that trigger automations with <code>X-Execution-Token</code> as a header, compatible with the June 2, 2026 enforcement change.</p>
   </header>
 
-  <div class="notice notice-info">
-    <svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M8 5v3.5M8 11v.5"/></svg>
-    <span>Nothing is saved — automations and tokens exist only while this page is open. Tokens never leave this page or your browser's memory.</span>
-  </div>
-
   <div class="card">
-    <div class="card-title">Add automation</div>
+    <div class="card-title">Automation</div>
     <div class="field">
       <label for="bm-url">Trigger URL</label>
       <input type="text" id="bm-url" class="mono" placeholder="https://your-tenant.eu.qlikcloud.com/api/v1/automations/{id}/actions/execute" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="field">
+      <label for="bm-token">Execution token</label>
+      <input type="password" id="bm-token" class="mono" placeholder="Paste your execution token" autocomplete="off" spellcheck="false" />
     </div>
     <div class="field">
       <label for="bm-label">Label</label>
       <input type="text" id="bm-label" placeholder="e.g. Reload sales dashboard" autocomplete="off" />
       <div class="field-hint">This becomes the bookmark name in your browser.</div>
     </div>
-    <div class="form-actions">
-      <button class="btn btn-primary" id="add-btn">
-        <svg viewBox="0 0 14 14"><path d="M7 1v12M1 7h12"/></svg>
-        Add
-      </button>
-      <span class="toast" id="add-toast"></span>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="card-title">Your automations</div>
-    <ul class="bookmarks-list" id="bookmarks-list">
-      <li class="empty-state">No automations yet. Add one above.</li>
-    </ul>
+    <div class="drag-zone">
+      <span class="drag-zone-hint">Drag to bookmarks bar:</span>
+      <a id="drag-link" class="drag-link inactive" draggable="true" href="#">Run automation</a>
+      <button id="copy-btn" class="btn btn-sm" disabled>
+        <svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg>
+        Copy button code
+      </button>
+    </div>
   </div>
 
   <footer>
@@ -238,18 +179,35 @@
 
 </div>
 <script>
-  let bookmarks = [];
-
   function buildBookmarklet(url, token, label) {
     const safeUrl   = url.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
     const safeToken = token.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
     const safeLabel = label.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+
+    let tenantHost = '';
+    let automationId = '';
+    try {
+      const u = new URL(url);
+      tenantHost = u.hostname;
+      const m = u.pathname.match(/\/automations\/([^/]+)/);
+      if (m) automationId = m[1];
+    } catch {}
+    const safeTenant  = tenantHost.replace(/'/g, "\\'");
+    const safeId      = automationId.replace(/'/g, "\\'");
+    const tenantUrl   = safeTenant ? 'https://' + safeTenant : '';
+    const editorUrl   = (safeTenant && safeId) ? tenantUrl + '/analytics/automations/editor/' + safeId + '/history' : '';
+    const idPart      = safeId      ? `<a href=\\'${editorUrl}\\' target=_blank style=\\'color:inherit\\'>${safeId}<\\/a>` : '';
+    const tenantPart  = safeTenant  ? `<a href=\\'${tenantUrl}\\' target=_blank style=\\'color:inherit\\'>${safeTenant}<\\/a>` : '';
+    const metaHtml    = (safeTenant || safeId)
+      ? `<p class=meta>Running automation ${idPart}${safeTenant ? ' on tenant ' + tenantPart : ''}<\\/p>`
+      : '';
+
     return `javascript:(function(){` +
       `var w=window.open('','_blank');` +
       `var d=w.document;` +
       `d.write('<title>${safeLabel}<\\/title>');` +
-      `d.write('<style>body{font-family:system-ui,sans-serif;max-width:520px;margin:3rem auto;padding:0 1.5rem}h2{font-size:1rem;font-weight:500;margin-bottom:1rem}pre{background:#f5f4f0;padding:1rem;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all}.ok{color:#3b6d11}.er{color:#a32d2d}.inf{color:#185fa5;font-size:13px}<\\/style>');` +
-      `d.write('<h2>${safeLabel}<\\/h2><p class=inf id=s>Sending\u2026<\\/p><pre id=r><\\/pre>');` +
+      `d.write('<style>body{font-family:system-ui,sans-serif;max-width:520px;margin:3rem auto;padding:0 1.5rem}h2{font-size:1rem;font-weight:500;margin-bottom:1rem}.meta{font-size:11px;color:#888;margin-bottom:1rem;font-family:monospace}pre{background:#f5f4f0;padding:1rem;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all}.ok{color:#3b6d11}.er{color:#a32d2d}.inf{color:#185fa5;font-size:13px}<\\/style>');` +
+      `d.write('<h2>${safeLabel}<\\/h2>${metaHtml}<p class=inf id=s>Pending response…<\\/p><pre id=r><\\/pre>');` +
       `d.close();` +
       `fetch('${safeUrl}',{method:'GET',headers:{'X-Execution-Token':'${safeToken}'}})` +
       `.then(function(r){return r.text().then(function(t){return{ok:r.ok,status:r.status,body:t}})})` +
@@ -266,137 +224,42 @@
     `})();`;
   }
 
-  function showToast(el, msg, type) {
-    el.textContent = msg;
-    el.className = 'toast show ' + type;
-    setTimeout(() => { el.className = 'toast'; }, 2000);
-  }
+  const urlInput   = document.getElementById('bm-url');
+  const tokenInput = document.getElementById('bm-token');
+  const labelInput = document.getElementById('bm-label');
+  const dragLink   = document.getElementById('drag-link');
+  const copyBtn    = document.getElementById('copy-btn');
 
-  function render() {
-    const list = bookmarks;
-    const ul = document.getElementById('bookmarks-list');
-    ul.innerHTML = '';
+  function update() {
+    const url   = urlInput.value.trim();
+    const token = tokenInput.value.trim();
+    const label = labelInput.value.trim() || 'Run automation';
 
-    if (list.length === 0) {
-      ul.innerHTML = '<li class="empty-state">No automations yet. Add one above.</li>';
-      return;
-    }
+    dragLink.textContent = label;
 
-    list.forEach((bm, i) => {
-      const li = document.createElement('li');
-      li.className = 'bookmark-item';
-
-      // Header
-      const header = document.createElement('div');
-      header.className = 'bookmark-header';
-
-      const labelEl = document.createElement('span');
-      labelEl.className = 'bm-label';
-      labelEl.textContent = bm.label;
-
-      const actions = document.createElement('div');
-      actions.className = 'bm-actions';
-
-      const delBtn = document.createElement('button');
-      delBtn.className = 'btn btn-sm btn-danger';
-      delBtn.title = 'Remove';
-      delBtn.innerHTML = '<svg viewBox="0 0 14 14"><path d="M2 3.5h10M5 3.5V2h4v1.5M5.5 6v4.5M8.5 6v4.5M3 3.5l.75 8h6.5l.75-8"/></svg>';
-      delBtn.addEventListener('click', () => {
-        bookmarks = bookmarks.filter((_, j) => j !== i);
-        render();
-      });
-
-      actions.appendChild(delBtn);
-      header.append(labelEl, actions);
-
-      // URL display
-      const urlEl = document.createElement('div');
-      urlEl.className = 'bm-url';
-      urlEl.textContent = bm.url;
-      urlEl.title = bm.url;
-
-      // Token input row
-      const tokenRow = document.createElement('div');
-      tokenRow.className = 'token-row';
-
-      const tokenLabel = document.createElement('span');
-      tokenLabel.className = 'token-label';
-      tokenLabel.textContent = 'Token';
-
-      const tokenInput = document.createElement('input');
-      tokenInput.type = 'password';
-      tokenInput.placeholder = 'Paste execution token to activate Copy and Drag';
-      tokenInput.autocomplete = 'off';
-      tokenInput.spellcheck = false;
-
-      const copyBtn = document.createElement('button');
-      copyBtn.className = 'btn btn-sm';
-      copyBtn.disabled = true;
-      copyBtn.innerHTML = '<svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg> Copy';
-
-      // Drag zone
-      const dragZone = document.createElement('div');
-      dragZone.className = 'drag-zone';
-
-      const dragHint = document.createElement('span');
-      dragHint.className = 'drag-zone-hint';
-      dragHint.textContent = 'Drag to bookmarks bar:';
-
-      const dragLink = document.createElement('a');
-      dragLink.className = 'drag-link';
-      dragLink.draggable = true;
+    if (url && token) {
+      dragLink.href = buildBookmarklet(url, token, label);
+      dragLink.classList.remove('inactive');
+      copyBtn.disabled = false;
+    } else {
       dragLink.href = '#';
-      dragLink.textContent = bm.label;
-
-      dragZone.append(dragHint, dragLink);
-
-      tokenInput.addEventListener('input', () => {
-        const token = tokenInput.value;
-        if (token) {
-          const href = buildBookmarklet(bm.url, token, bm.label);
-          copyBtn.disabled = false;
-          dragLink.href = href;
-          dragZone.classList.add('visible');
-        } else {
-          copyBtn.disabled = true;
-          dragLink.href = '#';
-          dragZone.classList.remove('visible');
-        }
-      });
-
-      copyBtn.addEventListener('click', () => {
-        const token = tokenInput.value;
-        if (!token) return;
-        navigator.clipboard.writeText(buildBookmarklet(bm.url, token, bm.label)).then(() => {
-          copyBtn.innerHTML = 'Copied';
-          setTimeout(() => {
-            copyBtn.innerHTML = '<svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg> Copy';
-          }, 1500);
-        }).catch(() => {
-          copyBtn.textContent = 'Failed';
-        });
-      });
-
-      tokenRow.append(tokenLabel, tokenInput, copyBtn);
-      li.append(header, urlEl, tokenRow, dragZone);
-      ul.appendChild(li);
-    });
+      dragLink.classList.add('inactive');
+      copyBtn.disabled = true;
+    }
   }
 
-  document.getElementById('add-btn').addEventListener('click', () => {
-    const url   = document.getElementById('bm-url').value.trim();
-    const label = document.getElementById('bm-label').value.trim();
-    const toast = document.getElementById('add-toast');
-    if (!url)   { showToast(toast, 'Enter a trigger URL.', 'er'); return; }
-    if (!label) { showToast(toast, 'Enter a label.', 'er'); return; }
-    bookmarks.push({ url, label });
-    document.getElementById('bm-url').value = '';
-    document.getElementById('bm-label').value = '';
-    showToast(toast, 'Added.', 'ok');
-    render();
-  });
+  [urlInput, tokenInput, labelInput].forEach(el => el.addEventListener('input', update));
 
-  render();
+  copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(dragLink.href).then(() => {
+      copyBtn.innerHTML = 'Copied';
+      setTimeout(() => {
+        copyBtn.innerHTML = '<svg viewBox="0 0 14 14"><rect x="4" y="4" width="8" height="8" rx="1"/><path d="M2 10V2h8"/></svg> Copy';
+      }, 1500);
+    }).catch(() => {
+      copyBtn.textContent = 'Failed';
+    });
+  });
 </script>
 </body>
 </html>
