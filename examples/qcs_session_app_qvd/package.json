@@ -1,0 +1,16 @@
+{
+  "name": "qcs_session_app_qvd",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Session-app QVD round trip demo: inline load -> STORE to QVD -> LOAD from QVD -> stream session object as NDJSON",
+  "main": "01_create_qvd.js",
+  "scripts": {
+    "create-qvd": "node 01_create_qvd.js",
+    "stream-qvd": "node 02_stream_qvd.js"
+  },
+  "dependencies": {
+    "@qlik/api": "^1.14.0",
+    "dotenv": "^16.4.5"
+  }
+}
